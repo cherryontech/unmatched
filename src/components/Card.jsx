@@ -1,59 +1,48 @@
 import Resh from '../assets/reshma.jpg';
-// import data from '../data/data.json'
+import {useState} from 'react'
+import SingleCard from './SingleCard';
+const data = 
+[
+    {
+        "id": 1,
+        "name":"Reshma Saujani",
+        "body":"Founder of Girls Who Code",
+        "image": Resh
+
+        
+    },
+    {
+        "id": 2,
+        "name":"Anna Lytical",
+        "body":"A software engineer who uses drag to introduce LGBTQ+ folks to coding and technology",
+        "image": Resh
+    },
+    {
+        "id": 3,
+        "name":"Farida Bedwei",
+        "body":"Farida Bedwei  is a Ghanaian woman software engineer with cerebral palsy",
+        "image": Resh
+    },
+    {
+        "id": 4,
+        "name":"Jedidah Isler",
+        "body":"Jedidah C. Isler is an astrophysicist, educator, and an advocate for diversity in STEM.",
+        "image": Resh
+        }
+]
 
 const Card = (props) => {
+  const[profile, setProfile] = useState(data)
+  const details = profile.map((detail)=>{
+    return(<SingleCard image={detail.image} name = {detail.name} />)
+  }
+
+  )
   return (
     <>
     <div className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1040px] grid md:grid-cols-3 gap-8 ">
-        <div className="relative h-96 w-80 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
-          <img
-            className="object-cover h-80 bg-white rounded-[13px]"
-            src={Resh}
-            alt="woman"
-            />
-          <h2 className="text-2xl font-bold text-center py-8">{props.name}</h2>
-        </div>
-        <div className="relative h-96 w-80 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
-          <img
-            className="object-cover h-80 bg-white rounded-[13px]"
-            src={Resh}
-            alt="woman"
-            />
-          <h2 className="text-2xl font-bold text-center py-8">{props.name}</h2>
-        </div>
-        <div className="relative h-96 w-80 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
-          <img
-            className="object-cover h-80 bg-white rounded-[13px]"
-            src={Resh}
-            alt="woman"
-            />
-          <h2 className="text-2xl font-bold text-center py-8">{props.name}</h2>
-        </div>
-        <div className="relative h-96 w-80 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
-          <img
-            className="object-cover h-80 bg-white rounded-[13px]"
-            src={Resh}
-            alt="woman"
-            />
-          <h2 className="text-2xl font-bold text-center py-8">{props.name}</h2>
-        </div>
-        <div className="relative h-96 w-80 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
-          <img
-            className="object-cover h-80 bg-white rounded-[13px]"
-            src={Resh}
-            alt="woman"
-            />
-          <h2 className="text-2xl font-bold text-center py-8">{props.name}</h2>
-        </div>
-        <div className="relative h-96 w-80 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
-          <img
-            className="object-cover h-80 bg-white rounded-[13px]"
-            src={Resh}
-            alt="woman"
-            />
-          <h2 className="text-2xl font-bold text-center py-8">{props.name}</h2>
-        </div>
+        {details}
       </div>
     </div>
    </>
