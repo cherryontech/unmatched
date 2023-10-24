@@ -6,7 +6,7 @@ const data =
     {
         "id": 1,
         "name":"Reshma Saujani",
-        "body":"Founder of Girls Who Code",
+        "body":"Asian founder of Girls Who Code",
         "image": Resh
 
         
@@ -14,19 +14,19 @@ const data =
     {
         "id": 2,
         "name":"Anna Lytical",
-        "body":"A software engineer who uses drag to introduce LGBTQ+ folks to coding and technology",
+        "body":"LGBTQ+ coding educator using drag persona",
         "image": Resh
     },
     {
         "id": 3,
         "name":"Farida Bedwei",
-        "body":"Farida Bedwei  is a Ghanaian woman software engineer with cerebral palsy",
+        "body":"A Ghanaian engineer with cerebral palsy",
         "image": Resh
     },
     {
         "id": 4,
         "name":"Jedidah Isler",
-        "body":"Jedidah C. Isler is an astrophysicist, educator, and an advocate for diversity in STEM.",
+        "body":"African American astrophysicist and professor",
         "image": Resh
         }
 ]
@@ -34,7 +34,7 @@ const data =
 const Card = (props) => {
   const[profile, setProfile] = useState(data)
   const details = profile.map((detail)=>{
-    return(<SingleCard image={detail.image} name = {detail.name} />)
+    return(<SingleCard image={detail.image} name = {detail.name} body = {detail.body}/>)
   }
 
   )
