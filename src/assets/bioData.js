@@ -7,7 +7,8 @@ export const data =
         "id": 1,
         "name":"Reshma Saujani",
         "body":"Asian founder of Girls Who Code",
-        "image": Resh
+        "image": {Resh},
+        "tags":[]
 
 
     },
@@ -15,18 +16,21 @@ export const data =
         "id": 2,
         "name":"Anna Lytical",
         "body":"LGBTQ+ coding educator using drag persona",
-        "image": Resh
+        "image": {Resh},
+        "tags":[]
     },
     {
         "id": 3,
         "name":"Farida Bedwei",
         "body":"A Ghanaian engineer with cerebral palsy",
-        "image": Resh
+        "image": {Resh},
+        "tags":[]
     },
     {
         "id": 4,
         "name":"Jedidah Isler",
         "body":"African American astrophysicist and professor",
-        "image": Resh
+        "image": {Resh},
+        "tags":[]
         }
 ]
