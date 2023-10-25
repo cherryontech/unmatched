@@ -1,6 +1,6 @@
 // LIBRARY IMPORTS
 import React from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 // LOCAL IMPORTS
 import NavBar from '../components/NavBar.jsx';
@@ -19,7 +19,11 @@ export function Layout() {
           {/* Navigation */}
           <div className="space-x-4">
             <button className="btn btn-secondary">About Us</button>
-            <button className="btn btn-secondary">Resources</button>
+              <Link to="/professionals">
+            <button className="btn btn-secondary">
+              Resources
+              </button>
+              </Link>
           </div>
         </div>
       </div>

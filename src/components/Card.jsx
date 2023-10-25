@@ -14,8 +14,8 @@ const Card = (props) => {
   )
   return (
     <>
-    <div className="w-full py-[10rem] px-4 bg-white">
-      <div className="max-w-[1040px] grid md:grid-cols-3 gap-12 ">
+    <div className="w-full py-[10rem] px-4 bg-white ">
+      <div className="max-w-[1040px] grid md:grid-cols-3 gap-12 place-items-center m-auto  ">
         {details}
       </div>
     </div>
