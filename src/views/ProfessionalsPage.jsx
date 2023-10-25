@@ -2,11 +2,12 @@
 import React from 'react';
 
 // LOCAL IMPORTS
+import Card from '../components/Card.jsx';
 
-export default function NavBar() {
+export function ProfessionalsPage() {
   return (
     <div>
-      Navigation Bar will go here.
+      <Card />
     </div>
   )
 };
