@@ -1,5 +1,5 @@
-import Resh from '../assets/reshma.jpg';
-import {useState} from 'react'
+// import Resh from '../assets/reshma.jpg';
+import { useState } from 'react'
 import SingleCard from './SingleCard';
 import {data} from "../assets/BioData.js"
 // const data = 
