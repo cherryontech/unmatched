@@ -1,7 +1,10 @@
 
 import { useState } from 'react'
 import SingleCard from './SingleCard';
-import {data} from "../assets/BioData.js";
+import { data } from "../assets/BioData.js";
+
+
+
 const Card = (props) => {
   const[profile, setProfile] = useState(data)
   const details = profile.map((detail)=>{
