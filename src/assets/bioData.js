@@ -1,6 +1,16 @@
 
 
 import Resh from './reshma.jpg';
+import Farida from './farida.jpeg';
+import Jedidah from './Jedidah.png';
+import Maggie from './Maggie.png';
+import Maya from './Maya.png';
+import Nicole from './Nicole.png';
+import Anna from  './AnnaLytical.png';
+import Mel from './Melissa.png';
+import Rana from './Rana.png';
+import Tazin from './Tazin.png';
+import James from './james.jpeg'
 export const data =[
     {
         "id": 1,
@@ -15,21 +25,71 @@ export const data =[
         "id": 2,
         "name":"Anna Lytical",
         "body":"LGBTQ+ coding educator using drag persona",
-        "image": Resh,
+        "image": Anna,
         "tag":[]
     },
     {
         "id": 3,
         "name":"Farida Bedwei",
         "body":"A Ghanaian engineer with cerebral palsy",
-        "image": Resh,
+        "image": Farida,
         "tag":[]
     },
     {
         "id": 4,
         "name":"Jedidah Isler",
         "body":"African American astrophysicist and professor",
-        "image": Resh,
+        "image": Jedidah,
         "tag":[]
-        }
+        },
+    {
+        "id": 5,
+        "name":"Maya Ajmera",
+        "body":"Asian woman who is President of Society for Science ",
+        "image": Maya,
+        "tag":[]
+        },
+    {
+        "id": 6,
+        "name":"Rana Dajani",
+        "body":"Palestinian molecular biologist and professor of biology",
+        "image": Rana,
+        "tag":[]
+        },
+    {
+        "id": 7,
+        "name":"Nicole Aunapu Mann",
+        "body":"The first Indigenous woman in space",
+        "image": Nicole,
+        "tag":[]
+        },
+    {
+        "id": 8,
+        "name":"Melissa Cristina Márquez",
+        "body":" Puerto Rican marine biologist and science communicator",
+        "image": Mel,
+        "tag":[]
+        },
+    {
+        "id": 9,
+        "name":"Maggie Aderin-Pocock",
+        "body":"Black space scientist, with dyslexia at a young age",
+        "image": Maggie,
+        "tag":[]
+        },
+    {
+        "id": 10,
+        "name":"James Makokis",
+        "body":"A Two-Spirit doctor specializing in transgender health”",
+        "image": James,
+        "tag":[]
+        },
+    {
+        "id": 11,
+        "name":"Tazin Khan",
+        "body":"Bangladeshi-American who is Founder of Cyber Collective",
+        "image": Tazin,
+        "tag":[]
+        },
+   
 ]
