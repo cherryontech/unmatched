@@ -18,9 +18,9 @@ export function Layout() {
 
           {/* Navigation */}
           <div className="space-x-4">
-            <button className="btn btn-secondary">About Us</button>
+            <span className='font-bold pr-4'>About Us</span>
               <Link to="/professionals">
-            <button className="btn btn-secondary">
+            <button className="btn btn-secondary p-2 rounded-lg font-bold">
               Resources
               </button>
               </Link>
