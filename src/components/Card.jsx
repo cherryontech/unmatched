@@ -31,6 +31,17 @@ const Card = (props) => {
   </div>
   
 </form>
+<div className='flex items-center justify-center mt-4 m-auto'>
+
+<button  className="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400 p-3">LGBTQ+</button>
+<button  className="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500 p-3">WOMEN</button>
+<button  className="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400 p-3">BLACK</button>
+<button  className="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400 p-3">ASIAN</button>
+<button  className="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300 p-3">DISABILITY</button>
+<button  className="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400 p-3">LATIN</button>
+<button  className="bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-pink-400 border border-pink-400 p-3">IMMIGRANT</button>
+
+</div>
     <div className="w-full py-[10rem] px-4 bg-white ">
       <div className="max-w-[1040px] grid md:grid-cols-3 gap-12 place-items-center m-auto  ">
         {details}

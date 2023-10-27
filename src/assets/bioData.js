@@ -11,6 +11,7 @@ import Mel from './Melissa.png';
 import Rana from './Rana.png';
 import Tazin from './Tazin.png';
 import James from './james.jpeg'
+import Sebra from './sabra.jpeg'
 export const data =[
     {
         "id": 1,
@@ -89,6 +90,14 @@ export const data =[
         "name":"Tazin Khan",
         "body":"Bangladeshi-American who is Founder of Cyber Collective",
         "image": Tazin,
+        "tag":[]
+        },
+   
+    {
+        "id": 12,
+        "name":"Subrahmanyan C.",
+        "body":"Indian-American Nobel Prize-winning physicist",
+        "image": Sebra,
         "tag":[]
         },
    
