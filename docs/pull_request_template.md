@@ -12,21 +12,21 @@ https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-git
 -->
 
 ## Acceptance Criteria
-
-<!-- Include AC from the JIRA ticket -->
+<!-- Put an `x` between the brackets to mark complete (don't add spaces) e.g. -[x] -->
+<!-- Include AC from the JIRA ticket https://lemon-zest.atlassian.net/jira/software/projects/UM/boards/2 -->
 
 ## What type of PR is this? (check all applicable)
 <!-- Put an `✓` for the applicable box: -->
 
 |     | Type                       |
 | --- | -------------------------- |
-|     | :bug: Bug fix              |
 |     | :sparkles: New feature     |
+|     | 🎨 Style                   |
 |     | :hammer: Refactoring       |
+|     | 🔥 Performance Improvements|
+|     | :bug: Bug fix              |
 |     | :100: Add tests            |
 |     | :link: Update dependencies |
-|     | 🎨 Style                   |
-|     | 🔥 Performance Improvements|
 |     | :scroll: Docs              |
 
 
