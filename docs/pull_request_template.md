@@ -16,18 +16,18 @@ https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-git
 <!-- Include AC from the JIRA ticket -->
 
 ## What type of PR is this? (check all applicable)
+<!-- Put an `✓` for the applicable box: -->
 
-- [ ] 🍕 Feature
-- [ ] 🐛 Bug Fix
-- [ ] 📝 Documentation Update
-- [ ] 🎨 Style
-- [ ] 🧑‍💻 Code Refactor
-- [ ] 🔥 Performance Improvements
-- [ ] ✅ Test
-- [ ] 🤖 Build
-- [ ] 🔁 CI
-- [ ] 📦 Chore (Release)
-- [ ] ⏩ Revert
+|     | Type                       |
+| --- | -------------------------- |
+|     | :bug: Bug fix              |
+|     | :sparkles: New feature     |
+|     | :hammer: Refactoring       |
+|     | :100: Add tests            |
+|     | :link: Update dependencies |
+|     | 🎨 Style                   |
+|     | 🔥 Performance Improvements|
+|     | :scroll: Docs              |
 
 
 ## Mobile & Desktop Screenshots/Recordings
@@ -41,19 +41,20 @@ https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-git
 
 
 
-
 ## Added to documentation?
 
 - [ ] 📜 README.md
 - [ ] 🙅 no documentation needed
 
 
-## [optional] What gif best describes this PR or how it makes you feel?
-<!-- to easily include a gif, go to giphy.com, copy the gif link,
-and then insert it following this format:
-![gif name](url) 
-the name you choose is arbitrary as it won't show up,
-but be sure to include the exclamation mark, brackets, and parentheses -->
+## What gif best describes this PR or how it makes you feel?
+<!-- 
+  to easily include a gif, go to giphy.com, copy the gif link (must be a gif, not a clip/video),
+  and then insert it following this format:
+  ![gif name](url) 
+  the name you choose is arbitrary as it won't show up,
+  but be sure to include the exclamation mark, brackets, and parentheses
+-->
 
 <!--
   For Work In Progress Pull Requests, please use the Draft PR feature,
