@@ -35,13 +35,13 @@ Welcome to the **unmatched** repository. This website helps diverse learners see
 
 ### Designers:
 
-- [Sean](https://github.com/seanbonoko)
+- Autumn
 - [Kayla](https://github.com/kaylashovlowsky)
 
 ### Product Managers:
 
 - Miriam
-- [Sarah](https://github.com/sarahsotomayor)
+- Isabelle
 
 ## Getting Started
 

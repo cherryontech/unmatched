@@ -7,13 +7,14 @@ import {
 } from 'react-router-dom';
 
 // LOCAL IMPORTS
-import Card from './components/Card';
+
 import { Home, Layout, ProfessionalsPage } from './views';
 
 function App() {
 
   return (
     <Router>
+     
       <Routes>
         <Route
           path="/"
