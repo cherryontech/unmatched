@@ -1,6 +1,6 @@
 // LIBRARY IMPORTS
 import React from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 // LOCAL IMPORTS
 import NavBar from '../components/NavBar.jsx';
@@ -12,7 +12,9 @@ export function Layout() {
       <div className="p-4 w-full">
         <div className="flex justify-between items-center mx-auto">
           <div className="flex-shrink-0">
-            <img src={logo} alt="Your Logo" className="h-10" />
+            <Link to="/">
+              <img src={logo} alt="Your Logo" className="h-10" />
+            </Link>
           </div>
           <NavBar />
         </div>
