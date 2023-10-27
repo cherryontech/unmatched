@@ -42,9 +42,11 @@ https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-git
 
 
 ## Added to documentation?
-
-- [ ] 📜 README.md
-- [ ] 🙅 no documentation needed
+<!-- Put an `✓` for the applicable box: -->
+|     | Type                       |
+| --- | -------------------------- |
+|     | 📜 README.md    |
+|     | 🙅 no documentation needed    |
 
 
 ## What gif best describes this PR or how it makes you feel?
