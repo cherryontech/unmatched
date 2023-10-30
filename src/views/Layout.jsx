@@ -17,7 +17,7 @@ export function Layout() {
               <img src={logo} alt="Your Logo" className="h-10" />
             </Link>
           </div>
-          <NavBar/>
+          <NavBar />
         </div>
       </div>
       <main className="flex-1 flex flex-col w-full">
