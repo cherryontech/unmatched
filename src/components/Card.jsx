@@ -14,7 +14,7 @@ const Card = (props) => {
   )
   return (
     <>
-    <h1 className='text-[30px] font-bold text-center mt-12'>You are in good company</h1>
+    <h1 className='text-[30px] font-bold text-center mt-12 text-[#0A2E50]'>You are in good company</h1>
     <form className=" w-full m-auto max-w-lg mt-2 relative">
   <label className="label">
     
