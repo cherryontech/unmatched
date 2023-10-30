@@ -3,8 +3,9 @@ import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
 // LOCAL IMPORTS
-import NavBar from '../components/NavBar.jsx';
+import NavBar from '../components/Navbar';
 import logo from '../assets/logo.png';
+
 
 export function Layout() {
   return (

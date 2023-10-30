@@ -12,22 +12,22 @@ https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-git
 -->
 
 ## Acceptance Criteria
-
-<!-- Include AC from the JIRA ticket -->
+<!-- Put an `x` between the brackets to mark complete (don't add spaces) e.g. -[x] -->
+<!-- Include AC from the JIRA ticket https://lemon-zest.atlassian.net/jira/software/projects/UM/boards/2 -->
 
 ## What type of PR is this? (check all applicable)
+<!-- Put an `✓` for the applicable box: -->
 
-- [ ] 🍕 Feature
-- [ ] 🐛 Bug Fix
-- [ ] 📝 Documentation Update
-- [ ] 🎨 Style
-- [ ] 🧑‍💻 Code Refactor
-- [ ] 🔥 Performance Improvements
-- [ ] ✅ Test
-- [ ] 🤖 Build
-- [ ] 🔁 CI
-- [ ] 📦 Chore (Release)
-- [ ] ⏩ Revert
+|     | Type                       |
+| --- | -------------------------- |
+|     | :sparkles: New feature     |
+|     | 🎨 Style                   |
+|     | :hammer: Refactoring       |
+|     | 🔥 Performance Improvements|
+|     | :bug: Bug fix              |
+|     | :100: Add tests            |
+|     | :link: Update dependencies |
+|     | :scroll: Docs              |
 
 
 ## Mobile & Desktop Screenshots/Recordings
@@ -41,19 +41,22 @@ https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-git
 
 
 
-
 ## Added to documentation?
+<!-- Put an `✓` for the applicable box: -->
+|     | Type                       |
+| --- | -------------------------- |
+|     | 📜 README.md    |
+|     | 🙅 no documentation needed    |
 
-- [ ] 📜 README.md
-- [ ] 🙅 no documentation needed
 
-
-## [optional] What gif best describes this PR or how it makes you feel?
-<!-- to easily include a gif, go to giphy.com, copy the gif link,
-and then insert it following this format:
-![gif name](url) 
-the name you choose is arbitrary as it won't show up,
-but be sure to include the exclamation mark, brackets, and parentheses -->
+## What gif best describes this PR or how it makes you feel?
+<!-- 
+  to easily include a gif, go to giphy.com, copy the gif link (must be a gif, not a clip/video),
+  and then insert it following this format:
+  ![gif name](url) 
+  the name you choose is arbitrary as it won't show up,
+  but be sure to include the exclamation mark, brackets, and parentheses
+-->
 
 <!--
   For Work In Progress Pull Requests, please use the Draft PR feature,
