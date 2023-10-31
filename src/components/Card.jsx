@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import SingleCard from './SingleCard';
-import { data } from "../assets/BioData.js";
+import { data } from "../assets/bioData.js";
 
 
 
