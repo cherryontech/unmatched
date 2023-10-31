@@ -2,20 +2,40 @@
 import { useState } from 'react'
 import SingleCard from './SingleCard';
 import { data } from "../assets/BioData.js";
+import Button from './Button';
 
-const buttons = ['LGBTQ+', 'WOMEN', 'BLACK', 'ASIAN', 'DISABILITY', 'LATIN', 'IMMIGRANT'];
+const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clicked:false}, {id:3, name:'BLACK', clicked:false},
+{id:4,name:'ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATIN', clicked:false}, {id:7, name:'IMMIGRANT', clicked:false}];
 
 const Card = (props) => {
   const[profile, setProfile] = useState(data);
-  const [clicked, setClicked] = useState(false);
-  const buttonColor = clicked? 'bg-[#0A2E50]': 'bg-white-100 ';
-  const textColor = clicked?  'text-white-100':'text-[#0A2E50]';
+  const[tags, setTags] = useState(buttons);
+ 
+  const changeButtonColor =(id)=>{
+    const isClicked = buttons.map((button)=>{
+      if(button.id === id){
+        return {...button, clicked:true}
+      }
+      else{
+        return button
+      }
+    }
 
-
+    )
+    setTags(isClicked);
+    }
+  
+ 
   const details = profile.map((detail)=>{
     return(<SingleCard id = {detail.id} key = {detail.id} image={detail.image} name = {detail.name} body = {detail.body}/>)
   }
   )
+  const buttonTags = tags.map((button)=>{
+  return(
+  <Button name = {button.name} id={button.id} key={button.id} changeButtonColor={changeButtonColor} 
+  clicked = {button.clicked}/>
+  )
+});
 
   return (
     <>
@@ -23,11 +43,11 @@ const Card = (props) => {
     <form className=" w-full m-auto max-w-lg mt-2 relative">
   <label className="label">
     
-    <span className="label-text-alt flex items-start text-[#0A2E50] font-bold">Search for Resources</span>
+    <span className="label-text-alt flex items-start text-[#0A2E50] font-bold">Who can we help you find?</span>
   </label>
   <div className='relative'>
 
-  <input type="text" placeholder="Who can we help you find" className="input input-bordered w-[1200px] p-4 rounded-xl max-w-lg flex items-center font-bold text-[#0A2E50]" />
+  <input type="text" placeholder="Search by name" className="input input-bordered w-[1200px] p-4 rounded-xl max-w-lg flex items-center font-bold text-[#0A2E50]" />
   <button className='absolute right-1 top-1/2 -translate-y-1/2 p-4 '>
   <svg className="w-4 h-4 text-black-500 dark:text-black-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
@@ -37,15 +57,9 @@ const Card = (props) => {
   
 </form>
 <div className='flex items-center justify-center mt-4 m-auto'>
-{
-  buttons.map((button)=>{
-    return(
-      <button  className="bg-white-100 text-[#0A2E50] text-xs font-medium mr-2 px-2.5 py-0.5  rounded-[20px] border border-[#0A2E50] p-3">{button}</button>
-    )
-  })
-};
-
-
+  
+    {buttonTags}
+  
 </div>
     <div className="w-full py-[10rem] px-4 bg-white ">
       <div className="max-w-[1040px] grid md:grid-cols-3 gap-12 place-items-center m-auto  ">
