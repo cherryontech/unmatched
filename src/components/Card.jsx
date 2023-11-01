@@ -40,7 +40,9 @@ const Card = (props) => {
   return (
     <>
     <h1 className='text-[30px] font-bold text-center mt-12 text-[#0A2E50]'>You are in good company</h1>
-    <form className=" w-full m-auto max-w-lg mt-2 relative">
+    <div className=' text-[#0A2E50] text-center max-w-[500px] m-auto mt-4'>You dont have to feel like a fraud anymore. 
+    Learn from STEM leaders who overcame imposter syndrome and emerged as trailblazers. Get empowered to do the same.</div>
+    <form className=" w-full m-auto max-w-lg mt-11 relative ">
   <label className="label">
     
     <span className="label-text-alt flex items-start text-[#0A2E50] font-bold">Who can we help you find?</span>
