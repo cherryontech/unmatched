@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import SingleCard from './SingleCard';
-import { data } from "../assets/BioData.js";
+import { data } from "../assets/bioData.js";
 import Button from './Button';
 
 const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clicked:false}, {id:3, name:'BLACK', clicked:false},
