@@ -3,8 +3,6 @@ import { useState } from 'react'
 import SingleCard from './SingleCard';
 // import { data } from "../assets/BioData.js";
 
-
-
 const Card = ({ data, setData }) => {
   // const[profile, setProfile] = useState(data)
   const details = data.map((detail)=>{
