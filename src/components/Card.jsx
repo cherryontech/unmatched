@@ -1,5 +1,7 @@
+// LIBRARY IMPORTS
+import React, { useState } from 'react';
 
-import { useState } from 'react'
+// LOCAL IMPORTS
 import SingleCard from './SingleCard';
 // import { data } from "../assets/bioData.js";
 import Button from './Button';
