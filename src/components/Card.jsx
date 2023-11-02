@@ -1,17 +1,22 @@
+// LIBRARY IMPORTS
+import React, { useState } from 'react';
 
-import { useState } from 'react'
+// LOCAL IMPORTS
 import SingleCard from './SingleCard';
-// import { data } from "../assets/BioData.js";
-
-
 
 const Card = ({ data, setData }) => {
   // const[profile, setProfile] = useState(data)
   const details = data.map((detail)=>{
-    return(<SingleCard id = {detail.id} key = {detail.id} image={detail.image} name = {detail.name} body = {detail.body}/>)
-  }
-
-  )
+    return (
+      <SingleCard
+        id={detail.id}
+        key={detail.id}
+        image={detail.image}
+        name={detail.fullName}
+        body={detail.occupation}
+      />
+    );
+  });
   return (
     <>
       <div className='flex items-center justify-center mt-4'>
