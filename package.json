@@ -11,6 +11,7 @@
     "tailwind": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "daisyui": "^3.9.3",
     "prettier": "^3.0.3",
     "react": "^18.2.0",

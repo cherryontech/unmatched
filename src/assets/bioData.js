@@ -1,5 +1,3 @@
-
-
 import Resh from './reshma.jpg';
 import Farida from './farida.jpeg';
 import Jedidah from './Jedidah.png';
@@ -12,7 +10,7 @@ import Rana from './Rana.png';
 import Tazin from './Tazin.png';
 import James from './james.jpeg'
 import Sebra from './sabra.jpeg'
-export const data =[
+export const bioData =[
     {
         "id": 1,
         "name":"Reshma Saujani",
@@ -20,7 +18,7 @@ export const data =[
         "image": Resh,
         "tag":[]
 
-        
+
     },
     {
         "id": 2,
@@ -92,7 +90,7 @@ export const data =[
         "image": Tazin,
         "tag":[]
         },
-   
+
     {
         "id": 12,
         "name":"Subrahmanyan C.",
@@ -100,5 +98,5 @@ export const data =[
         "image": Sebra,
         "tag":[]
         },
-   
+
 ]
