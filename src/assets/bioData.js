@@ -18,7 +18,7 @@ export const data =[
         "name":"Reshma Saujani",
         "body":"Asian founder of Girls Who Code",
         "image": Resh,
-        "tag":[]
+        "tag":['asian','women']
 
         
     },
@@ -27,70 +27,70 @@ export const data =[
         "name":"Anna Lytical",
         "body":"LGBTQ+ coding educator using drag persona",
         "image": Anna,
-        "tag":[]
+        "tag":['lgbtq+']
     },
     {
         "id": 3,
         "name":"Farida Bedwei",
         "body":"A Ghanaian engineer with cerebral palsy",
         "image": Farida,
-        "tag":[]
+        "tag":['black', 'women', 'disability']
     },
     {
         "id": 4,
         "name":"Jedidah Isler",
         "body":"African American astrophysicist and professor",
         "image": Jedidah,
-        "tag":[]
+        "tag":['black', 'women']
         },
     {
         "id": 5,
         "name":"Maya Ajmera",
         "body":"Asian woman who is President of Society for Science ",
         "image": Maya,
-        "tag":[]
+        "tag":['asian', 'women']
         },
     {
         "id": 6,
         "name":"Rana Dajani",
         "body":"Palestinian molecular biologist and professor of biology",
         "image": Rana,
-        "tag":[]
+        "tag":['asian', 'women']
         },
     {
         "id": 7,
         "name":"Nicole Aunapu Mann",
         "body":"The first Indigenous woman in space",
         "image": Nicole,
-        "tag":[]
+        "tag":['women']
         },
     {
         "id": 8,
         "name":"Melissa Cristina Márquez",
         "body":" Puerto Rican marine biologist and science communicator",
         "image": Mel,
-        "tag":[]
+        "tag":['latin', 'women']
         },
     {
         "id": 9,
         "name":"Maggie Aderin-Pocock",
         "body":"Black space scientist, with dyslexia at a young age",
         "image": Maggie,
-        "tag":[]
+        "tag":['black', 'women', 'disability']
         },
     {
         "id": 10,
         "name":"James Makokis",
         "body":"A Two-Spirit doctor specializing in transgender health”",
         "image": James,
-        "tag":[]
+        "tag":['lgbtq+']
         },
     {
         "id": 11,
         "name":"Tazin Khan",
         "body":"Bangladeshi-American who is Founder of Cyber Collective",
         "image": Tazin,
-        "tag":[]
+        "tag":['asian', 'women']
         },
    
     {
@@ -98,7 +98,7 @@ export const data =[
         "name":"Subrahmanyan C.",
         "body":"Indian-American Nobel Prize-winning physicist",
         "image": Sebra,
-        "tag":[]
+        "tag":['immigrant']
         },
    
 ]
