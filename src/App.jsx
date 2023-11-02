@@ -18,27 +18,24 @@ function App() {
   const fullDataSetRef = useRef(bioData);
 
   return (
-
-    console.log(data)
     <Router>
 
       <Routes>
         <Route
           path="/"
           element={<Layout />}
-          >
+        >
           <Route
 						index
 						element={
-              <Home />
+							<Home />
 						}
-            />
+					/>
           <Route
 						path="/professionals"
 						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} />}
-            />
+					/>
         </Route>
-
       </Routes>
     </Router>
   )
