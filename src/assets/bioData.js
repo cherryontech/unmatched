@@ -12,7 +12,7 @@ import Rana from './Rana.png';
 import Tazin from './Tazin.png';
 import James from './james.jpeg'
 import Sebra from './sabra.jpeg'
-export const data =[
+export const bioData =[
     {
         "id": 1,
         "name":"Reshma Saujani",

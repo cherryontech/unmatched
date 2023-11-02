@@ -1,14 +1,17 @@
 
 import { useState } from 'react'
 import SingleCard from './SingleCard';
-import { data } from "../assets/bioData.js";
+// import { data } from "../assets/bioData.js";
 import Button from './Button';
 
 const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clicked:false}, {id:3, name:'BLACK', clicked:false},
 {id:4,name:'ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATIN', clicked:false}, {id:7, name:'IMMIGRANT', clicked:false}];
 
-const Card = (props) => {
-  const[profile, setProfile] = useState(data);
+// const Card = (props) => {
+//   const[profile, setProfile] = useState(data);
+const Card = ({ data, setData }) => {
+  // const[profile, setProfile] = useState(data)
+ 
   const[tags, setTags] = useState(buttons);
  
   const changeButtonColor =(id)=>{
@@ -26,10 +29,17 @@ const Card = (props) => {
     }
   
  
-  const details = profile.map((detail)=>{
-    return(<SingleCard id = {detail.id} key = {detail.id} image={detail.image} name = {detail.name} body = {detail.body}/>)
-  }
-  )
+    const details = data.map((detail)=>{
+      return (
+        <SingleCard
+          id={detail.id}
+          key={detail.id}
+          image={detail.image}
+          name={detail.fullName}
+          body={detail.occupation}
+        />
+      );
+    });
   const buttonTags = tags.map((button)=>{
   return(
   <Button name = {button.name} id={button.id} key={button.id} changeButtonColor={changeButtonColor} 
