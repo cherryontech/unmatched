@@ -3,16 +3,15 @@ import React, { useState } from 'react';
 
 // LOCAL IMPORTS
 import SingleCard from './SingleCard';
-// import { data } from "../assets/bioData.js";
+
 import Button from './Button';
 
 const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clicked:false}, {id:3, name:'BLACK', clicked:false},
 {id:4,name:'ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATIN', clicked:false}, {id:7, name:'IMMIGRANT', clicked:false}];
 
-// const Card = (props) => {
-//   const[profile, setProfile] = useState(data);
+
 const Card = ({ data, setData }) => {
-  // const[profile, setProfile] = useState(data)
+ 
  
   const[tags, setTags] = useState(buttons);
  
@@ -51,10 +50,10 @@ const Card = ({ data, setData }) => {
 
   return (
     <>
-    <h1 className='text-[30px] font-bold text-center mt-12 text-[#0A2E50]'>You are in good company</h1>
+    {/* <h1 className='text-[30px] font-bold text-center mt-12 text-[#0A2E50]'>You are in good company</h1>
     <div className=' text-[#0A2E50] text-center max-w-[500px] m-auto mt-4'>You dont have to feel like a fraud anymore. 
-    Learn from STEM leaders who overcame imposter syndrome and emerged as trailblazers. Get empowered to do the same.</div>
-    <form className=" w-full m-auto max-w-lg mt-11 relative ">
+    Learn from STEM leaders who overcame imposter syndrome and emerged as trailblazers. Get empowered to do the same.</div> */}
+    {/* <form className=" w-full m-auto max-w-lg mt-11 relative ">
   <label className="label">
     
     <span className="label-text-alt flex items-start text-[#0A2E50] font-bold">Who can we help you find?</span>
@@ -68,8 +67,8 @@ const Card = ({ data, setData }) => {
             </svg>
   </button>
   </div>
-  
-</form>
+   */}
+{/* </form> */}
 <div className='flex items-center justify-center mt-4 m-auto'>
   
     {buttonTags}
