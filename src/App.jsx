@@ -1,5 +1,5 @@
 // LIBRARY IMPORTS
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import {
 	BrowserRouter as Router,
 	Routes,
@@ -7,14 +7,19 @@ import {
 } from 'react-router-dom';
 
 // LOCAL IMPORTS
-
+import { bioData } from './assets/bioData.js';
 import { Home, Layout, ProfessionalsPage } from './views';
 
 function App() {
+  // SET STATES
+  const [data, setData] = useState(bioData);
+
+  // SET REFERENCES
+  const fullDataSetRef = useRef(bioData);
 
   return (
     <Router>
-     
+
       <Routes>
         <Route
           path="/"
@@ -28,7 +33,7 @@ function App() {
 					/>
           <Route
 						path="/professionals"
-						element={<ProfessionalsPage />}
+						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} />}
 					/>
         </Route>
       </Routes>
