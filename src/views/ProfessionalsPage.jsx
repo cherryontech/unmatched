@@ -6,7 +6,7 @@ import Card from '../components/Card.jsx';
 import SearchBar from '../components/SearchBar.jsx';
 import NoResults from '../components/NoResults.jsx';
 
-export function ProfessionalsPage({ data, setData, fullDataSet, getCards }) {
+export function ProfessionalsPage({ data, setData, fullDataSet,getFilteredCards}) {
   // SET STATES
   const [clearedSearch, setClearedSearch] = useState(true);
 
@@ -19,7 +19,7 @@ export function ProfessionalsPage({ data, setData, fullDataSet, getCards }) {
         fullDataSet={fullDataSet}
         setClearedSearch={setClearedSearch}
       />
-      {clearedSearch ? <Card data={data} setData={setData} getCards={getCards} /> : <NoResults />}
+      {clearedSearch ? <Card data={data} setData={setData} getFilteredCards ={getFilteredCards} /> : <NoResults />}
     </div>
   )
 };

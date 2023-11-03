@@ -11,15 +11,16 @@ import { bioData } from './assets/bioData.js';
 import { Home, Layout, ProfessionalsPage } from './views';
 
 
-  // SET STATES
+ 
   
   function App() {
+     // SET STATES
     const [data, setData] = useState(bioData);
     
-  const getCards = (tag) =>{
-   const newData =bioData.filter((ele)=> {
+   const getFilteredCards = (tag) =>{
+   const newData =bioData.filter((item)=> {
 
-    return ele.tags.includes(tag);
+    return item.tags.includes(tag);
     
    });
     setData(newData)
@@ -44,7 +45,7 @@ import { Home, Layout, ProfessionalsPage } from './views';
 					/>
           <Route
 						path="/professionals"
-						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} getCards={getCards} />}
+						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} getFilteredCards ={getFilteredCards} />}
 					/>
         </Route>
       </Routes>
