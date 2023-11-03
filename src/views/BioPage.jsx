@@ -38,55 +38,52 @@ export const BioPage = () => {
   };
 
   return (
-    <div className="text-primary min-h-screen flex flex-col justify-center items-center mb-20">
-      <div>
-        <div className="h-52 bg-primary w-screen" />
-        <div className="mx-auto w-48 h-48 relative -mt-28 border-8 border-white rounded-full overflow-hidden">
-          <img src={data.image} alt={data.fullName} />
-        </div>
-        <div className="text-center mt-2 pb-14">
-          <h1 className="text-3xl font-bold">{data.fullName}</h1>
-          <p>{data.occupation}</p>
-        </div>
+    <div className="text-primary">
+      <div className="h-52 bg-primary w-screen" />
+      <div className="mx-auto w-48 h-48 relative -mt-28 border-8 border-white rounded-full overflow-hidden">
+        <img src={data.image} alt={data.fullName} />
       </div>
-      <div className="max-w-screen-lg">
-        <div>
-          <div className="mb-10">
-            <div className="pb-4">
-              <h3 className="text-2xl font-bold">Who is {data.fullName}?</h3>
-              {formatParagraphs(data.bio.summary)}
-            </div>
-            <div className="pb-4">
-              <h3 className="text-2xl font-bold">
-                What is {data.name}'s impact?
-              </h3>
-              {formatParagraphs(data.bio.impact)}
-            </div>
-            <div className="pb-4">
-              <h3 className="text-2xl font-bold">
-                How did {data.name} conquer imposter syndrome?
-              </h3>
-              {formatParagraphs(data.bio.career)}
-            </div>
+      <div className="text-center mt-2 pb-14">
+        <h1 className="text-3xl font-bold">{data.fullName}</h1>
+        <p>{data.occupation}</p>
+      </div>
+      <div className="max-w-screen-lg xl:mx-auto md:mx-28 sm:mx-8">
+        <div className="mb-10">
+          <div className="pb-4">
+            <h3 className="text-2xl font-bold">Who is {data.fullName}?</h3>
+            {formatParagraphs(data.bio.summary)}
           </div>
-
-          <div className="mb-14">
-            <h2 className="text-2xl font-bold">
-              {data.name}'s Suggested Resources
-            </h2>
-            <div className="grid md:grid-cols-2">
-              {data.resources.map(item => (
-                <ResourceCard
-                  image={item.image}
-                  title={item.title}
-                  link={item.link}
-                />
-              ))}
-            </div>
+          <div className="pb-4">
+            <h3 className="text-2xl font-bold">
+              What is {data.name}'s impact?
+            </h3>
+            {formatParagraphs(data.bio.impact)}
           </div>
-          <div>
-            <h2 className="text-2xl font-bold">More Unmatched Inspiration</h2>
-            <div className="grid lg:grid-cols-3">{nextCards}</div>
+          <div className="pb-4">
+            <h3 className="text-2xl font-bold">
+              How did {data.name} conquer imposter syndrome?
+            </h3>
+            {formatParagraphs(data.bio.career)}
+          </div>
+        </div>
+        <div className="text-center lg:text-left">
+          <h2 className="text-2xl font-bold">
+            {data.name}'s Suggested Resources
+          </h2>
+          <div className="flex flex-col flex-wrap md:flex-row lg:justify-between justify-center items-center mb-14">
+            {data.resources.map(item => (
+              <ResourceCard
+                image={item.image}
+                title={item.title}
+                link={item.link}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="text-center lg:text-left">
+          <h2 className="text-2xl font-bold">More Unmatched Inspiration</h2>
+          <div className="flex flex-col flex-wrap md:flex-row lg:justify-between md:justify-between justify-center items-center mb-14">
+            {nextCards}
           </div>
         </div>
       </div>
