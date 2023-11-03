@@ -10,9 +10,6 @@ import {
 import { bioData } from './assets/bioData.js';
 import { Home, Layout, ProfessionalsPage } from './views';
 
-// const selectedItem =  boardData.filter((ele) => ele.board_id === id)
-
-
 
   // SET STATES
   
@@ -21,11 +18,10 @@ import { Home, Layout, ProfessionalsPage } from './views';
     
   const getCards = (tag) =>{
    const newData =bioData.filter((ele)=> {
-    console.log(ele.tags)
+
     return ele.tags.includes(tag);
     
    });
-   console.log(tag)
     setData(newData)
     }
   // SET REFERENCES
