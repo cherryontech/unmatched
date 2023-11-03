@@ -28,7 +28,10 @@ function App() {
               />
             }
           />
-          <Route path="/bio/:id" element={<BioPage />} />
+          <Route
+            path="/professionals/about/:id/:fullname"
+            element={<BioPage />}
+          />
         </Route>
       </Routes>
     </Router>
