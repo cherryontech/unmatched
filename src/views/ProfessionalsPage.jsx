@@ -13,6 +13,7 @@ export function ProfessionalsPage({ data, setData, fullDataSet }) {
   return (
     <div>
       <h1 className='text-4xl font-bold text-center mt-12 text-primary'>You're in good company</h1>
+      <div className="w-1/2 mx-auto mt-5 mb-3 text-center text-primary text-lg">You don’t have to feel like a fraud anymore. <br/>Learn from STEM leaders who overcame imposter syndrome and emerged as trailblazers. Get empowered to do the same.</div>
       <SearchBar
         data={data}
         setData={setData}
