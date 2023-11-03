@@ -10,7 +10,7 @@ const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clic
 {id:4,name:'ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATIN', clicked:false}, {id:7, name:'IMMIGRANT', clicked:false}];
 
 
-const Card = ({ data, setData }) => {
+const Card = ({ data, setData, getCards}) => {
  
  
   const[tags, setTags] = useState(buttons);
@@ -43,7 +43,7 @@ const Card = ({ data, setData }) => {
     });
   const buttonTags = tags.map((button)=>{
   return(
-  <Button name = {button.name} id={button.id} key={button.id} changeButtonColor={changeButtonColor} 
+  <Button tag= {button.name} getCards={getCards} name = {button.name} id={button.id} key={button.id} changeButtonColor={changeButtonColor} 
   clicked = {button.clicked}/>
   )
 });

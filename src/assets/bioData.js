@@ -24,7 +24,7 @@ export const bioData = [
       impact: `Reshma's impact extends from her bestseller Brave, Not Perfect to her influential TED talk, “Teach girls bravery, not perfection”. Girls Who Code has reached over 500 million people worldwide and has taught more than 300,000 girls how to code. Reshma’s passion for moms established Moms First in 2020, a non-profit supporting working moms through policy change.`,
     },
     image: Reshma,
-    tags:['asian','women']
+    tags:['ASIAN','WOMEN']
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const bioData = [
       impact: ``,
     },
     image: Anna,
-    tags:['lgbtq+'],
+    tags:['LGBTQ+'],
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ export const bioData = [
       impact: ``,
     },
     image: Farida,
-    tags:['black', 'women', 'disability']
+    tags:['BLACK', 'WOMEN', 'DISABILITY']
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ export const bioData = [
       impact: ``,
     },
     image: Jedidah,
-    tags:['black', 'women']
+    tags:['BLACK', 'WOMEN']
   },
   {
     id: 5,
@@ -76,7 +76,7 @@ export const bioData = [
       impact: ``,
     },
     image: Maya,
-    tag:['asian', 'women']
+    tags:['ASIAN', 'WOMEN']
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ export const bioData = [
       impact: ``,
     },
     image: Rana,
-    tags:['asian', 'women']
+    tags:['ASIAN', 'WOMEN']
   },
   {
     id: 7,
@@ -102,7 +102,7 @@ export const bioData = [
       impact: ``,
     },
     image: Nicole,
-    tags: ['women'],
+    tags: ['WOMEN'],
   },
   {
     id: 8,
@@ -115,7 +115,7 @@ export const bioData = [
       impact: ``,
     },
     image: Melissa,
-    tags: ['latin', 'women'],
+    tags: ['LATIN', 'WOMEN'],
   },
   {
     id: 9,
@@ -128,7 +128,7 @@ export const bioData = [
       impact: ``,
     },
     image: Maggie,
-    tags: ['black', 'women', 'disability'],
+    tags: ['BLACK', 'WOMEN', 'DISABILITY'],
   },
   {
     id: 10,
@@ -141,7 +141,7 @@ export const bioData = [
       impact: ``,
     },
     image: James,
-    tags: ['lgbtq+'],
+    tags: ['LGBTQ+'],
   },
   {
     id: 11,
@@ -154,7 +154,7 @@ export const bioData = [
       impact: ``,
     },
     image: Tazin,
-    tags: ['asian', 'women'],
+    tags: ['ASIAN', 'WOMEN'],
   },
   {
     id: 12,
@@ -167,6 +167,6 @@ export const bioData = [
       impact: ``,
     },
     image: Subrah,
-    tags: ['immigrant'],
+    tags: ['IMMIGRANT'],
   },
 ];

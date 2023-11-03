@@ -10,14 +10,29 @@ import {
 import { bioData } from './assets/bioData.js';
 import { Home, Layout, ProfessionalsPage } from './views';
 
-function App() {
-  // SET STATES
-  const [data, setData] = useState(bioData);
+// const selectedItem =  boardData.filter((ele) => ele.board_id === id)
 
+
+
+  // SET STATES
+  
+  function App() {
+    const [data, setData] = useState(bioData);
+    
+  const getCards = (tag) =>{
+   const newData =bioData.filter((ele)=> {
+    console.log(ele.tags)
+    return ele.tags.includes(tag);
+    
+   });
+   console.log(tag)
+    setData(newData)
+    }
   // SET REFERENCES
   const fullDataSetRef = useRef(bioData);
 
   return (
+
     <Router>
 
       <Routes>
@@ -33,7 +48,7 @@ function App() {
 					/>
           <Route
 						path="/professionals"
-						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} />}
+						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} getCards={getCards} />}
 					/>
         </Route>
       </Routes>
