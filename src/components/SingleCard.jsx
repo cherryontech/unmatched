@@ -11,7 +11,7 @@ function SingleCard({ image, name, body, id }) {
       />
       <h2 className="text-xl text-primary font-bold text-left pt-2">{name}</h2>
       <p className="text-primary text-left">{body}</p>
-      <Link to={`/professionals/about/${id}/${name}`}>
+      <Link to={`/professionals/${id}/${name}`}>
         <button className="bg-[#A855F7] w-[100px] rounded-[15px] text-xs font-semibold text-white mt-6 float-right mx-auto mr-0 p-1">
           Learn More
         </button>
