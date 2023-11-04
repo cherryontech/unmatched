@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function SingleCard({ image, name, body, id }) {
   return (
-    <div className=" h-106 w-72 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
+    <div className="h-106 w-64 xl:w-72 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
       <img
         className="object-cover h-52 bg-white rounded-[13px]"
         src={image}

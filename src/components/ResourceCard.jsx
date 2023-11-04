@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function ResourceCard({ image, title, link }) {
   return (
-    <div className="h-106 w-[25rem] lg:w-[30rem] border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
+    <div className="h-106 w-[24rem] xl:w-[30rem] border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
       <img
         className="object-cover h-52 bg-white rounded-[13px]"
         src={image}
