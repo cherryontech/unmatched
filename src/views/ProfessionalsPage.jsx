@@ -4,6 +4,7 @@ import React, { useState, useRef } from 'react';
 // LOCAL IMPORTS
 import Card from '../components/Card.jsx';
 import SearchBar from '../components/SearchBar.jsx';
+import FilterButtonList from '../components/FilterButtonList.jsx';
 import NoResults from '../components/NoResults.jsx';
 
 export function ProfessionalsPage({ data, setData, fullDataSet,getFilteredCards}) {
@@ -19,6 +20,7 @@ export function ProfessionalsPage({ data, setData, fullDataSet,getFilteredCards}
         fullDataSet={fullDataSet}
         setClearedSearch={setClearedSearch}
       />
+      <FilterButtonList getFilteredCards={getFilteredCards} /> 
       {clearedSearch ? <Card data={data} setData={setData} getFilteredCards ={getFilteredCards} /> : <NoResults />}
     </div>
   )

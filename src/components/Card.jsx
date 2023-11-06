@@ -4,10 +4,9 @@
 // LOCAL IMPORTS
 import SingleCard from './SingleCard';
 
-import FilterButtonList from './FilterButtonList';
 
 
-const Card = ({ data , getFilteredCards}) => {
+const Card = ({ data }) => {
 
 
     const details = data.map((detail)=>{
@@ -25,9 +24,6 @@ const Card = ({ data , getFilteredCards}) => {
 
   return (
     <>
-    
-    <FilterButtonList getFilteredCards={getFilteredCards} />
-  
 
     <div className="w-full py-[10rem] px-4 bg-white ">
       <div className="max-w-[1040px] grid md:grid-cols-3 gap-12 place-items-center m-auto  ">
