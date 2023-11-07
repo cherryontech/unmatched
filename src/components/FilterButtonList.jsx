@@ -11,12 +11,12 @@ const FilterButtonList = ({getFilteredCards}) => {
             return {...button, clicked:!(button.clicked)}
         }
         else{
-            return button
+            return {...button, clicked:false}
         }
         }
   
         )
-       console.log(isClicked)
+     
        setTags(isClicked);
       }
     
