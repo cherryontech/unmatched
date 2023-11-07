@@ -1,5 +1,7 @@
 <div align="center" id="top">
-  <img src="https://github.com/cherryontech/unmatched/assets/115492619/9474f035-548b-4bef-8519-c0c461afc33f" alt="logo" width="300px" style="margin: 0 auto; display: block;" />
+  <a href="https://unmatched.netlify.app/">
+    <img src="https://github.com/cherryontech/unmatched/assets/115492619/9474f035-548b-4bef-8519-c0c461afc33f" alt="Unmatched Logo" width="300px" style="margin: 0 auto; display: block;" />
+  </a>
 </div>
 
 **Unmatched** is a website dedicated to fostering confidence, motivation, and success in the next generation of STEM leaders. Created for underrepresented STEM students, Unmatched helps them see themselves in the success stories of STEM professionals across diverse genders, races, and abilities.
