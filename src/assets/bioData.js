@@ -12,10 +12,19 @@ import James from './images/professionals/James.jpg';
 import Tazin from './images/professionals/Tazin.jpg';
 import Subrah from './images/professionals/Subrahmanyan.jpg';
 // resources cover images
-import reshmaResource1 from './images/resources/reshma-speech.jpg';
-import reshmaResource2 from './images/resources/reshma-reading-list.jpg';
-import annaResource1 from './images/resources/anna-wordle.jpg';
-import annaResource2 from './images/resources/anna-representation.jpg';
+import reshmaResource1 from './images/resources/reshma1.jpg';
+import reshmaResource2 from './images/resources/reshma2.jpg';
+import annaResource1 from './images/resources/anna1.jpg';
+import annaResource2 from './images/resources/anna2.jpg';
+import faridaResource1 from './images/resources/farida1.jpg';
+import jediahResource1 from './images/resources/jediah1.jpg';
+import jediahResource2 from './images/resources/jediah2.jpg';
+import mayaResource1 from './images/resources/maya1.png';
+import mayaResource2 from './images/resources/maya2.png';
+import ranaResource1 from './images/resources/rana1.jpg';
+import ranaResource2 from './images/resources/rana2.jpg';
+import nicoleResource1 from './images/resources/nicole1.jpg';
+import nicoleResource2 from './images/resources/nicole2.jpg';
 
 export const bioData = [
   {
@@ -89,7 +98,13 @@ export const bioData = [
       career: `Despite having cerebral palsya neurological condition that limits a person's ability to move, balance themseives, and adjust their posture-Farida was determined to prove to herself and the world that she could be a successful software engineer. She did that and more.
       In interviews ano speaking engagements, Farida talks about her upbringing as a child who was always taught to try and never to say "I can't." She encourages aspiring tech professionals to do the same and follow this guide: make your education plan, fight for your dream job. and go where there are gaps in the market.`,
     },
-    resources: [],
+    resources: [
+      {
+        title: 'Video: Disability, Does Not Mean Inability',
+        image: faridaResource1,
+        link: 'https://youtu.be/R0PoixS9fYk?si=4C2DmXTzY7Cor5vv',
+      },
+    ],
     image: Farida,
     tags: [],
   },
@@ -103,7 +118,19 @@ export const bioData = [
       career: ``,
       impact: ``,
     },
-    resources: [],
+    resources: [
+      {
+        title: 'Website: Vanguard STEM',
+        image: jediahResource1,
+        link: 'https://vanguardstem.com/',
+      },
+      {
+        title:
+          'Video: TED Talk | The untapped genius that could change science for the better',
+        image: jediahResource2,
+        link: 'https://youtu.be/3NdSVi38RM8?si=LhJc7eAXCU55N0su',
+      },
+    ],
     image: Jedidah,
     tags: [],
   },
@@ -117,7 +144,19 @@ export const bioData = [
       career: ``,
       impact: ``,
     },
-    resources: [],
+    resources: [
+      {
+        title: 'Website: Society for Science',
+        image: mayaResource1,
+        link: 'https://www.societyforscience.org/',
+      },
+      {
+        title:
+          'Video: TED Talk | Why access to scientific information in schools is essential',
+        image: mayaResource2,
+        link: 'https://youtu.be/tXx2IrXBpsU?si=vD5R8K6j8eAiBcFH',
+      },
+    ],
     image: Maya,
     tags: [],
   },
@@ -131,7 +170,20 @@ export const bioData = [
       career: ``,
       impact: ``,
     },
-    resources: [],
+    resources: [
+      {
+        title:
+          'Video: This hero is the Middle East winner of the UNHCR Nansen Refugee Award. Meet Rana Dajani',
+        image: ranaResource1,
+        link: 'https://youtu.be/LaYLqxq2kFo?si=8f3KDJH-NdhjLIIO',
+      },
+      {
+        title:
+          'Video: TED Talk | If we can reverse cell fate, why can’t we redefine success?',
+        image: ranaResource2,
+        link: 'https://youtu.be/duqw1Kj3wyM?si=M5S8_QQkHD_KdZu9',
+      },
+    ],
     image: Rana,
     tags: [],
   },
@@ -145,7 +197,20 @@ export const bioData = [
       career: ``,
       impact: ``,
     },
-    resources: [],
+    resources: [
+      {
+        title:
+          'Video: Nicole Mann takes Laughter Permitted on an out-of-this-world journey to space',
+        image: nicoleResource1,
+        link: 'https://youtu.be/-4FuAtYWDYg?si=S8PL3YKiAmKW3g0g',
+      },
+      {
+        title:
+          'News Article: Indian Country Today | First Native woman in space',
+        image: nicoleResource2,
+        link: 'https://ictnews.org/news/first-native-woman-in-space',
+      },
+    ],
     image: Nicole,
     tags: [],
   },
