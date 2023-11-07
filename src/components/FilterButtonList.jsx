@@ -6,16 +6,17 @@ const FilterButtonList = ({getFilteredCards}) => {
     const[tags, setTags] = useState(buttons);
  
     const changeButtonColor =(id)=>{
-        const isClicked = buttons.map((button)=>{
+        const isClicked = tags.map((button)=>{
         if(button.id === id){
-            return {...button, clicked:true}
+            return {...button, clicked:!(button.clicked)}
         }
         else{
-            return button
+            return {...button, clicked:false}
         }
         }
   
         )
+     
        setTags(isClicked);
       }
     

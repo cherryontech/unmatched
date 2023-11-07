@@ -23,8 +23,22 @@ import { Home, Layout, ProfessionalsPage } from './views';
     return item.tags.includes(tag);
     
    });
-    setData(newData)
+  let sameData = true;
+  for( let item of data){
+    if (!(newData.includes(item))){
+       sameData = false;
     }
+  }
+  if (!sameData){
+      setData(newData)
+    }
+    else{
+      
+    setData(bioData)
+    }
+    }
+
+  
   // SET REFERENCES
   const fullDataSetRef = useRef(bioData);
 
