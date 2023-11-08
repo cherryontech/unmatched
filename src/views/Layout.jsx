@@ -13,8 +13,8 @@ export function Layout() {
       <div className="p-4 w-full">
         <div className="flex justify-between items-center mx-auto">
           <div className="flex-shrink-0">
-            <Link to="/">
-              <img src={logo} alt="Your Logo" className="h-10" />
+            <Link to="/" >
+              <img src={logo} alt="Your Logo" className="h-10 hover:scale-105 duration-300" />
             </Link>
           </div>
           <NavBar />
