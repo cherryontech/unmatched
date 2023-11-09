@@ -2,8 +2,7 @@ import FilterButton from './FilterButton';
 import React, { useState } from 'react'
 const FilterButtonList = ({getFilteredCards}) => {
     const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clicked:false}, {id:3, name:'BLACK', clicked:false},
-    {id:4,name:'SOUTH ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATINX', clicked:false}, {id:7,
-    name:'IMMIGRANT', clicked:false}, {id:8, name:'MIDDLE EASTERN', clicked:false},{id:9, name:'INDIGENOUS', clicked:false}];
+    {id:4,name:'SOUTH ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATINX', clicked:false}, {id:8, name:'MIDDLE EASTERN', clicked:false},{id:9, name:'INDIGENOUS', clicked:false}];
     const[tags, setTags] = useState(buttons);
  
     const changeButtonColor =(id)=>{
