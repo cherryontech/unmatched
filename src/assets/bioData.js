@@ -26,6 +26,7 @@ import ranaResource2 from './images/resources/rana2.jpg';
 import nicoleResource1 from './images/resources/nicole1.jpg';
 import nicoleResource2 from './images/resources/nicole2.jpg';
 
+
 export const bioData = [
   {
     id: 1,
@@ -54,7 +55,7 @@ export const bioData = [
       },
     ],
     image: Reshma,
-    tags: [],
+    tags:['ASIAN','WOMEN']
   },
   {
     id: 2,
@@ -83,7 +84,7 @@ export const bioData = [
       },
     ],
     image: Anna,
-    tags: [],
+    tags:['LGBTQ+'],
   },
   {
     id: 3,
@@ -106,7 +107,7 @@ export const bioData = [
       },
     ],
     image: Farida,
-    tags: [],
+    tags:['BLACK', 'WOMEN', 'DISABILITY']
   },
   {
     id: 4,
@@ -132,7 +133,7 @@ export const bioData = [
       },
     ],
     image: Jedidah,
-    tags: [],
+    tags:['BLACK', 'WOMEN']
   },
   {
     id: 5,
@@ -158,7 +159,7 @@ export const bioData = [
       },
     ],
     image: Maya,
-    tags: [],
+    tags:['ASIAN', 'WOMEN']
   },
   {
     id: 6,
@@ -185,7 +186,7 @@ export const bioData = [
       },
     ],
     image: Rana,
-    tags: [],
+    tags:['ASIAN', 'WOMEN']
   },
   {
     id: 7,
@@ -212,7 +213,7 @@ export const bioData = [
       },
     ],
     image: Nicole,
-    tags: [],
+    tags: ['WOMEN'],
   },
   {
     id: 8,
@@ -226,7 +227,7 @@ export const bioData = [
     },
     resources: [],
     image: Melissa,
-    tags: [],
+    tags: ['LATIN', 'WOMEN'],
   },
   {
     id: 9,
@@ -240,7 +241,7 @@ export const bioData = [
     },
     resources: [],
     image: Maggie,
-    tags: [],
+    tags: ['BLACK', 'WOMEN', 'DISABILITY'],
   },
   {
     id: 10,
@@ -254,7 +255,7 @@ export const bioData = [
     },
     resources: [],
     image: James,
-    tags: [],
+    tags: ['LGBTQ+'],
   },
   {
     id: 11,
@@ -268,7 +269,7 @@ export const bioData = [
     },
     resources: [],
     image: Tazin,
-    tags: [],
+    tags: ['ASIAN', 'WOMEN'],
   },
   {
     id: 12,
@@ -282,6 +283,6 @@ export const bioData = [
     },
     resources: [],
     image: Subrah,
-    tags: [],
+    tags: ['IMMIGRANT'],
   },
 ];

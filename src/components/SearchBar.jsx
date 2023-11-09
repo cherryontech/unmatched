@@ -20,7 +20,7 @@ export default function SearchBar({ data, setData, setClearedSearch, fullDataSet
   const handleInputSubmit = (event) => {
     event.preventDefault();
     const results = data.filter((item) =>
-      item.name.toLowerCase().includes(searchTerm.toLowerCase().trim())
+      item.fullName.toLowerCase().includes(searchTerm.toLowerCase().trim())
     );
     if (searchTerm.trim() === '') {
       searchTermRef.current = '';
