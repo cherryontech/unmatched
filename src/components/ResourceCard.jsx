@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 function ResourceCard({ image, title, link }) {
   return (
@@ -11,8 +12,12 @@ function ResourceCard({ image, title, link }) {
       />
       <h2 className="text-primary font-bold text-left pt-2">{title}</h2>
       <Link to={link} target="_blank">
-        <button className="bg-[#A855F7] w-[100px] rounded-[15px] text-xs font-semibold text-white mt-5 float-right mx-auto mr-0 p-1">
-          Open Resource
+        <button className="bg-[#A855F7] rounded-[15px] text-xs font-semibold text-white mt-5 mx-auto mr-0 p-2 flex items-center">
+          <span className="pr-1">Open Resource</span>
+          <ArrowTopRightOnSquareIcon
+            className="w-4"
+            style={{ strokeWidth: 2 }}
+          />
         </button>
       </Link>
     </div>
