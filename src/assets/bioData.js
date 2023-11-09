@@ -27,6 +27,7 @@ import nicoleResource1 from './images/resources/nicole1.jpg';
 import nicoleResource2 from './images/resources/nicole2.jpg';
 
 
+
 export const bioData = [
   {
     id: 1,
