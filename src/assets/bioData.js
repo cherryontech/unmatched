@@ -24,7 +24,7 @@ export const bioData = [
       impact: `Reshma's impact extends from her bestseller Brave, Not Perfect to her influential TED talk, “Teach girls bravery, not perfection”. Girls Who Code has reached over 500 million people worldwide and has taught more than 300,000 girls how to code. Reshma’s passion for moms established Moms First in 2020, a non-profit supporting working moms through policy change.`,
     },
     image: Reshma,
-    tags:['ASIAN','WOMEN']
+    tags:['SOUTH ASIAN','WOMEN']
   },
   {
     id: 2,
@@ -76,7 +76,7 @@ export const bioData = [
       impact: ``,
     },
     image: Maya,
-    tags:['ASIAN', 'WOMEN']
+    tags:['SOUTH ASIAN', 'WOMEN']
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ export const bioData = [
       impact: ``,
     },
     image: Rana,
-    tags:['ASIAN', 'WOMEN']
+    tags:['MIDDLE EASTERN', 'WOMEN']
   },
   {
     id: 7,
@@ -102,7 +102,7 @@ export const bioData = [
       impact: ``,
     },
     image: Nicole,
-    tags: ['WOMEN'],
+    tags: ['WOMEN','INDIGENOUS'],
   },
   {
     id: 8,
@@ -115,7 +115,7 @@ export const bioData = [
       impact: ``,
     },
     image: Melissa,
-    tags: ['LATIN', 'WOMEN'],
+    tags: ['LATINX', 'WOMEN'],
   },
   {
     id: 9,
@@ -141,7 +141,7 @@ export const bioData = [
       impact: ``,
     },
     image: James,
-    tags: ['LGBTQ+'],
+    tags: ['LGBTQ+','INDIGENOUS'],
   },
   {
     id: 11,
@@ -154,19 +154,19 @@ export const bioData = [
       impact: ``,
     },
     image: Tazin,
-    tags: ['ASIAN', 'WOMEN'],
+    tags: ['SOUTH ASIAN', 'WOMEN'],
   },
-  {
-    id: 12,
-    name: 'Subrahmanyan',
-    fullName: 'Subrahmanyan C.',
-    occupation: 'Nobel Prize-Winning Physicist',
-    bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
-    },
-    image: Subrah,
-    tags: ['IMMIGRANT'],
-  },
+  // {
+  //   id: 12,
+  //   name: 'Subrahmanyan',
+  //   fullName: 'Subrahmanyan C.',
+  //   occupation: 'Nobel Prize-Winning Physicist',
+  //   bio: {
+  //     summary: ``,
+  //     career: ``,
+  //     impact: ``,
+  //   },
+  //   image: Subrah,
+  //   tags: ['IMMIGRANT'],
+  // },
 ];
