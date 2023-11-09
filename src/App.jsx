@@ -28,7 +28,10 @@ function App() {
               />
             }
           />
-          <Route path="/professionals/:id/:fullname" element={<BioPage />} />
+          <Route
+            path="/professionals/:id/:fullname"
+            element={<BioPage fullDataSet={fullDataSetRef.current} />}
+          />
         </Route>
       </Routes>
     </Router>
