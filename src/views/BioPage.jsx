@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 // LOCAL IMPORTS
-import SingleCard from '../components/SingleCard.jsx';
+import { getRandomCards } from '../utils/randomCards.jsx';
 import ResourceCard from '../components/ResourceCard.jsx';
 import ProfessionalBio from '../components/ProfessionalBio.jsx';
 
@@ -12,23 +12,7 @@ export const BioPage = ({ fullDataSet }) => {
     item => item.id === parseInt(id, 10),
   );
 
-  const nextCards = fullDataSet
-    .filter(
-      (item, index) =>
-        index !== currentIndex &&
-        index > currentIndex &&
-        index < currentIndex + 4,
-    )
-    .map(item => (
-      <SingleCard
-        key={item.id}
-        id={item.id}
-        image={item.image}
-        name={item.fullName}
-        body={item.occupation}
-      />
-    ));
-
+  const randomCards = getRandomCards(currentIndex, fullDataSet);
   const professional = fullDataSet[currentIndex];
 
   return (
@@ -68,7 +52,7 @@ export const BioPage = ({ fullDataSet }) => {
           <div className="text-center lg:text-left">
             <h2 className="text-2xl font-bold">More Unmatched Inspiration</h2>
             <div className="flex flex-col flex-wrap md:flex-row lg:justify-between md:justify-between justify-center items-center mb-20">
-              {nextCards}
+              {randomCards}
             </div>
           </div>
           <div className="flex justify-end mb-7">
