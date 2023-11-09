@@ -38,7 +38,7 @@
 
 ### Designers:
 
-[Autumn](https://github.com/bluegreen16) & [Kayla](https://github.com/kaylashovlowsky)
+[Autumn](https://autumnsportfolio.wixsite.com/work) & [Kayla](https://kaylashovlowsky.wixsite.com/kaylashovlowskyuxdes)
 
 ### Product Manager:
 
