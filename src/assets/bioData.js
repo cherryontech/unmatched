@@ -9,7 +9,7 @@ import Melissa from './images/Melissa.png';
 import Maggie from './images/Maggie.jpg';
 import James from './images/James.jpg';
 import Tazin from './images/Tazin.jpg';
-import Subrah from './images/Subrahmanyan.jpg';
+import huda from './images/hilda.jpeg'
 
 
 export const bioData = [
@@ -158,15 +158,15 @@ export const bioData = [
   },
   {
     id: 12,
-    name: 'Subrahmanyan',
-    fullName: 'Subrahmanyan C.',
-    occupation: 'Nobel Prize-Winning Physicist',
+    name: 'Huda',
+    fullName: 'Huda Zoghbi',
+    occupation: 'Lebanese-American geneticist',
     bio: {
       summary: ``,
       career: ``,
       impact: ``,
     },
-    image: Subrah,
-    tags: ['IMMIGRANT'],
+    image: huda,
+    tags: ['WOMEN', 'IMMIGRANT'],
   },
 ];
