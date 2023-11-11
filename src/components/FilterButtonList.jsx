@@ -25,7 +25,7 @@ const FilterButtonList = ({getFilteredCards}) => {
            
          });
   return (
-    <div className='flex flex-wrap items-center justify-center mt-4 m-auto max-w-[500px]'>
+    <div className='flex flex-wrap items-center justify-start mt-4 m-auto max-w-[500px]'>
 
         {buttonTags}
     </div>
