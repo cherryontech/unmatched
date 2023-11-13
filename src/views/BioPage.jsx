@@ -58,7 +58,7 @@ export const BioPage = ({ fullDataSet }) => {
           <div className="flex justify-end mb-7">
             <Link
               to="/professionals"
-              className="px-4 py-2 rounded-full font-bold bg-red-500 text-white"
+              className="px-4 py-2 rounded-full font-bold bg-red-500 text-white mb-12"
             >
               Back to Resources
             </Link>

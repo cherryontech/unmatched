@@ -10,7 +10,7 @@ import Melissa from './images/professionals/Melissa.png';
 import Maggie from './images/professionals/Maggie.jpg';
 import James from './images/professionals/James.jpg';
 import Tazin from './images/professionals/Tazin.jpg';
-import Subrah from './images/professionals/Subrahmanyan.jpg';
+import huda from './images/professionals/huda.jpeg';
 // resources cover images
 import reshmaResource1 from './images/resources/reshma1.jpg';
 import reshmaResource2 from './images/resources/reshma2.jpg';
@@ -282,10 +282,9 @@ export const bioData = [
       career: ``,
       impact: ``,
     },
+    resources: [],
     image: huda,
     tags: ['WOMEN', 'IMMIGRANT'],
-    resources: [],
-    image: Subrah,
-    tags: ['IMMIGRANT'],
+   
   },
 ];
