@@ -12,7 +12,8 @@ function ResourceCard({ image, title, link }) {
       />
       <h2 className="text-primary font-bold text-left pt-2">{title}</h2>
       <Link to={link} target="_blank">
-        <button className="bg-[#A855F7] rounded-[15px] text-xs font-semibold text-white mt-5 mx-auto mr-0 p-2 flex items-center">
+        <button className="bg-[#A855F7] rounded-[15px] text-xs font-semibold text-white mt-5 mx-auto mr-0 p-2
+        hover:bg-purple-950 flex items-center">
           <span className="pr-1">Open Resource</span>
           <ArrowTopRightOnSquareIcon
             className="w-4"
