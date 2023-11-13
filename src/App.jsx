@@ -20,7 +20,7 @@ import { Home, Layout, ProfessionalsPage } from './views';
    const getFilteredCards = (tag) =>{
    const newData =bioData.filter((item)=> {
 
-    return item.tags.includes(tag);
+    return item.tags.includes(tag.toUpperCase());
     
    });
   let sameData = true;
