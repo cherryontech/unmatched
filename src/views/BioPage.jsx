@@ -19,8 +19,11 @@ export const BioPage = ({ fullDataSet }) => {
     <>
       <div className="text-primary">
         <div className="h-52 bg-primary w-screen" />
-        <div className="mx-auto w-48 h-48 relative -mt-28 border-8 border-white rounded-full overflow-hidden">
-          <img src={professional.image} alt={professional.fullName} />
+        <div className="mx-auto w-[200px] h-[200px] relative mb-4 ">
+        <div className="mx-auto w-[215px] h-[215px]  -mt-28 flex justify-center items-center rounded-full overflow-hidden bg-gradient-to-r from-amber-400 to-cyan-400">
+          <img src={professional.image} alt={professional.fullName} className="mx-auto w-[200px] h-[200px] justify-center absolute items-center border-8
+            border-white object-cover rounded-full overflow-hidden"/>
+        </div>
         </div>
         <div className="text-center mt-2 pb-14">
           <h1 className="text-3xl font-bold">{professional.fullName}</h1>
