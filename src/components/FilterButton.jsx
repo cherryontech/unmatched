@@ -11,7 +11,7 @@ const handleButtonClick = () =>{
 
   return (
     <button onClick={handleButtonClick} className={`${buttonColor} ${textColor} text-xs font-medium mr-2 px-2.5 py-0.5 rounded-[20px]
-     dark:bg-gray-700 dark:text-blue-400 border border-[#0A2E50] p-3`}> {name} <span style={{display:ticked}}>&#x2713;</span></button>
+   border border-[#0A2E50] p-3`}> {name} <span style={{display:ticked}}>&#x2713;</span></button>
   )
 }
 export default FilterButton
