@@ -1,6 +1,9 @@
 {
   "name": "unmatched",
   "private": true,
+  "engines": {
+    "node": ">=16"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {

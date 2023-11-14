@@ -1,21 +1,14 @@
 // LIBRARY IMPORTS
 import React, { useState, useRef } from 'react';
-import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // LOCAL IMPORTS
 import { bioData } from './assets/bioData.js';
-import { Home, Layout, ProfessionalsPage } from './views';
+import { Home, Layout, ProfessionalsPage, BioPage } from './views';
 
-
- 
-  
-  function App() {
+function App() {
      // SET STATES
-    const [data, setData] = useState(bioData);
+   const [data, setData] = useState(bioData);
     
    const getFilteredCards = (tag) =>{
    const newData =bioData.filter((item)=> {
@@ -38,33 +31,34 @@ import { Home, Layout, ProfessionalsPage } from './views';
     }
     }
 
-  
   // SET REFERENCES
   const fullDataSetRef = useRef(bioData);
 
   return (
 
     <Router>
-
       <Routes>
-        <Route
-          path="/"
-          element={<Layout />}
-        >
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
           <Route
-						index
-						element={
-							<Home />
-						}
-					/>
+            path="/professionals"
+            element={
+              <ProfessionalsPage
+                data={data}
+                setData={setData}
+                fullDataSet={fullDataSetRef.current}
+                getFilteredCards={getFilteredCards}
+              />
+            }
+          />
           <Route
-						path="/professionals"
-						element={<ProfessionalsPage data={data} setData={setData} fullDataSet={fullDataSetRef.current} getFilteredCards ={getFilteredCards} />}
-					/>
+            path="/professionals/:id/:fullname"
+            element={<BioPage fullDataSet={fullDataSetRef.current} />}
+          />
         </Route>
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
