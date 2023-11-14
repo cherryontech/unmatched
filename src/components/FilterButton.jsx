@@ -10,7 +10,7 @@ const handleButtonClick = () =>{
 }
 
   return (
-    <button onClick={handleButtonClick} className={`${buttonColor} ${textColor} text-xs font-medium mr-2 px-2.5 py-0.5 rounded-[20px]
+    <button onClick={handleButtonClick} className={`${buttonColor} ${textColor} text-[14px] font-medium mr-2 mb-3 px-2.5 py-0.5 rounded-[20px]
    border border-[#0A2E50] p-3`}> {name} <span style={{display:ticked}}>&#x2713;</span></button>
   )
 }
