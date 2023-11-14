@@ -10,14 +10,14 @@ export default function NavBar() {
       <NavLink
       exact
       to="/"
-      className="px-4 py-2 bg-base-100 text-primary rounded-full font-bold hover:bg-red-500 hover:text-white"
+      className="px-4 py-2 bg-base-100 text-primary rounded-full font-bold text-[20px]"
       activeClassName="bg-red-500 text-white border-red-500"
       >
         About Us
       </NavLink>
       <NavLink
       to="/professionals"
-      className="px-4 py-2 bg-base-100 text-primary rounded-full font-bold hover:bg-red-500 hover:text-white"
+      className="px-4 py-[10px] rounded-full font-bold bg-red-500 text-white text-[20px]"
       activeClassName="bg-red-500 text-white border-red-500"
       >
         Resources

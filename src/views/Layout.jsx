@@ -11,7 +11,7 @@ export function Layout() {
   return (
     <div className="flex flex-col w-full h-full min-h-screen">
       <div className="p-4 w-full">
-        <div className="flex justify-between items-center mx-auto">
+        <div className="flex justify-between items-center mx-[40px]">
           <div className="flex-shrink-0">
             <Link to="/" >
               <img src={logo} alt="Your Logo" className="h-10 hover:scale-105 duration-300" />
