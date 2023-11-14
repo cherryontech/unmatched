@@ -116,9 +116,12 @@ export const bioData = [
     fullName: 'Jedidah Isler',
     occupation: 'Astrophysicist and Professor',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Jedidah Isler is an astrophysicist, professor, TED fellow, and advocate for inclusive STEM education. She is the first Black woman to receive a PhD in Astrophysics from Yale University. Jedidah is also the founder of VanguardSTEM, an online community and platform for girls, women, and non-binary people of color in STEM. 
+      Jedidah’s love of astronomy and astrophysics began at an early age, and her research focuses on understanding galaxies’ supermassive black holes. Her advocacy focuses on ensuring that all people can access, contribute to, and benefit from STEM. Jedidah founded the non-profit The STEM en Route to Change (SeRCH) Foundation, Inc. to help close the equity, inclusion, and diversity gap in STEM.`,
+      impact: `Jedidah has received national recognition, awards, and support for her research and advocacy in the U.S.  She has reached more than 2.5 million viewers and listeners through her TED talks and broadcast speaking engagements about STEM inclusion. As the host of her web series VanguardSTEM, 
+      Jedidah gathers women and non-binary people of color in STEM to share their experiences and advice and affirm their identities. Jedidah’s work as the White House Office of Science and Technology Policy’s (OSTP) principal assistant director for science focuses on equity in Federal science & technology strategy and policy.`,
+      career: `In her 2015 TED Talk, Jedidah shared about her life as a Black woman astrophysicist who had to overcome the challenges that women of color in STEM face. She highlighted accomplished women of color in STEM and encouraged underrepresented listeners to do what she and those women did: pursue their dreams in spite of the obstacles. 
+      Jedidah emphasized the importance of diversity in STEM because each person’s unique perspective and experiences add value and lead to better global solutions.`,
     },
     resources: [
       {
