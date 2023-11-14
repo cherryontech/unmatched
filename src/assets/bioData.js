@@ -56,7 +56,7 @@ export const bioData = [
       },
     ],
     image: Reshma,
-    tags:['ASIAN','WOMEN']
+    tags:['SOUTH ASIAN','WOMEN']
   },
   {
     id: 2,
@@ -160,7 +160,7 @@ export const bioData = [
       },
     ],
     image: Maya,
-    tags:['ASIAN', 'WOMEN']
+    tags:['SOUTH ASIAN', 'WOMEN']
   },
   {
     id: 6,
@@ -187,7 +187,7 @@ export const bioData = [
       },
     ],
     image: Rana,
-    tags:['ASIAN', 'WOMEN']
+    tags:['MIDDLE EASTERN', 'WOMEN']
   },
   {
     id: 7,
@@ -214,7 +214,7 @@ export const bioData = [
       },
     ],
     image: Nicole,
-    tags: ['WOMEN'],
+    tags: ['WOMEN','INDIGENOUS'],
   },
   {
     id: 8,
@@ -228,7 +228,7 @@ export const bioData = [
     },
     resources: [],
     image: Melissa,
-    tags: ['LATIN', 'WOMEN'],
+    tags: ['LATINX', 'WOMEN'],
   },
   {
     id: 9,
@@ -256,7 +256,7 @@ export const bioData = [
     },
     resources: [],
     image: James,
-    tags: ['LGBTQ+'],
+    tags: ['LGBTQ+','INDIGENOUS'],
   },
   {
     id: 11,
@@ -287,4 +287,17 @@ export const bioData = [
     tags: ['WOMEN', 'IMMIGRANT'],
    
   },
+  // {
+  //   id: 12,
+  //   name: 'Subrahmanyan',
+  //   fullName: 'Subrahmanyan C.',
+  //   occupation: 'Nobel Prize-Winning Physicist',
+  //   bio: {
+  //     summary: ``,
+  //     career: ``,
+  //     impact: ``,
+  //   },
+  //   image: Subrah,
+  //   tags: ['IMMIGRANT'],
+  // },
 ];

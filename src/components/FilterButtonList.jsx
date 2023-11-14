@@ -1,8 +1,8 @@
 import FilterButton from './FilterButton';
 import React, { useState } from 'react'
 const FilterButtonList = ({getFilteredCards}) => {
-    const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'WOMEN', clicked:false}, {id:3, name:'BLACK', clicked:false},
-    {id:4,name:'ASIAN', clicked:false}, {id:5,name:'DISABILITY', clicked:false}, {id:6, name:'LATIN', clicked:false}, {id:7, name:'IMMIGRANT', clicked:false}];
+    const buttons = [{id:1, name:'LGBTQ+', clicked:false}, {id:2, name:'Women', clicked:false}, {id:3, name:'Black', clicked:false},
+    {id:4,name:'South Asian', clicked:false}, {id:5,name:'Disability', clicked:false}, {id:6, name:'Latinx', clicked:false}, {id:8, name:'Middle Eastern', clicked:false},{id:9, name:'Indigenous', clicked:false}];
     const[tags, setTags] = useState(buttons);
  
     const changeButtonColor =(id)=>{
@@ -25,7 +25,7 @@ const FilterButtonList = ({getFilteredCards}) => {
            
          });
   return (
-    <div className='flex items-center justify-center mt-4 m-auto'>
+    <div className='flex flex-wrap items-center justify-start mt-4 m-auto max-w-[500px]'>
 
         {buttonTags}
     </div>
