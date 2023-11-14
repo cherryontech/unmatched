@@ -287,17 +287,5 @@ export const bioData = [
     tags: ['WOMEN', 'IMMIGRANT'],
    
   },
-  // {
-  //   id: 12,
-  //   name: 'Subrahmanyan',
-  //   fullName: 'Subrahmanyan C.',
-  //   occupation: 'Nobel Prize-Winning Physicist',
-  //   bio: {
-  //     summary: ``,
-  //     career: ``,
-  //     impact: ``,
-  //   },
-  //   image: Subrah,
-  //   tags: ['IMMIGRANT'],
-  // },
+  
 ];
