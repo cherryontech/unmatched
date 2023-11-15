@@ -10,12 +10,12 @@ export default function NavBar() {
       <NavLink
       exact
       to="/"
-      className="px-4 py-2 bg-base-100 text-primary rounded-full font-bold text-[19px]">
+      className="px-4 py-2 bg-base-100 text-primary hover:underline rounded-full font-bold text-[19px]">
         About Us
       </NavLink>
       <NavLink
       to="/professionals"
-      className="px-4 py-[8px] rounded-full font-bold bg-red-500 text-white text-[19px]">
+      className="px-4 py-[8px] rounded-full font-bold bg-red-500 text-white text-[19px] hover:bg-gradient-to-r from-red-500 to-purple-500 ">
         Unmatched Voices
       </NavLink>
     </div>
