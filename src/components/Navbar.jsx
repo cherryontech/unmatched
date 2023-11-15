@@ -10,17 +10,13 @@ export default function NavBar() {
       <NavLink
       exact
       to="/"
-      className="px-4 py-2 bg-base-100 text-primary rounded-full font-bold text-[20px]"
-      activeClassName="bg-red-500 text-white border-red-500"
-      >
+      className="px-4 py-2 bg-base-100 text-primary rounded-full font-bold text-[19px]">
         About Us
       </NavLink>
       <NavLink
       to="/professionals"
-      className="px-4 py-[10px] rounded-full font-bold bg-red-500 text-white text-[20px]"
-      activeClassName="bg-red-500 text-white border-red-500"
-      >
-        Resources
+      className="px-4 py-[8px] rounded-full font-bold bg-red-500 text-white text-[19px]">
+        Unmatched Voices
       </NavLink>
     </div>
   )
