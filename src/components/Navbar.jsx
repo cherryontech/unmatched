@@ -10,7 +10,7 @@ export default function NavBar() {
       <NavLink
       exact
       to="/"
-      className="px-4 py-2 bg-base-100 text-primary hover:underline rounded-full font-bold text-[19px]">
+      className="mx-4 bg-base-100 text-primary hover:border-b-4  font-bold text-[19px]">
         About Us
       </NavLink>
       <NavLink
