@@ -26,6 +26,7 @@ import ranaResource2 from './images/resources/rana2.jpg';
 import nicoleResource1 from './images/resources/nicole1.jpg';
 import nicoleResource2 from './images/resources/nicole2.jpg';
 import melissaResource from './images/resources/mell.jpg';
+import melRes from './images/resources/melres.jpg';
 
 
 
@@ -238,7 +239,7 @@ export const bioData = [
       Melissa’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists Melissa founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
     },
     resources: [{title:'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks',image:melissaResource,link:'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o'},
-    {}],
+    {title:'Video: Paseo Podcast | Shark talk with marine biologist Melissa Cristina Marquez', image:melRes , link:'https://www.youtube.com/watch?v=ScQ916PP_04'}],
     image: Melissa,
     tags: ['LATINX', 'WOMEN'],
   },
