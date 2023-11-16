@@ -10,24 +10,24 @@ const ProfessionalBio = ({ bio, name, fullName }) => {
   };
 
   return (
-    <div className="mb-10">
+    <div className="flex flex-col gap-7 mb-20">
       {bio.summary && (
-        <div className="pb-4">
-          <h3 className="text-2xl font-bold">Who is {fullName}?</h3>
+        <div className="">
+          <h2 className="text-2xl font-bold pb-2">Who is {fullName}?</h2>
           {formatParagraphs(bio.summary)}
         </div>
       )}
       {bio.impact && (
-        <div className="pb-4">
-          <h3 className="text-2xl font-bold">What is {name}'s impact?</h3>
+        <div>
+          <h2 className="text-2xl font-bold pb-2">What is {name}'s impact?</h2>
           {formatParagraphs(bio.impact)}
         </div>
       )}
       {bio.career && (
-        <div className="pb-4">
-          <h3 className="text-2xl font-bold">
+        <div>
+          <h2 className="text-2xl font-bold pb-2">
             How did {name} conquer imposter syndrome?
-          </h3>
+          </h2>
           {formatParagraphs(bio.career)}
         </div>
       )}
