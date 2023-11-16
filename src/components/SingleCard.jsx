@@ -3,16 +3,18 @@ import { Link } from 'react-router-dom';
 
 function SingleCard({ image, name, body, id }) {
   return (
-    <div className="h-106 w-64 xl:w-72 border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
+    <div className="relative w-[20rem] h-[24rem] md:w-[15rem] md:h-[21rem] xl:w-[19rem] xl:h-[24rem] p-7 rounded-2xl border-2 border-primary shadow-xl flex-col justify-start items-start hover:scale-95 duration-300">
       <img
-        className="object-cover h-52 bg-white rounded-[13px]"
+        className="object-cover h-52 xl:h-52 md:h-40 w-full rounded-2xl"
         src={image}
         alt={name}
       />
-      <h2 className="text-xl text-primary font-bold text-left pt-2">{name}</h2>
-      <p className="text-primary text-left">{body}</p>
+      <div className="pt-2.5 text-primary text-left">
+        <div className="text-lg font-bold">{name}</div>
+        <div>{body}</div>
+      </div>
       <Link to={`/professionals/${id}/${name}`}>
-        <button className="bg-[#A855F7] w-[100px] rounded-[15px] hover:bg-purple-950 text-xs font-semibold text-white mt-6 float-right mx-auto mr-0 p-1">
+        <button className="absolute bottom-6 right-7 w-[7rem] text-sm font-bold rounded-3xl p-1 text-white bg-purple-500 hover:bg-purple-950 flex items-center justify-evenly transition duration-300 ease-in-out">
           Learn More
         </button>
       </Link>
