@@ -200,8 +200,7 @@ export const bioData = [
     fullName: 'Nicole Aunapu Mann',
     occupation: 'NASA Astronaut',
     bio: {
-      summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University. In 2013,
-      Nicole was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Nicole spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
+      summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University.\n In 2013, Nicole was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Nicole spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
       career: `Nicole has reflected on her childhood role models, noting the lack of representation compared to the Artemis team today, and she is proud to see the culture shifting for the younger generation.
        In an interview with The Stanford Daily, Nicole shared this advice: follow your dreams, make a plan to reach your goals, know that it’s okay to stumble and adapt on the way to your dreams, but never give up.
       When asked by USA Today about her definition of courage, Nicole spoke about pursuing things that feel somewhat risky. She said there’s a chance you’ll fail, but try to succeed anyway and don’t let fear stop you.`,
