@@ -25,6 +25,7 @@ import ranaResource1 from './images/resources/rana1.jpg';
 import ranaResource2 from './images/resources/rana2.jpg';
 import nicoleResource1 from './images/resources/nicole1.jpg';
 import nicoleResource2 from './images/resources/nicole2.jpg';
+import melissaResource from './images/resources/mell.jpg';
 
 
 
@@ -198,9 +199,13 @@ export const bioData = [
     fullName: 'Nicole Aunapu Mann',
     occupation: 'NASA Astronaut',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University. In 2013,
+      Nicole was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Nicole spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
+      career: `Nicole has reflected on her childhood role models, noting the lack of representation compared to the Artemis team today, and she is proud to see the culture shifting for the younger generation.
+       In an interview with The Stanford Daily, Nicole shared this advice: follow your dreams, make a plan to reach your goals, know that it’s okay to stumble and adapt on the way to your dreams, but never give up.
+      When asked by USA Today about her definition of courage, Nicole spoke about pursuing things that feel somewhat risky. She said there’s a chance you’ll fail, but try to succeed anyway and don’t let fear stop you.`,
+      impact: `Nicole’s impact on the field of space exploration is marked by her trailblazing role as one of the few women chosen to be a NASA astronaut. As a skilled pilot and astronaut, Nicole contributes to the scientific and technological advancements of space missions and also serves as an inspiration for women aspiring to enter STEM fields. 
+      By pushing boundaries and challenging stereotypes, Nicole’s impact extends beyond her individual achievements, fostering a more diverse and equitable future for space exploration.`,
     },
     resources: [
       {
@@ -225,11 +230,15 @@ export const bioData = [
     fullName: 'Melissa Cristina Márquez',
     occupation: ' Marine Biologist',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Melissa is a Latina marine biologist, wildlife educator, diversity advocate, TV host, speaker, and freelance environmental writer committed to marine conservation and empowering young Latinas in science. 
+      She holds a Master of Science in Marine Biology from Victoria University of Wellington. Melissa is known as the “Mother of Sharks” and has loved the ocean and sharks since childhood. She studies Chondrichthyans (sharks, sting rays, skates, and chimeras), how the media portrays them, and how that affects conservation efforts.`,
+      career: `In her Superwomen in Science interview, Melissa talked about her personal experiences with racism, sexism, and rejection and how she used these experiences and her network’s support as motivation to excel in science. She believes science is something anyone can do, regardless of their background.
+      Melissa emphasized the need for support for women in STEM and their representation in leadership roles; it’s vital to retaining them and providing role models that aspiring STEM professionals can identify with.`,
+      impact: `Melissa has expressed her advocacy for STEM inclusion, marine conservation, and science education through interviews, TEDx, contributions to Forbes Science, and Shark Week and other TV programming. Her podcast ConCiencia Azul highlights Spanish-speaking marine scientists and enthusiasts from around the world as well as some of the major barriers Latin American countries face.
+      Melissa’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists Melissa founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
     },
-    resources: [],
+    resources: [{title:'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks',image:melissaResource,link:'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o'},
+    {}],
     image: Melissa,
     tags: ['LATINX', 'WOMEN'],
   },
