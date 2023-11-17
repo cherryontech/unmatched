@@ -27,6 +27,7 @@ import nicoleResource1 from './images/resources/nicole1.jpg';
 import nicoleResource2 from './images/resources/nicole2.jpg';
 import melissaResource from './images/resources/mell.jpg';
 import melRes from './images/resources/melres.jpg';
+import tazin from './images/resources/tazin.png';
 
 
 
@@ -278,11 +279,12 @@ export const bioData = [
     fullName: 'Tazin Khan',
     occupation: 'Founder of Cyber Collective',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Bangladeshi-American, Tazin Khan is a cyber security specialist, public speaker, and advisor who sheds light on the intersection of technology, ethics, and democracy through her style, humor, and authenticity.
+      She specializes in compliance, product architecture mapping, and risk analysis. In addition to advising major corporate clients, Tazin focuses on educating the public about data security and privacy.`,
+      career: ` While advancing in her career, she saw inequality and a lack of representation for minorities and women. This raised red flags because, in her mind, this was an industry tasked with protecting all consumers online. She voiced her ethical privacy concerns to the companies she worked for. Those concerns, she says, went unanswered. She took matters into her own hands, virtually launching events to educate the public about cybersecurity concerns, help them think critically about their relationship with technology, and promote responsible tech practices.`,
+      impact: `Tazin is known for her commitment to social impact and creativity. Her work in the field of cybersecurity is combined with activism and creativity. Tazin advocates for a more inclusive and ethical approach to technology development and use. Through her empathetic approach, Tazin tackles conversations with brevity and compassion, making people feel seen and overcome any feeling of self doubt. \n She founded Cyber Collective through which she hopes to correct the misinformation and racial bias that are currently embeded in technology. Today, Cyber Collective is recognized by Forbes as “the only women of color owned and operated community-centered research organization that focuses on data ethics, privacy, and cybersecurity research". `,
     },
-    resources: [],
+    resources: [{title:'Video: Algorithmic Bias with Tazin Khan (Cyber Collective)',image:tazin,link:'https://youtu.be/5O4njbIb-kA?si=qEXCK_BWYfl6LybK'}],
     image: Tazin,
     tags: ['ASIAN', 'WOMEN'],
   },
