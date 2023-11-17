@@ -147,9 +147,11 @@ export const bioData = [
     fullName: 'Maya Ajmera',
     occupation: 'CEO of Society for Science',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Maya Ajmera is a distinguished professional in the field of science, education, and nonprofit leadership. She currently serves as the CEO of the Society for Science, a renowned organization dedicated to promoting science education and research. Maya is also an accomplished author and a passionate advocate for science literacy. Maya's journey in the realm of science and education has been marked by her commitment to fostering a love for science among young minds. As the founder of the Global Fund for Children, she has championed initiatives that support innovative and impactful programs for children and youth around the world. `,
+      career: `Maya Ajmera's journey to success has not been without its challenges, and she has faced moments of self-doubt. In her interviews and public engagements, Maya emphasizes the importance of embracing one's uniqueness and overcoming imposter syndrome. Maya encourages aspiring scientists and educators to recognize their own value and contributions. She highlights the significance of perseverance, curiosity, and a willingness to learn from failures. 
+      `,
+      impact: `Maya Ajmera's impact in the realm of science and education is significant. Under her leadership, the Society for Science has played a pivotal role in advancing science education globally. The organization is widely recognized for its world-renowned science competitions, such as the Intel International Science and Engineering Fair (ISEF), which provides a platform for young scientists to showcase their talents. Maya's commitment to promoting diversity and inclusion in science education is evident through the Society for Science's initiatives. She has worked tirelessly to ensure that students from all backgrounds have access to opportunities that nurture their passion for science. 
+      `,
     },
     resources: [
       {
@@ -173,9 +175,9 @@ export const bioData = [
     fullName: 'Rana Dajani',
     occupation: 'Molecular Biologist and Professor',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Rana Dajani is a distinguished molecular biologist and professor recognized for her contributions to scientific research, education, and community development. With a background in molecular biology, she has played a pivotal role in advancing the understanding of genetic factors in health and disease. Rana's academic journey led her to pursue a Ph.D. in molecular biology from the University of Iowa. Her research focuses on genetics, particularly the genetics of circadian rhythms and their impact on health. Throughout her career, she has published numerous research papers, contributing significantly to the scientific community's understanding of molecular biology. `,
+      career: `In various interviews and speaking engagements, Rana has shared insights into overcoming imposter syndrome. She emphasizes the importance of resilience and perseverance, recounting moments in her career when she faced challenges and doubted her abilities. Rana advocates for building a supportive network of mentors and peers who can provide guidance and encouragement during moments of self-doubt. Her message to aspiring scientists is grounded in the belief that embracing challenges, staying curious, and seeking support are crucial elements in conquering imposter syndrome.`,
+      impact: `Rana's impact extends beyond her research endeavors. She is a strong advocate for science education, particularly for women in STEM. As the founder of We Love Reading, a non-profit organization, Rana promotes literacy and the love of reading among children in underserved communities. Her commitment to education and community development has earned her recognition as a leader in both scientific and humanitarian efforts. Rana's dedication to empowering women in the scientific community is evident through her initiatives and mentorship programs. By actively encouraging the participation of women in STEM fields, she has contributed to breaking down gender barriers and fostering a more inclusive scientific landscape.`,
     },
     resources: [
       {
