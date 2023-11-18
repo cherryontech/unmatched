@@ -34,7 +34,7 @@ import tazin from './images/resources/tazin.png';
 export const bioData = [
   {
     id: 1,
-    name: 'Reshma',
+    name: 'Saujani',
     fullName: 'Reshma Saujani',
     occupation: 'Founder of Girls Who Code',
     bio: {
@@ -92,7 +92,7 @@ export const bioData = [
   },
   {
     id: 3,
-    name: 'Farida',
+    name: 'Bedwei',
     fullName: 'Farida Bedwei',
     occupation: 'Co-Founder of Logiciel',
     bio: {
@@ -115,8 +115,8 @@ export const bioData = [
   },
   {
     id: 4,
-    name: 'Jedidah',
-    fullName: 'Jedidah Isler',
+    name: ' Dr. Isler',
+    fullName: 'Dr. Jedidah Isler',
     occupation: 'Astrophysicist and Professor',
     bio: {
       summary: `Jedidah Isler is an astrophysicist, professor, TED fellow, and advocate for inclusive STEM education. She is the first Black woman to receive a PhD in Astrophysics from Yale University. Jedidah is also the founder of VanguardSTEM, an online community and platform for girls, women, and non-binary people of color in STEM. 
@@ -144,7 +144,7 @@ export const bioData = [
   },
   {
     id: 5,
-    name: 'Maya',
+    name: 'Ajmera',
     fullName: 'Maya Ajmera',
     occupation: 'CEO of Society for Science',
     bio: {
@@ -172,8 +172,8 @@ export const bioData = [
   },
   {
     id: 6,
-    name: 'Rana',
-    fullName: 'Rana Dajani',
+    name: 'Dr. Dajani',
+    fullName: 'Dr. Rana Dajani',
     occupation: 'Molecular Biologist and Professor',
     bio: {
       summary: `Rana Dajani is a distinguished molecular biologist and professor recognized for her contributions to scientific research, education, and community development. With a background in molecular biology, she has played a pivotal role in advancing the understanding of genetic factors in health and disease. Rana's academic journey led her to pursue a Ph.D. in molecular biology from the University of Iowa. Her research focuses on genetics, particularly the genetics of circadian rhythms and their impact on health. Throughout her career, she has published numerous research papers, contributing significantly to the scientific community's understanding of molecular biology. `,
@@ -199,7 +199,7 @@ export const bioData = [
   },
   {
     id: 7,
-    name: 'Nicole',
+    name: 'Mann',
     fullName: 'Nicole Aunapu Mann',
     occupation: 'NASA Astronaut',
     bio: {
@@ -229,7 +229,7 @@ export const bioData = [
   },
   {
     id: 8,
-    name: 'Melissa',
+    name: 'Márquez',
     fullName: 'Melissa Cristina Márquez',
     occupation: ' Marine Biologist',
     bio: {
@@ -247,7 +247,7 @@ export const bioData = [
   },
   {
     id: 9,
-    name: 'Maggie',
+    name: 'Aderin-Pocock',
     fullName: 'Maggie Aderin-Pocock',
     occupation: 'Space Scientist and Author',
     bio: {
@@ -261,8 +261,8 @@ export const bioData = [
   },
   {
     id: 10,
-    name: 'James',
-    fullName: 'James Makokis',
+    name: 'Dr. Makokis',
+    fullName: 'Dr. James Makokis',
     occupation: 'Two-Spirit Family Physician',
     bio: {
       summary: ``,
@@ -275,7 +275,7 @@ export const bioData = [
   },
   {
     id: 11,
-    name: 'Tazin',
+    name: 'Khan',
     fullName: 'Tazin Khan',
     occupation: 'Founder of Cyber Collective',
     bio: {
@@ -290,7 +290,7 @@ export const bioData = [
   },
   {
     id: 12,
-    name: 'Huda',
+    name: 'Zoghbi',
     fullName: 'Huda Zoghbi',
     occupation: 'Lebanese-American geneticist',
     bio: {
