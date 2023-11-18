@@ -35,7 +35,7 @@ import jamesResource2 from './images/resources/james2.jpeg';
 export const bioData = [
   {
     id: 1,
-    name: 'Reshma',
+    name: 'Saujani',
     fullName: 'Reshma Saujani',
     occupation: 'Founder of Girls Who Code',
     bio: {
@@ -93,7 +93,7 @@ export const bioData = [
   },
   {
     id: 3,
-    name: 'Farida',
+    name: 'Bedwei',
     fullName: 'Farida Bedwei',
     occupation: 'Co-Founder of Logiciel',
     bio: {
@@ -116,8 +116,8 @@ export const bioData = [
   },
   {
     id: 4,
-    name: 'Jedidah',
-    fullName: 'Jedidah Isler',
+    name: 'Dr Isler',
+    fullName: 'Dr. Jedidah Isler',
     occupation: 'Astrophysicist and Professor',
     bio: {
       summary: ``,
@@ -142,7 +142,7 @@ export const bioData = [
   },
   {
     id: 5,
-    name: 'Maya',
+    name: 'Ajmera',
     fullName: 'Maya Ajmera',
     occupation: 'CEO of Society for Science',
     bio: {
@@ -168,8 +168,8 @@ export const bioData = [
   },
   {
     id: 6,
-    name: 'Rana',
-    fullName: 'Rana Dajani',
+    name: 'Dr. Dajani',
+    fullName: 'Dr. Rana Dajani',
     occupation: 'Molecular Biologist and Professor',
     bio: {
       summary: ``,
@@ -195,7 +195,7 @@ export const bioData = [
   },
   {
     id: 7,
-    name: 'Nicole',
+    name: 'Mann',
     fullName: 'Nicole Aunapu Mann',
     occupation: 'NASA Astronaut',
     bio: {
@@ -222,7 +222,7 @@ export const bioData = [
   },
   {
     id: 8,
-    name: 'Melissa',
+    name: 'Marquez',
     fullName: 'Melissa Cristina Márquez',
     occupation: ' Marine Biologist',
     bio: {
@@ -236,7 +236,7 @@ export const bioData = [
   },
   {
     id: 9,
-    name: 'Maggie',
+    name: 'Dr. Aderin-Pocock',
     fullName: 'Dr. Maggie Aderin-Pocock',
     occupation: 'Space Scientist, Science Educator, and Author',
     bio: {
@@ -263,7 +263,7 @@ export const bioData = [
   },
   {
     id: 10,
-    name: 'James',
+    name: 'Dr. Makokis',
     fullName: 'Dr. James Makokis',
     occupation: 'Family Physician & Clinical Professor',
     bio: {
@@ -290,7 +290,7 @@ export const bioData = [
   },
   {
     id: 11,
-    name: 'Tazin',
+    name: 'Khan',
     fullName: 'Tazin Khan',
     occupation: 'Founder of Cyber Collective',
     bio: {
