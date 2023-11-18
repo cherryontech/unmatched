@@ -19,14 +19,14 @@ const ProfessionalBio = ({ bio, name, fullName }) => {
       )}
       {bio.impact && (
         <div className="pb-4">
-          <h3 className="text-2xl font-bold">What is {name}'s impact?</h3>
+          <h3 className="text-2xl font-bold">What is <span className='text-[#A855F7]'>{name} </span> 's impact?</h3>
           {formatParagraphs(bio.impact)}
         </div>
       )}
       {bio.career && (
         <div className="pb-4">
           <h3 className="text-2xl font-bold">
-            How did {name} conquer imposter syndrome?
+            How did <span className='text-[#A855F7]'>{name} </span> conquer imposter syndrome?
           </h3>
           {formatParagraphs(bio.career)}
         </div>
