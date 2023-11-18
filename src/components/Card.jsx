@@ -15,9 +15,14 @@ const Card = ({ data }) => {
 
   return (
     <>
-      <div className="w-full py-[6rem] px-4 bg-white ">
-        <div className="max-w-[1040px] grid md:grid-cols-3 gap-12 place-items-center m-auto  ">
-          {details}
+      <div className="max-w-screen-lg xl:mx-auto md:mx-28 sm:mx-8">
+        <div className="lg:text-2xl text-xl font-bold md:float-left text-center text-primary px-4">
+          All Search Results
+        </div>
+        <div className="w-full py-[2rem] md:py-[4rem] px-4">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 place-items-center m-auto">
+            {details}
+          </div>
         </div>
       </div>
     </>

@@ -10,7 +10,7 @@ const ProfessionalBio = ({ bio, name, fullName }) => {
   };
 
   return (
-    <div className="flex flex-col gap-7 mb-20">
+    <div className="flex flex-col gap-7 mb-20 px-7 md:px-0">
       {bio.summary && (
         <div className="">
           <h2 className="text-2xl font-bold pb-2">Who is {fullName}?</h2>
