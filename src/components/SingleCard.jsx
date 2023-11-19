@@ -14,7 +14,7 @@ function SingleCard({ image, name, body, id }) {
         <div>{body}</div>
       </div>
       <Link to={`/professionals/${id}/${name}`}>
-        <button className="absolute bottom-6 right-7 w-[7rem] text-sm font-bold rounded-3xl p-1 text-white bg-purple-500 hover:bg-purple-950 flex items-center justify-evenly transition duration-300 ease-in-out">
+        <button className="absolute bottom-6 right-7 w-[7rem] text-sm font-bold rounded-3xl p-1 text-white bg-purple-500 hover:text-[#0A2E50] hover:shadow-[4.0px_4.0px_4.0px_rgba(0,0,0,0.38)]  flex items-center justify-evenly transition duration-300 ease-in-out">
           Learn More
         </button>
       </Link>
