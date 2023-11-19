@@ -1,3 +1,4 @@
+// LOCAL IMPORTS
 // professionals images
 import Reshma from './images/professionals/Reshma.jpg';
 import Anna from './images/professionals/Anna.jpg';
@@ -11,6 +12,7 @@ import Maggie from './images/professionals/Maggie.jpg';
 import James from './images/professionals/James.jpg';
 import Tazin from './images/professionals/Tazin.jpg';
 import huda from './images/professionals/huda.jpeg';
+
 // resources cover images
 import reshmaResource1 from './images/resources/reshma1.jpg';
 import reshmaResource2 from './images/resources/reshma2.jpg';
@@ -28,8 +30,10 @@ import nicoleResource2 from './images/resources/nicole2.jpg';
 import melissaResource from './images/resources/mell.jpg';
 import melRes from './images/resources/melres.jpg';
 import tazin from './images/resources/tazin.png';
-
-
+import maggieResource1 from './images/resources/maggie1.jpeg';
+import maggieResource2 from './images/resources/maggie2.jpg';
+import jamesResource1 from './images/resources/james1.jpeg';
+import jamesResource2 from './images/resources/james2.jpeg';
 
 export const bioData = [
   {
@@ -247,15 +251,28 @@ export const bioData = [
   },
   {
     id: 9,
-    name: 'Aderin-Pocock',
-    fullName: 'Maggie Aderin-Pocock',
-    occupation: 'Space Scientist and Author',
+    name: 'Dr. Aderin-Pocock',
+    fullName: 'Dr. Maggie Aderin-Pocock',
+    occupation: 'Space Scientist, Science Educator, and Author',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Dr. Maggie Aderin-Pocock's journey in science is a testament to the unique perspectives offered by dyslexic thinking. Attending 13 different schools, she was often underestimated and placed in remedial classes due to a lack of understanding around her dyslexia. She was made to feel unintelligent and even began to internalize this feeling. Around the age of 10, her teacher asked a science question that only she was able to answer out of her entire class. Luckily this experience interrupted the harmful messages she was receiving from the school system and she built confidence in her abilities. Maggie's distinctive way of thinking led her to extraordinary achievements, including working on the James Webb Space Telescope. Her story is a powerful narrative about the value of embracing different ways of thinking and dreaming big.`,
+      career: `Dr. Aderin-Pocock has made remarkable contributions in various capacities. As the host of the BBC's "The Sky at Night," she has brought complex astronomical concepts to a broad audience. She is also an accomplished author, having written several books that make space science accessible and engaging. In addition to these roles, she serves as the Chancellor of the University of Leicester, showcasing her commitment to educational leadership and her expertise in the field of space science. From her engagement in groundbreaking projects like the James Webb Space Telescope to her role as a science communicator, she challenges conventional perceptions of scientists. Her approach to science blends her passion with a commitment to making it accessible and inclusive for all.`,
+      impact: `Maggie is not just a space scientist; she is a vocal advocate for diversity in her field. Her work goes beyond the confines of traditional science to include exploring the history of astronomy from non-western perspectives. By championing diversity, she brings fresh viewpoints to science, illustrating the importance of including diverse voices in understanding our universe.`,
     },
-    resources: [],
+    resources: [
+      {
+        title:
+          'Video: Dr. Maggie Aderin-Pocock on How to think outside the planet',
+        image: maggieResource1,
+        link: 'https://www.youtube.com/watch?v=Tx4oCxtX2YE',
+      },
+      {
+        title:
+          'Interview: The Guardian | The Art of Stargazing',
+        image: maggieResource2,
+        link: 'https://www.theguardian.com/science/2023/oct/29/dr-maggie-aderin-pocock-interview-the-art-of-stargazing',
+      },
+    ],
     image: Maggie,
     tags: ['BLACK', 'WOMEN', 'DISABILITY'],
   },
@@ -263,13 +280,26 @@ export const bioData = [
     id: 10,
     name: 'Dr. Makokis',
     fullName: 'Dr. James Makokis',
-    occupation: 'Two-Spirit Family Physician',
+    occupation: 'Family Physician & Clinical Professor',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Dr. James Makokis is a Two-Spirit family physician from the Saddle Lake Cree Nation. Despite facing significant challenges, including the lack of Indigenous representation in medicine, Dr. Makokis was inspired by his family and community from an early age. He navigated his path to medicine while embracing his Two-Spirit identity and overcoming the environments that were not conducive to his academic goals. His journey to medicine was also intertwined with his personal journey of accepting and expressing his Two-Spirit identity.`,
+      career: `Alongside his role as a family physician, Dr. Makokis serves as an Associate Clinical Professor in the Faculty of Medicine at the University of Alberta. He is dedicated to caring for Indigiqueer patients and is a prominent voice in advocating for health issues specific to Indigenous Two-Spirit and transgender communities. His contributions to medicine extend beyond clinical care to education and advocacy, striving to improve the healthcare system's responsiveness to the unique needs of these communities.`,
+      impact: `Dr. Makokis is renowned for his work in Indigenous LGBTQ2S+ healthcare. As an advocate for Indigenous Two-Spirit and transgender health both nationally and internationally, he has made a significant impact. His approach to healthcare combines Indigenous and Western teachings, focusing on providing a safe and affirming space for Indigiqueer patients. Dr. Makokis emphasizes the importance of representation in medicine, particularly for Indigiqueer individuals, and he actively works to provide gender-affirming care, which he considers life-saving.`,
     },
-    resources: [],
+    resources: [
+      {
+        title:
+          'Video: AJ+ | Trans And Native: Meet The Indigenous Doctor Giving Them Hope',
+        image: jamesResource1,
+        link: 'https://www.youtube.com/watch?v=MSnvtj0G3cA',
+      },
+      {
+        title:
+          'Interview: Forbes | A Nehiyô Two-Spirit Physician’s Reflections On Providing Indigenous Interventions In Modern Medicine',
+        image: jamesResource2,
+        link: 'https://www.forbes.com/sites/victorlopez-carmen/2023/04/27/a-nehiy-two-spirit-physicians-reflections-on-providing-indigenous-interventions-in-modern-medicine/?sh=eb5916a37da1',
+      },
+    ],
     image: James,
     tags: ['LGBTQ+','INDIGENOUS'],
   },
@@ -301,7 +331,7 @@ export const bioData = [
     resources: [],
     image: huda,
     tags: ['WOMEN', 'IMMIGRANT'],
-   
+
   },
   
 ];
