@@ -18,15 +18,21 @@ export const BioPage = ({ fullDataSet }) => {
   return (
     <>
       <div className="text-primary">
-        <div className="h-52 bg-primary w-screen" />
-        <div className="mx-auto w-[200px] h-[200px] relative mb-4 ">
-        <div className="mx-auto w-[215px] h-[215px]  -mt-28 flex justify-center items-center rounded-full overflow-hidden bg-gradient-to-r from-amber-400 to-cyan-400">
-          <img src={professional.image} alt={professional.fullName} className="mx-auto w-[200px] h-[200px] justify-center absolute items-center border-8
-            border-white object-cover rounded-full overflow-hidden"/>
-        </div>
+        <div className="h-56 bg-primary w-screen" />
+        <div className="mx-auto relative mb-4 ">
+          <div className="mx-auto w-[215px] h-[215px] -mt-28 flex justify-center items-center rounded-full overflow-hidden bg-gradient-to-r from-amber-400 to-cyan-400">
+            <img
+              src={professional.image}
+              alt={professional.fullName}
+              className="mx-auto w-[200px] h-[200px] justify-center absolute items-center border-8
+            border-white object-cover rounded-full overflow-hidden"
+            />
+          </div>
         </div>
         <div className="text-center mt-2 pb-14">
-          <h1 className="text-3xl font-bold">{professional.fullName}</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">
+            {professional.fullName}
+          </h1>
           <p>{professional.occupation}</p>
         </div>
         <div className="max-w-screen-lg xl:mx-auto md:mx-28 sm:mx-8">
@@ -36,11 +42,11 @@ export const BioPage = ({ fullDataSet }) => {
             fullName={professional.fullName}
           />
           {professional.resources && professional.resources.length > 0 && (
-            <div className="text-center lg:text-left">
-              <h2 className="text-2xl font-bold">
+            <div className="text-center lg:text-left mb-20">
+              <h2 className="text-2xl font-bold pb-5">
                 {professional.name}'s Suggested Resources
               </h2>
-              <div className="flex flex-col flex-wrap md:flex-row lg:justify-between justify-center items-center mb-14">
+              <div className="flex flex-col flex-wrap md:flex-row lg:justify-between justify-center items-center mb-14 gap-10">
                 {professional.resources.map(item => (
                   <ResourceCard
                     key={item.title}
@@ -53,12 +59,14 @@ export const BioPage = ({ fullDataSet }) => {
             </div>
           )}
           <div className="text-center lg:text-left">
-            <h2 className="text-2xl font-bold">More Unmatched Inspiration</h2>
-            <div className="flex flex-col flex-wrap md:flex-row lg:justify-between md:justify-between justify-center items-center mb-20">
+            <h2 className="text-2xl font-bold pb-5">
+              More Unmatched Inspiration
+            </h2>
+            <div className="flex flex-col flex-wrap md:flex-row lg:justify-between md:justify-between justify-center items-center mb-20 gap-10">
               {randomCards}
             </div>
           </div>
-          <div className="flex justify-end mb-7">
+          <div className="flex justify-center lg:justify-end mb-7">
             <Link
               to="/professionals"
               className="px-4 py-2 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white mb-12"

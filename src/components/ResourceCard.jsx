@@ -4,20 +4,21 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 function ResourceCard({ image, title, link }) {
   return (
-    <div className="h-106 w-[24rem] xl:w-[30rem] border-2 shadow-xl flex flex-col p-6 my-2 rounded-[13px] hover:scale-105 duration-300">
+    <div className="relative w-[20rem] h-[25rem] p-7 md:w-[23rem] md:h-[25rem] xl:w-[29rem] rounded-2xl border-2 border-primary shadow-xl flex-col justify-start items-start hover:scale-95 duration-300">
       <img
-        className="object-cover h-52 bg-white rounded-[13px]"
+        className="object-cover h-52 w-full rounded-2xl"
         src={image}
         alt={title}
       />
-      <h2 className="text-primary font-bold text-left pt-2">{title}</h2>
+      <div className="py-2.5 text-primary text-left text-lg font-bold">
+        {title}
+      </div>
       <Link to={link} target="_blank">
-        <button className="bg-[#A855F7] rounded-[15px] text-xs font-semibold text-white mt-5 mx-auto mr-0 p-2
-        hover:bg-purple-950 flex items-center">
-          <span className="pr-1">Open Resource</span>
+        <button className="absolute bottom-6 right-7 w-[9rem] text-base font-bold rounded-3xl p-1 text-white bg-purple-500 hover:bg-purple-950 flex items-center justify-evenly transition duration-300 ease-in-out">
+          <span>Open Resource</span>
           <ArrowTopRightOnSquareIcon
             className="w-4"
-            style={{ strokeWidth: 2 }}
+            style={{ strokeWidth: 3 }}
           />
         </button>
       </Link>

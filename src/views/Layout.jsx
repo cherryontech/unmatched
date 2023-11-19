@@ -6,15 +6,18 @@ import { Outlet, Link } from 'react-router-dom';
 import NavBar from '../components/Navbar';
 import logo from '../assets/logo.png';
 
-
 export function Layout() {
   return (
     <div className="flex flex-col w-full h-full min-h-screen">
-      <div className="p-4 w-full">
-        <div className="flex justify-between items-center mx-[40px]">
+      <div className="py-4 px-2 md:px-5 w-full">
+        <div className="flex justify-between items-center mx-auto">
           <div className="flex-shrink-0">
-            <Link to="/" >
-              <img src={logo} alt="Your Logo" className="h-10 hover:scale-105 duration-300" />
+            <Link to="/">
+              <img
+                src={logo}
+                alt="Your Logo"
+                className="h-6 md:h-10 hover:scale-105 duration-300"
+              />
             </Link>
           </div>
           <NavBar />
@@ -24,5 +27,5 @@ export function Layout() {
         <Outlet />
       </main>
     </div>
-  )
-};
+  );
+}

@@ -5,16 +5,17 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // LOCAL IMPORTS
 import { bioData } from './assets/bioData.js';
 import { Home, Layout, ProfessionalsPage, BioPage } from './views';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
      // SET STATES
    const [data, setData] = useState(bioData);
-    
+
    const getFilteredCards = (tag) =>{
    const newData =bioData.filter((item)=> {
 
     return item.tags.includes(tag.toUpperCase());
-    
+
    });
   let sameData = true;
   for( let item of data){
@@ -26,7 +27,7 @@ function App() {
       setData(newData)
     }
     else{
-      
+
     setData(bioData)
     }
     }
@@ -37,6 +38,7 @@ function App() {
   return (
 
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
