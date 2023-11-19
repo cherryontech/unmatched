@@ -14,7 +14,7 @@ function ResourceCard({ image, title, link }) {
         {title}
       </div>
       <Link to={link} target="_blank">
-        <button className="absolute bottom-6 right-7 w-[9rem] text-base font-bold rounded-3xl p-1 text-white bg-purple-500 hover:bg-purple-950 flex items-center justify-evenly transition duration-300 ease-in-out">
+        <button className="absolute bottom-6 right-7 w-[9rem] text-base font-bold rounded-3xl p-1 text-white bg-purple-500  hover:text-[#0A2E50] hover:shadow-[4.0px_4.0px_4.0px_rgba(0,0,0,0.38)] flex items-center justify-evenly transition duration-300 ease-in-out">
           <span>Open Resource</span>
           <ArrowTopRightOnSquareIcon
             className="w-4"
