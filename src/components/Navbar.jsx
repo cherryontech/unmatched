@@ -26,18 +26,27 @@ export default function NavBar() {
   return (
     <div className="space-x-4">
       <NavLink
-      exact
-      to="/"
-      onClick={ChangeAboutIcon }
-      className={` nav mx-4 bg-base-100 px-3 text-primary  hover:border-b-4 border-b-[#0A2E50] ${aboutIconColor} font-bold text-[2.1vh] `}>
-        About Us
+        exact
+        to="/"
+        onClick={ChangeAboutIcon }
+        className={`text-primary font-bold lg:${aboutIconColor} flex-col justify-start text-[2.1vh] items-center inline-flex relative group`}
+      >
+        <span className="text-center font-bold md:group-hover:opacity-100 ">
+          About Us
+        </span>
+        <span className="w-full md:h-1 h-[3px] top-5 md:top-full bg-primary rounded-2xl absolute bottom-0 md:opacity-0 transition-opacity duration-300 ease-in-out opacity-100 md:group-hover:opacity-100" />
       </NavLink>
       <NavLink
-      to="/professionals"
-      onClick={changeVoicesColor}
-      className={` nav px-4 py-[8px] rounded-full font-bold ${voiceIconColor} text-white text-[2.1vh] hover:bg-gradient-to-r from-red-500 to-purple-500 `}>
-        Unmatched Voices
+       to="/professionals"
+       onClick={changeVoicesColor}
+        className="text-primary font-bold flex-col justify-start items-center inline-flex relative"
+      >
+        <span className={`md:px-4 md:py-1 lg:${voiceIconColor} rounded-full md:bg-red-500 md:text-white md:hover:bg-gradient-to-r from-red-500 to-purple-500 text-center font-bold`}>
+          Unmatched Voices
+        </span>
+        <span className="w-full md:h-1 h-[3px] top-5 md:top-full bg-primary rounded-2xl absolute bottom-0 md:opacity-0 transition-opacity duration-300 ease-in-out opacity-100 md:group-hover:opacity-100" />
       </NavLink>
+     
     </div>
   )
 };
