@@ -319,20 +319,21 @@ export const bioData = [
     image: Tazin,
     tags: ['ASIAN', 'WOMEN'],
   },
-  {
-    id: 12,
-    name: 'Dr. Zoghbi',
-    fullName: 'Dr. Huda Zoghbi',
-    occupation: 'Lebanese-American geneticist',
-    bio: {
-      summary: `Dr. Zoghbi is a professor of pediatrics, molecular and human genetics, neuroscience, and neurology at Baylor College of Medicine and is director of the Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital.`,
-      career: ``,
-      impact: ``,
-    },
-    resources: [],
-    image: huda,
-    tags: ['WOMEN', 'IMMIGRANT'],
+  // {
+  //   id: 12,
+  //   name: 'Dr. Zoghbi',
+  //   fullName: 'Dr. Huda Zoghbi',
+  //   occupation: 'Lebanese-American geneticist',
+  //   bio: {
+  //     summary: `Dr. Zoghbi is a professor of pediatrics, molecular and human genetics, neuroscience, and neurology at Baylor College of Medicine and is director of the Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital.
+  //     and an investigator with Howard Hughes Medical Institute. She was honored at the 2023 Indiana Clinical and Translational Sciences Institute (CTSI) Annual Meeting on Friday, September 22, 2023. Dr. Zoghbi has received many honors and awards, including election to the National Academy of Sciences (2004), Bristol Myers-Squibb Neuroscience Distinguished Achievement Award (2006), election to the Lebanese Academy of Sciences (2013), Breakthrough Prize in Life Sciences (2017), election to the American Academy of Arts and Sciences (2018), election to the National Academy of Inventors (2019), the Brain Prize (2020) and Kavli Prize in Neuroscience (2022).`,
+  //     career: ``,
+  //     impact: ``,
+  //   },
+  //   resources: [],
+  //   image: huda,
+  //   tags: ['WOMEN', 'IMMIGRANT'],
 
-  },
+  // },
   
 ];
