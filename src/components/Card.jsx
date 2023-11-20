@@ -20,7 +20,7 @@ const Card = ({ data }) => {
           All Search Results
         </div>
         <div className="w-full py-[2rem] md:py-[4rem] px-4">
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 place-items-center">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 place-items-center m-auto">
             {details}
           </div>
         </div>
