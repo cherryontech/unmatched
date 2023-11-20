@@ -15,7 +15,7 @@ const Card = ({ data }) => {
 
   return (
     <>
-      <div className="max-w-screen-lg xl:mx-auto md:mx-28 sm:mx-8">
+      <div className="max-w-[1200px] xl:mx-auto md:mx-28 sm:mx-8">
         <div className="lg:text-2xl text-xl font-bold md:float-left text-center text-primary px-4">
           All Search Results
         </div>
