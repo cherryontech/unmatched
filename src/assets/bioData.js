@@ -320,18 +320,18 @@ export const bioData = [
     tags: ['ASIAN', 'WOMEN'],
   },
   {
-    // id: 12,
-    // name: 'Zoghbi',
-    // fullName: 'Huda Zoghbi',
-    // occupation: 'Lebanese-American geneticist',
-    // bio: {
-    //   summary: ``,
-    //   career: ``,
-    //   impact: ``,
-    // },
-    // resources: [],
-    // image: huda,
-    // tags: ['WOMEN', 'IMMIGRANT'],
+    id: 12,
+    name: 'Zoghbi',
+    fullName: 'Huda Zoghbi',
+    occupation: 'Lebanese-American geneticist',
+    bio: {
+      summary: ``,
+      career: ``,
+      impact: ``,
+    },
+    resources: [],
+    image: huda,
+    tags: ['WOMEN', 'IMMIGRANT'],
 
   },
   
