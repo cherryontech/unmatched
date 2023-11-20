@@ -321,11 +321,11 @@ export const bioData = [
   },
   {
     id: 12,
-    name: 'Zoghbi',
-    fullName: 'Huda Zoghbi',
+    name: 'Dr. Zoghbi',
+    fullName: 'Dr. Huda Zoghbi',
     occupation: 'Lebanese-American geneticist',
     bio: {
-      summary: ``,
+      summary: `Dr. Zoghbi is a professor of pediatrics, molecular and human genetics, neuroscience, and neurology at Baylor College of Medicine and is director of the Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital.`,
       career: ``,
       impact: ``,
     },
