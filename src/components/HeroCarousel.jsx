@@ -9,9 +9,9 @@ import carousel3 from '../assets/images/home/carousel3.png';
 
 export default function HeroCarousel() {
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-full scroll-smooth">
       {/* Slide 1 */}
-      <div id="slide1" className="carousel-item relative w-full">
+      <div id="slide1" className="carousel-item relative w-full scroll-smooth">
         <div className="hero h-[35rem] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel1} className="max-w-sm rounded-full mx-auto w-[305px] h-[305px] shadow-2xl" />
@@ -32,7 +32,7 @@ export default function HeroCarousel() {
         </div>
       </div>
       {/* Slide 2 */}
-      <div id="slide2" className="carousel-item relative w-full">
+      <div id="slide2" className="carousel-item relative w-full scroll-smooth">
         <div className="hero h-[35rem] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel2} className="max-w-sm  mx-auto w-[20rem] h-[25rem] shadow-2xl" />
@@ -53,7 +53,7 @@ export default function HeroCarousel() {
         </div>
       </div>
       {/* Slide 3 */}
-      <div id="slide3" className="carousel-item relative w-full">
+      <div id="slide3" className="carousel-item relative w-full scroll-smooth">
         <div className="hero h-[35rem] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel3} className="max-w-sm  mx-auto w-[20rem] h-[25rem] shadow-2xl" />
