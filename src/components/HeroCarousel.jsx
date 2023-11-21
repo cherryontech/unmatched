@@ -1,5 +1,6 @@
 // LIBRARY IMPORTS
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 // LOCAL IMPORTS
 import carousel1 from '../assets/images/home/carousel1.png';
@@ -19,7 +20,7 @@ export default function HeroCarousel() {
               <p className="py-3 text-white text-2xl w-[85%]">Every unique perspective adds value to the world of STEM. </p>
               <p className="py-3 text-white text-2xl w-[85%]">Free yourself from not fitting in and pave the way for your STEM journey. </p>
               <div className='mt-[2rem]'>
-              <span className="bg-secondary rounded-full md:px-4 md:py-2  overflow-hidden text-white  md:text-[25px] font-bold">Learn More</span>
+              <Link className="bg-secondary rounded-full md:px-4 md:py-2  overflow-hidden text-white  md:text-[25px] font-bold hover:bg-gradient-to-r from-red-500 to-purple-500">Learn More</Link>
             </div>
             </div>
           </div>
@@ -40,7 +41,7 @@ export default function HeroCarousel() {
               <p className="py-3 text-white text-2xl w-[85%]">Your journey is unique, and every step is a victory. </p>
               <p className="py-3 text-white text-2xl w-[85%]">Inspire your network with your Unmatched story. </p>
               <div className='mt-[2rem]'>
-              <span className="bg-secondary rounded-full md:px-4 md:py-2  overflow-hidden text-white  md:text-[25px] font-bold">Learn More</span>
+              <Link className="bg-secondary rounded-full md:px-4 md:py-2 hover:bg-gradient-to-r from-red-500 to-purple-500 overflow-hidden text-white  md:text-[25px]  font-bold">Learn More</Link>
             </div>
             </div>
           </div>
@@ -61,7 +62,7 @@ export default function HeroCarousel() {
               <p className="py-3 text-white text-2xl w-[85%]">Uncover stories of STEM leaders who’ve overcome imposter syndrome and fostered a more inclusive and empowering STEM community. </p>
               <p className="py-3 text-white text-2xl w-[85%]"> Find strength and inspiration in their experiences as you navigate your own STEM path. </p>
               <div className='mt-[2rem]'>
-              <span className="bg-secondary rounded-full md:px-4 md:py-2  overflow-hidden text-white  md:text-[25px] font-bold">Learn More</span>
+              <Link className="bg-secondary rounded-full md:px-4 md:py-2 hover:bg-gradient-to-r from-red-500 to-purple-500 overflow-hidden text-white  md:text-[25px] font-bold">Learn More</Link>
             </div>
             </div>
           </div>
