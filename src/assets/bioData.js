@@ -11,7 +11,7 @@ import Melissa from './images/professionals/Melissa.png';
 import Maggie from './images/professionals/Maggie.jpg';
 import James from './images/professionals/James.jpg';
 import Tazin from './images/professionals/Tazin.jpg';
-import huda from './images/professionals/huda.jpeg';
+
 
 // resources cover images
 import reshmaResource1 from './images/resources/reshma1.jpg';
@@ -34,6 +34,7 @@ import maggieResource1 from './images/resources/maggie1.jpeg';
 import maggieResource2 from './images/resources/maggie2.jpg';
 import jamesResource1 from './images/resources/james1.jpeg';
 import jamesResource2 from './images/resources/james2.jpeg';
+import faridaResource2 from './images/resources/faridalearn.png';
 
 export const bioData = [
   {
@@ -57,7 +58,7 @@ export const bioData = [
       },
       {
         title:
-          "Reshma's pick for McKinsey & Company's 2022 summer reading list",
+          "Saujani's pick for McKinsey & Company's 2022 summer reading list",
         image: reshmaResource2,
         link: 'https://www.linkedin.com/posts/reshma-saujani_2022-summer-reading-guide-activity-6962747179719389184-sWMs/',
       },
@@ -100,18 +101,20 @@ export const bioData = [
     fullName: 'Farida Bedwei',
     occupation: 'Co-Founder of Logiciel',
     bio: {
-      summary: `Farida Bedwei is a software engineer, tech entrepreneur, disability rights advocate, and author with cerebral palsy. She is the co-founder and former Chief Technical Officer of banking software company Logiciel and one of Africa's most powerful women in the fintech industry.
-      Bedwei's interest in tech began with her home computer, which made written communication easier for her. Fast-forward about 10 years into her tech career: while managing a microfinance company's IT infrastructure, Farida built a banking system that simplified the company's processes and facilitated rapid expansion. Competitors' growing interest in Farida's system inspired her and her employer to co-found Logiciel.`,
-      impact: `Bedwei's commitment to financial inclusion for people without bank accounts has worldwide influence. More than 100 microfinance companies globally use her cloud software platform to make small loans available to their customers immediately. As a member of The Girls in ICT Committee, she also supports women and girls in pursuing tech careers.
-      Farida's disability advocacy inspired her to change the narrative about people with disabilities. She created Karmzah-the world's first comic book superheroine with cerebral palsy- to give children with disabilities a character they can identify with and to show the world that people with disabilities are capable and strong`,
-      career: `Despite having cerebral palsya neurological condition that limits a person's ability to move, balance themselves, and adjust their posture, Bedwei was determined to prove to herself and the world that she could be a successful software engineer. She did that and more.
-      In interviews ano speaking engagements, Bedwei talks about her upbringing as a child who was always taught to try and never to say "I can't." She encourages aspiring tech professionals to do the same and follow this guide: make your education plan, fight for your dream job. and go where there are gaps in the market.`,
+      summary: `tech entrepreneur, disability rights advocate, and author with cerebral palsy. She is the co-founder and former Chief Technical Officer of banking software company Logiciel and one of Africa’s most powerful women in the fintech industry.\n Bedwei’s interest in tech began with her home computer, which made written communication easier for her. Fast-forward about 10 years into her tech career: while managing a microfinance company’s IT infrastructure, Bedwei built a banking system that simplified the company’s processes and facilitated rapid expansion. Competitors’ growing interest in Bedwei’s system inspired her and her employer to co-found Logiciel.`,
+      impact: `Bedwei’s commitment to financial inclusion for people without bank accounts has worldwide influence. More than 100 microfinance companies globally use her cloud software platform to make small loans available to their customers immediately. As a member of The Girls in ICT Committee, she also supports women and girls in pursuing tech careers. \n Bedwei’s disability advocacy inspired her to change the narrative about people with disabilities. She created Karmzah—the world’s first comic book superheroine with cerebral palsy—to give children with disabilities a character they can identify with and to show the world that people with disabilities are capable and strong.`,
+      career: `Despite having cerebral palsy—a neurological condition that limits a person’s ability to move, balance themselves, and adjust their posture—Bedwei was determined to prove to herself and the world that she could be a successful software engineer. She did that and more.\n In interviews and speaking engagements, Bedwei talks about her upbringing as a child who was always taught to try and never to say “I can’t.” She encourages aspiring tech professionals to do the same and follow this guide: make your education plan, fight for your dream job, and go where there are gaps in the market.`,
     },
     resources: [
       {
         title: 'Video: Disability, Does Not Mean Inability',
         image: faridaResource1,
         link: 'https://youtu.be/R0PoixS9fYk?si=4C2DmXTzY7Cor5vv',
+      },
+      {
+        title: 'Blog post: Learning to code with my disability | Farida Bedwei',
+        image: faridaResource2 ,
+        link: 'https://www.codecademy.com/resources/blog/learning-to-code-with-my-disability/',
       },
     ],
     image: Farida,
@@ -123,11 +126,10 @@ export const bioData = [
     fullName: 'Dr. Jedidah Isler',
     occupation: 'Astrophysicist and Professor',
     bio: {
-      summary: `Jedidah Isler is an astrophysicist, professor, TED fellow, and advocate for inclusive STEM education. She is the first Black woman to receive a PhD in Astrophysics from Yale University. Dr. Isler is also the founder of VanguardSTEM, an online community and platform for girls, women, and non-binary people of color in STEM. 
+      summary: `Dr. Jedidah Isler is an astrophysicist, professor, TED fellow, and advocate for inclusive STEM education. She is the first Black woman to receive a PhD in Astrophysics from Yale University. Dr. Isler is also the founder of VanguardSTEM, an online community and platform for girls, women, and non-binary people of color in STEM.\n
       Dr. Isler’s love of astronomy and astrophysics began at an early age, and her research focuses on understanding galaxies’ supermassive black holes. Her advocacy focuses on ensuring that all people can access, contribute to, and benefit from STEM. Dr. Isler founded the non-profit The STEM en Route to Change (SeRCH) Foundation, Inc. to help close the equity, inclusion, and diversity gap in STEM.`,
-      impact: `Dr. Isler has received national recognition, awards, and support for her research and advocacy in the U.S.  She has reached more than 2.5 million viewers and listeners through her TED talks and broadcast speaking engagements about STEM inclusion. As the host of her web series VanguardSTEM, 
-      Dr. Isler gathers women and non-binary people of color in STEM to share their experiences and advice and affirm their identities. Jedidah’s work as the White House Office of Science and Technology Policy’s (OSTP) principal assistant director for science focuses on equity in Federal science & technology strategy and policy.`,
-      career: `In her 2015 TED Talk, Dr. Islershared about her life as a Black woman astrophysicist who had to overcome the challenges that women of color in STEM face. She highlighted accomplished women of color in STEM and encouraged underrepresented listeners to do what she and those women did: pursue their dreams in spite of the obstacles. 
+      impact: `Dr. Isler has received national recognition, awards, and support for her research and advocacy in the U.S. \n  She has reached more than 2.5 million viewers and listeners through her TED talks and broadcast speaking engagements about STEM inclusion. As the host of her web series VanguardSTEM, Dr. Isler gathers women and non-binary people of color in STEM to share their experiences and advice and affirm their identities. \n Dr. Isler’s work as the White House Office of Science and Technology Policy’s (OSTP) principal assistant director for science focuses on equity in Federal science & technology strategy and policy.`,
+      career: `In her 2015 TED Talk, Dr. Isler shared about her life as a Black woman astrophysicist who had to overcome the challenges that women of color in STEM face. She highlighted accomplished women of color in STEM and encouraged underrepresented listeners to do what she and those women did: pursue their dreams in spite of the obstacles. 
       Dr. Isler emphasized the importance of diversity in STEM because each person’s unique perspective and experiences add value and lead to better global solutions.`,
     },
     resources: [
@@ -138,7 +140,7 @@ export const bioData = [
       },
       {
         title:
-          'Video: TED Talk | The untapped genius that could change science for the better',
+          'Video: TED Talk | Dr. Jedidah Isler - The untapped genius that could change science for the better',
         image: jediahResource2,
         link: 'https://youtu.be/3NdSVi38RM8?si=LhJc7eAXCU55N0su',
       },
