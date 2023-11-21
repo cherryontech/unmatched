@@ -12,11 +12,12 @@ export default function HeroCarousel() {
       <div id="slide1" className="carousel-item relative w-full">
         <div className="hero h-96 bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={carousel1} className="max-w-sm rounded-full shadow-2xl" />
-            <div>
-              <h1 className="text-5xl text-white font-bold">End Imposter Syndrome</h1>
-              <p className="py-6 text-white text-2xl">Every unique perspective adds value to the world of STEM. Free yourself from not fitting in and pave the way for your STEM journey.</p>
-              <button className="btn btn-secondary rounded-full text-white">Learn More</button>
+            <img src={carousel1} className="max-w-sm rounded-full mx-auto w-[215px] h-[215px] shadow-2xl" />
+            <div className='h-[215px] w-[60rem]'>
+              <p className="text-5xl py-1 text-white font-bold text-[20px]]">End Imposter Syndrome</p>
+              <p className="py-2 text-white text-2xl w-[85%]">Every unique perspective adds value to the world of STEM. </p>
+              <p className="py-2 text-white text-2xl w-[85%]">Free yourself from not fitting in and pave the way for your STEM journey. </p>
+              <button className="btn btn-secondary rounded-full overflow-hidden text-white my-8">Learn More</button>
             </div>
           </div>
         </div>
