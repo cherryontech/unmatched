@@ -9,7 +9,7 @@ import logo from '../assets/logo.png';
 export function Layout() {
   return (
     <div className="flex flex-col w-full h-full min-h-screen">
-      <div className="py-4 px-2 md:px-5 w-full">
+      <div className="py-8 px-2 md:px-5 w-full">
         <div className="flex justify-between items-center mx-auto">
           <div className="flex-shrink-0">
             <Link to="/">
