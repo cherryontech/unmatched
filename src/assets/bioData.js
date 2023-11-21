@@ -209,7 +209,7 @@ export const bioData = [
     fullName: 'Nicole Aunapu Mann',
     occupation: 'NASA Astronaut',
     bio: {
-      summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University.\n In 2013, Nicole was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Mann spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
+      summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University.\n In 2013, Mann was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Mann spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
       career: `Mann has reflected on her childhood role models, noting the lack of representation compared to the Artemis team today, and she is proud to see the culture shifting for the younger generation.
        In an interview with The Stanford Daily, Mann shared this advice: follow your dreams, make a plan to reach your goals, know that it’s okay to stumble and adapt on the way to your dreams, but never give up.
       When asked by USA Today about her definition of courage, Mann spoke about pursuing things that feel somewhat risky. She said there’s a chance you’ll fail, but try to succeed anyway and don’t let fear stop you.`,
@@ -219,13 +219,13 @@ export const bioData = [
     resources: [
       {
         title:
-          'Video: Nicole Mann takes Laughter Permitted on an out-of-this-world journey to space',
+          'Video: Laughter Permitted podcast talks with Nicole Mann while at the International Space Station',
         image: nicoleResource1,
         link: 'https://youtu.be/-4FuAtYWDYg?si=S8PL3YKiAmKW3g0g',
       },
       {
         title:
-          'News Article: Indian Country Today | First Native woman in space',
+          'News article: Indian Country Today | Nicole Mann',
         image: nicoleResource2,
         link: 'https://ictnews.org/news/first-native-woman-in-space',
       },
@@ -239,14 +239,11 @@ export const bioData = [
     fullName: 'Melissa Cristina Márquez',
     occupation: ' Marine Biologist',
     bio: {
-      summary: `Melissa is a Latina marine biologist, wildlife educator, diversity advocate, TV host, speaker, and freelance environmental writer committed to marine conservation and empowering young Latinas in science. 
-      She holds a Master of Science in Marine Biology from Victoria University of Wellington. Melissa is known as the “Mother of Sharks” and has loved the ocean and sharks since childhood. She studies Chondrichthyans (sharks, sting rays, skates, and chimeras), how the media portrays them, and how that affects conservation efforts.`,
-      career: `In her Superwomen in Science interview, Melissa talked about her personal experiences with racism, sexism, and rejection and how she used these experiences and her network’s support as motivation to excel in science. She believes science is something anyone can do, regardless of their background.
-      Melissa emphasized the need for support for women in STEM and their representation in leadership roles; it’s vital to retaining them and providing role models that aspiring STEM professionals can identify with.`,
-      impact: `Melissa has expressed her advocacy for STEM inclusion, marine conservation, and science education through interviews, TEDx, contributions to Forbes Science, and Shark Week and other TV programming. Her podcast ConCiencia Azul highlights Spanish-speaking marine scientists and enthusiasts from around the world as well as some of the major barriers Latin American countries face.
-      Melissa’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists Melissa founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
+      summary: `Melissa Cristina Marquez is a Latina marine biologist, wildlife educator, diversity advocate, TV host, speaker, and freelance environmental writer committed to marine conservation and empowering young Latinas in science. She holds a Master of Science in Marine Biology from Victoria University of Wellington. \n Marquez is known as the “Mother of Sharks” and has loved the ocean and sharks since childhood. She studies Chondrichthyans (sharks, sting rays, skates, and chimeras), how the media portrays them, and how that affects conservation efforts.`,
+      career: `In her Superwomen in Science interview, Marquez talked about her personal experiences with racism, sexism, and rejection and how she used these experiences and her network’s support as motivation to excel in science. She believes science is something anyone can do, regardless of their background.\n Marquez emphasized the need for support for women in STEM and their representation in leadership roles; it’s vital to retaining them and providing role models that aspiring STEM professionals can identify with.`,
+      impact: `Marquez has expressed her advocacy for STEM inclusion, marine conservation, and science education through interviews, TEDx, contributions to Forbes Science, and Shark Week and other TV programming. \n Her podcast ConCiencia Azul highlights Spanish-speaking marine scientists and enthusiasts from around the world as well as some of the major barriers Latin American countries face. Marquez’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists. \n Marquez founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
     },
-    resources: [{title:'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks',image:melissaResource,link:'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o'},
+    resources: [{title:'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks | Melissa Marquez',image:melissaResource,link:'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o'},
     {title:'Video: Paseo Podcast | Shark talk with marine biologist Melissa Cristina Marquez', image:melRes , link:'https://www.youtube.com/watch?v=ScQ916PP_04'}],
     image: Melissa,
     tags: ['LATINX', 'WOMEN'],
