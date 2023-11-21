@@ -41,7 +41,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Home fullDataSet={fullDataSetRef.current} />} />
           <Route
             path="/professionals"
             element={

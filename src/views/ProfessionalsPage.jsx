@@ -35,15 +35,20 @@ export function ProfessionalsPage({
         setClearedSearch={setClearedSearch}
       />
       <FilterButtonList getFilteredCards={getFilteredCards} />
-      {clearedSearch ? (
-        <Card
-          data={data}
-          setData={setData}
-          getFilteredCards={getFilteredCards}
-        />
-      ) : (
-        <NoResults />
-      )}
+      <div className="max-w-[1200px] xl:mx-auto md:mx-28 sm:mx-8">
+        <div className="lg:text-2xl text-xl font-bold md:float-left text-center text-primary px-4">
+            All Search Results
+        </div>
+        {clearedSearch ? (
+          <Card
+            data={data}
+            setData={setData}
+            getFilteredCards={getFilteredCards}
+          />
+        ) : (
+          <NoResults />
+        )}
+      </div>
     </div>
   );
 }

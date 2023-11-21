@@ -10,13 +10,13 @@ export default function HeroCarousel() {
     <div className="carousel w-full">
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full">
-        <div className="hero min-h-screen bg-primary">
+        <div className="hero h-96 bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={carousel1} className="max-w-sm rounded-lg shadow-2xl" />
+            <img src={carousel1} className="max-w-sm rounded-full shadow-2xl" />
             <div>
               <h1 className="text-5xl text-white font-bold">End Imposter Syndrome</h1>
-              <p className="py-6 text-white">Every unique perspective adds value to the world of STEM. Free yourself from not fitting in and pave the way for your STEM journey.</p>
-              <button className="btn btn-secondary">Learn More</button>
+              <p className="py-6 text-white text-2xl">Every unique perspective adds value to the world of STEM. Free yourself from not fitting in and pave the way for your STEM journey.</p>
+              <button className="btn btn-secondary rounded-full text-white">Learn More</button>
             </div>
           </div>
         </div>
