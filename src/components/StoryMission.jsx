@@ -7,9 +7,9 @@ import mission from '../assets/images/home/mission.jpeg';
 
 export default function StoryMission() {
   return (
-    <div className="py-16 lg:py-24 px-16 lg:px-24 w-[90%] object-center m-auto">
+    <div className="py-16 lg:py-24 px-16 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="flex flex-wrap justify-between items-start gap-14">
+        <div className="flex flex-wrap justify-between items-start gap-14 mb-[10rem]">
           <div >
             <img className="rounded-2xl border max-w-md mx-auto lg:max-w-lg" src={story} alt="Our Story" />
           </div>
@@ -20,7 +20,7 @@ export default function StoryMission() {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between items-start gap-14 mt-14 lg:mt-28">
+        <div className="flex flex-wrap justify-between items-start gap-14 mt-14 lg:mt-28 mb-[4rem]">
           <div className="flex-1">
             <h2 className="text-4xl font-bold text-primary">Our Mission</h2>
             <p className="mt-5 text-2xl text-primary">
