@@ -16,6 +16,7 @@ export function Home({ fullDataSet }) {
             Explore Unmatched's Empowering Voices
         </div>
         <Card data={fullDataSet} limit={3} />
+       
       </div>
     </div>
   )
