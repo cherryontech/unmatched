@@ -28,7 +28,7 @@ export function Home({ fullDataSet }) {
       <HeroCarousel />
       <StoryMission />
       <div className="max-w-[1200px] xl:mx-auto md:mx-8 sm:mx-8">
-        <div className="lg:text-3xl text-3xl font-bold text-center text-primary px-4">
+        <div className="lg:text-3xl text-2xl font-bold text-center text-primary px-4">
             Explore Unmatched's Empowering Voices
         </div>
         <div className="max-w-[1200px] xl:mx-auto md:mx-28 sm:mx-8">
