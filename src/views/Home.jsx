@@ -1,5 +1,6 @@
 // LIBRARY IMPORTS
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // LOCAL IMPORTS
 import HeroCarousel from '../components/HeroCarousel.jsx';
@@ -36,8 +37,16 @@ export function Home({ fullDataSet }) {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 md:m-auto sm:grid-cols-1 gap-12 place-items-center m-auto">
         {limitDataCard}
         </div>
+        
         </div>
+        <Link
+              to="/professionals"
+              className="px-4 md:float-right py-2 justify-center mr-5 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white mb-12"
+            >
+             Unmatched Voices
+            </Link>
         </div>
+       
       </div>
     </div>
   )

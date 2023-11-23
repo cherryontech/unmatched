@@ -16,10 +16,10 @@ export default function HeroCarousel() {
         <div className="hero  h-[30rem] lg:h-[33rem] max-h-[100%]  bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel1} className="max-w-sm rounded-full mx-auto w-[33%] lg:w-[27%] h-[11rem] lg:h-[20rem] shadow-2xl" />
-            <div className='h-[305px] w-[100%] lg:w-[50rem] sm:h-fit'>
+            <div className='h-[305px] w-[100%] lg:w-[50rem] md:justify-start justify-center lg:text-start text-center sm:h-fit'>
               <p className="lg:text-5xl py-1 text-white font-bold text-[25px] lg:text-[20px]]">End Imposter Syndrome</p>
-              <p className="py-3 text-white text-[16px] w-[80%] lg:text-2xl lg:w-[85%]">Every unique perspective adds value to the world of STEM. </p>
-              <p className="py-3 text-white text-[16px] lg:text-2xl lg:w-[85%]">Free yourself from not fitting in and pave the way for your STEM journey. </p>
+              <p className="py-3 text-white text-[16px] w-[97%] lg:text-2xl lg:w-[85%]">Every unique perspective adds value to the world of STEM. </p>
+              <p className="py-3 text-white text-[16px] w-[97%] lg:text-2xl lg:w-[85%]">Free yourself from not fitting in and pave the way for your STEM journey. </p>
               <div className='mt-[2rem]'>
               <Link className="bg-secondary rounded-full px-4 lg:py-2 p-1 overflow-hidden text-white lg:text-[20px] text-[15px] font-bold hover:bg-gradient-to-r from-red-500 to-purple-500">Learn More</Link>
             </div>
@@ -37,10 +37,10 @@ export default function HeroCarousel() {
         <div className="hero  h-[30rem] lg:h-[33rem] max-h-[100%] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel2} className="max-w-sm  mx-auto h-[12rem] w-[9rem] lg:w-[20%] lg:h-[25%] shadow-2xl" />
-            <div className='h-[305px] w-[100%] lg:w-[50rem] sm:h-fit'>
+            <div className='h-[305px] w-[100%] md:justify-start  justify-center lg:text-start text-center lg:w-[50rem] sm:h-fit'>
               <p className="lg:text-5xl py-1 text-white font-bold text-[25px] lg:text-[20px]]">Your Story Matters</p>
-              <p className="py-3 text-white text-[16px] w-[80%] lg:text-2xl lg:w-[85%]">Your journey is unique, and every step is a victory. </p>
-              <p className="py-3 text-white text-[16px] lg:text-2xl lg:w-[85%]">Inspire your network with your Unmatched story. </p>
+              <p className="py-3 text-white text-[16px] w-[97%] lg:text-2xl lg:w-[85%]">Your journey is unique, and every step is a victory. </p>
+              <p className="py-3 text-white text-[16px] w-[97%] lg:text-2xl lg:w-[85%]">Inspire your network with your Unmatched story. </p>
               <div className='mt-[2rem]'>
               <Link className="bg-secondary rounded-full px-4 lg:py-2 p-1 overflow-hidden text-white lg:text-[20px] text-[15px] font-bold hover:bg-gradient-to-r from-red-500 to-purple-500">Learn More</Link>
             </div>
@@ -58,10 +58,10 @@ export default function HeroCarousel() {
         <div className="hero h-[30rem] lg:h-[100%] max-h-[33rem] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel3} className="max-w-sm  mx-auto w-[30%] h-[11rem] lg:h-[20rem] shadow-2xl" />
-            <div className='h-[305px] w-[80%] lg:w-[50rem] sm:h-fit'>
+            <div className='h-[305px] w-[80%] lg:w-[50rem] sm:h-fit md:justify-start lg:text-start  justify-center text-center '>
               <p className="lg:text-5xl py-1 text-white font-bold text-[25px] lg:text-[20px]]">Connect with STEM Voices</p>
-              <p className="py-1 text-white text-[16px] w-[80%] lg:text-[21px] lg:w-[85%]">Uncover stories of STEM leaders who’ve overcome imposter syndrome and fostered a more inclusive and empowering STEM community. </p>
-              <p className="py-1 text-white text-[16px] lg:text-[21px] lg:w-[85%]"> Find strength and inspiration in their experiences as you navigate your own STEM path. </p>
+              <p className="py-1 text-white text-[16px] w-[97%] lg:text-[21px] lg:w-[85%]">Uncover stories of STEM leaders who’ve overcome imposter syndrome and fostered a more inclusive and empowering STEM community. </p>
+              <p className="py-1 text-white text-[16px] w-[97%] lg:text-[21px] lg:w-[85%]"> Find strength and inspiration in their experiences as you navigate your own STEM path. </p>
               <div className='mt-[2rem]'>
               <Link className="bg-secondary rounded-full px-4 lg:py-2 p-1 overflow-hidden text-white lg:text-[20px] text-[15px] font-bold hover:bg-gradient-to-r from-red-500 to-purple-500">Learn More</Link>
             </div>
