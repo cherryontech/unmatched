@@ -1,6 +1,7 @@
 // LIBRARY IMPORTS
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { Carousel } from 'flowbite-react';
 
 // LOCAL IMPORTS
 import carousel1 from '../assets/images/home/carousel1.png';
@@ -12,8 +13,9 @@ export default function HeroCarousel() {
   return (
     <div className="carousel w-[100%] scroll-smooth">
       {/* Slide 1 */}
+      <Carousel>
       <div id="slide1" className="carousel-item relative  w-[100%] scroll-smooth">
-        <div className="hero  h-[30rem] lg:h-[33rem] max-h-[100%]  bg-primary">
+        <div className="hero  h-[35rem] lg:h-[35rem] max-h-[100%]  bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel1} className="max-w-sm rounded-full mx-auto w-[33%] lg:w-[27%] h-[11rem] lg:h-[20rem] shadow-2xl" />
             <div className='h-[305px] w-[100%] lg:w-[50rem] md:justify-start justify-center lg:text-start text-center sm:h-fit'>
@@ -27,14 +29,11 @@ export default function HeroCarousel() {
           </div>
           
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn btn-circle">❮</a>
-          <a href="#slide2" className="btn btn-circle">❯</a>
-        </div>
+        
       </div>
       {/* Slide 2 */}
       <div id="slide2" className="carousel-item relative w-full scroll-smooth">
-        <div className="hero  h-[30rem] lg:h-[33rem] max-h-[100%] bg-primary">
+        <div className="hero  h-[35rem] lg:h-[35rem] max-h-[100%] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel2} className="max-w-sm  mx-auto h-[12rem] w-[9rem] lg:w-[20%] lg:h-[25%] shadow-2xl" />
             <div className='h-[305px] w-[100%] md:justify-start  justify-center lg:text-start text-center lg:w-[50rem] sm:h-fit'>
@@ -48,14 +47,11 @@ export default function HeroCarousel() {
           </div>
           
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">❮</a>
-          <a href="#slide3" className="btn btn-circle">❯</a>
-        </div>
+        
       </div>
       {/* Slide 3 */}
       <div id="slide3" className="carousel-item relative w-full scroll-smooth">
-        <div className="hero h-[30rem] lg:h-[100%] max-h-[33rem] bg-primary">
+        <div className="hero h-[35rem] lg:h-[35rem] max-h-[33rem] bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel3} className="max-w-sm  mx-auto w-[30%] h-[11rem] lg:h-[20rem] shadow-2xl" />
             <div className='h-[305px] w-[80%] lg:w-[50rem] sm:h-fit md:justify-start lg:text-start  justify-center text-center '>
@@ -69,11 +65,9 @@ export default function HeroCarousel() {
           </div>
           
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">❮</a>
-          <a href="#slide1" className="btn btn-circle">❯</a>
-        </div>
+        
       </div>
+      </Carousel>
     </div>
   )
 }
