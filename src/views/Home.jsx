@@ -7,7 +7,7 @@ import HeroCarousel from '../components/HeroCarousel.jsx';
 import StoryMission from '../components/StoryMission.jsx';
 import SingleCard from '../components/SingleCard.jsx';
 
-export function Home({ fullDataSet }) {
+export function Home({ fullDataSet, changeVoicesColor}) {
   const limitData = []
   for(let i = 0; i<3; i++){
     limitData.push(fullDataSet[i])
@@ -42,7 +42,7 @@ export function Home({ fullDataSet }) {
         <Link
               to="/professionals"
               className="px-4 md:float-right py-2 justify-center mr-5 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white mb-12"
-            >
+            onClick={changeVoicesColor}>
              Unmatched Voices
             </Link>
         </div>

@@ -8,7 +8,7 @@ import { Home, Layout, ProfessionalsPage, BioPage } from './views';
 import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
-     // SET STATES
+     // SET   DATA STATES
    const [data, setData] = useState(bioData);
 
    const getFilteredCards = (tag) =>{
@@ -32,6 +32,23 @@ function App() {
     }
     }
 
+
+  const clicked = {clickedVoiceIcon:false, clickedAboutIcon:false}
+  
+  // SET NAV ICON STATE
+    const [iconClick, seticonClick] = useState(clicked )
+  
+    const changeVoicesColor = ()=>{
+      const isClicked = {...clicked, clickedVoiceIcon:true}
+      seticonClick(isClicked);
+      
+    }
+  
+    const ChangeAboutIcon = () =>{
+      const isClicked = {...clicked, clickedAboutIcon:true}
+      seticonClick(isClicked);
+    }
+    
   // SET REFERENCES
   const fullDataSetRef = useRef(bioData);
 
@@ -40,8 +57,9 @@ function App() {
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home fullDataSet={fullDataSetRef.current} />} />
+        <Route path="/" element={<Layout changeVoicesColor = {changeVoicesColor } ChangeAboutIcon={ChangeAboutIcon} 
+        iconClick={iconClick}/>}>
+          <Route index element={<Home fullDataSet={fullDataSetRef.current} changeVoicesColor = {changeVoicesColor } />} />
           <Route
             path="/professionals"
             element={

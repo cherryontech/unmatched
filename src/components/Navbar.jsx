@@ -4,26 +4,16 @@ import { NavLink } from 'react-router-dom';
 
 // LOCAL IMPORTS
 
-export default function NavBar() {
+export default function NavBar({changeVoicesColor, ChangeAboutIcon, iconClick}) {
   const clicked = {clickedVoiceIcon:false, clickedAboutIcon:false}
   
-  const [iconClick, seticonClick] = useState(clicked )
+  
 
   const voiceIconColor = iconClick.clickedVoiceIcon? 'md:bg-gradient-to-r from-red-500 to-purple-500 ' : 'md:bg-red-500';
   const aboutIconColor = iconClick.clickedAboutIcon? 'md:border-b-4 border-b-[#0A2E50] ' : '';
   const voiceIcon = iconClick.clickedVoiceIcon? 'bg-gradient-to-r from-red-500 to-purple-500 text-transparent bg-clip-text' : 'text-primary';
   const aboutIcon = iconClick.clickedAboutIcon? 'bg-gradient-to-r from-red-500 to-purple-500 bg-clip-text text-transparent' : 'text-primary';
 
-  const changeVoicesColor = ()=>{
-    const isClicked = {...clicked, clickedVoiceIcon:true}
-    seticonClick(isClicked);
-    
-  }
-
-  const ChangeAboutIcon = () =>{
-    const isClicked = {...clicked, clickedAboutIcon:true}
-    seticonClick(isClicked);
-  }
   
   return (
     <div className="space-x-4">

@@ -6,7 +6,7 @@ import { Outlet, Link } from 'react-router-dom';
 import NavBar from '../components/Navbar';
 import logo from '../assets/logo.png';
 
-export function Layout() {
+export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick }) {
   return (
     <div className="flex flex-col w-full h-full min-h-screen">
       <div className="py-8 px-2 md:px-5 w-full">
@@ -20,7 +20,7 @@ export function Layout() {
               />
             </Link>
           </div>
-          <NavBar />
+          <NavBar ChangeAboutIcon= {ChangeAboutIcon} changeVoicesColor= {changeVoicesColor} iconClick={iconClick}/>
         </div>
       </div>
       <main className="flex-1 flex flex-col w-full">
