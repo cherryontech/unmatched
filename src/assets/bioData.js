@@ -1,3 +1,4 @@
+// LOCAL IMPORTS
 // professionals images
 import Reshma from './images/professionals/Reshma.jpg';
 import Anna from './images/professionals/Anna.jpg';
@@ -10,7 +11,8 @@ import Melissa from './images/professionals/Melissa.png';
 import Maggie from './images/professionals/Maggie.jpg';
 import James from './images/professionals/James.jpg';
 import Tazin from './images/professionals/Tazin.jpg';
-import huda from './images/professionals/huda.jpeg';
+
+
 // resources cover images
 import reshmaResource1 from './images/resources/reshma1.jpg';
 import reshmaResource2 from './images/resources/reshma2.jpg';
@@ -25,21 +27,28 @@ import ranaResource1 from './images/resources/rana1.jpg';
 import ranaResource2 from './images/resources/rana2.jpg';
 import nicoleResource1 from './images/resources/nicole1.jpg';
 import nicoleResource2 from './images/resources/nicole2.jpg';
-
-
+import melissaResource from './images/resources/mell.jpg';
+import melRes from './images/resources/melres.jpg';
+import tazin from './images/resources/tazin.png';
+import maggieResource1 from './images/resources/maggie1.jpeg';
+import maggieResource2 from './images/resources/maggie2.jpg';
+import jamesResource1 from './images/resources/james1.jpeg';
+import jamesResource2 from './images/resources/james2.jpeg';
+import faridaResource2 from './images/resources/faridalearn.png';
+import tazinResource from './images/resources/tedtalk.png';
 
 export const bioData = [
   {
     id: 1,
-    name: 'Reshma',
+    name: 'Saujani',
     fullName: 'Reshma Saujani',
     occupation: 'Founder of Girls Who Code',
     bio: {
       summary: `Reshma Saujani is a renowned activist and author committed to empowering women and girls, bridging the tech gender gap, and advocating for moms. She is best known as the founder of Girls Who Code, a non-profit organization closing the tech gender gap by offering girls, women, and nonbinary people access to programming education.
-      Reshma began her career as an attorney and made history as the first Indian American woman to run for U.S. Congress in 2010. Witnessing the gender gap in computer science classrooms during her campaign inspired her to create Girls Who Code in 2012.`,
-      impact: `Reshma's impact extends from her bestseller Brave, Not Perfect to her influential TED talk, “Teach girls bravery, not perfection”. Girls Who Code has reached over 500 million people worldwide and has taught more than 300,000 girls how to code. Reshma’s passion for moms established Moms First in 2020, a non-profit supporting working moms through policy change.`,
-      career: `In her 2023 Smith College commencement speech, Reshma shared about her upbringing as the child of Indian refugees living in the U.S. She recalled feeling isolated because no one else looked like her; she had no one to identify with. This feeling remained with her even in her successful career as an attorney.
-      Reshma said imposter syndrome makes us look like the problem, but we’re not. She is committed to female empowerment because she said we have a broken system that makes us feel we’re not enough when we are. So it’s up to us to fix the system.`,
+      Saujani began her career as an attorney and made history as the first Indian American woman to run for U.S. Congress in 2010. Witnessing the gender gap in computer science classrooms during her campaign inspired her to create Girls Who Code in 2012.`,
+      impact: `Saujani's impact extends from her bestseller Brave, Not Perfect to her influential TED talk, “Teach girls bravery, not perfection”. Girls Who Code has reached over 500 million people worldwide and has taught more than 300,000 girls how to code. Saujani’s passion for moms established Moms First in 2020, a non-profit supporting working moms through policy change.`,
+      career: `In her 2023 Smith College commencement speech, Saujani shared about her upbringing as the child of Indian refugees living in the U.S. She recalled feeling isolated because no one else looked like her; she had no one to identify with. This feeling remained with her even in her successful career as an attorney.
+      Saujani said imposter syndrome makes us look like the problem, but we’re not. She is committed to female empowerment because she said we have a broken system that makes us feel we’re not enough when we are. So it’s up to us to fix the system.`,
     },
     resources: [
       {
@@ -50,7 +59,7 @@ export const bioData = [
       },
       {
         title:
-          "Reshma's pick for McKinsey & Company's 2022 summer reading list",
+          "Saujani's pick for McKinsey & Company's 2022 summer reading list",
         image: reshmaResource2,
         link: 'https://www.linkedin.com/posts/reshma-saujani_2022-summer-reading-guide-activity-6962747179719389184-sWMs/',
       },
@@ -89,16 +98,13 @@ export const bioData = [
   },
   {
     id: 3,
-    name: 'Farida',
+    name: 'Bedwei',
     fullName: 'Farida Bedwei',
     occupation: 'Co-Founder of Logiciel',
     bio: {
-      summary: `Farida Bedwei is a software engineer, tech entrepreneur, disability rights advocate, and author with cerebral palsy. She is the co-founder and former Chief Technical Officer of banking software company Logiciel and one of Africa's most powerful women in the fintech industry.
-      Farida's interest in tech began with her home computer, which made written communication easier for her. Fast-forward about 10 years into her tech career: while managing a microfinance company's IT infrastructure, Farida built a banking system that simplified the company's processes and facilitated rapid expansion. Competitors' growing interest in Farida's system inspired her and her employer to co-found Logiciel.`,
-      impact: `Farida's commitment to financial inclusion for people without bank accounts has worldwide influence. More than 100 microfinance companies globally use her cloud software platform to make small loans available to their customers immediately. As a member of The Girls in ICT Committee, she also supports women and girls in pursuing tech careers.
-      Farida's disability advocacy inspired her to change the narrative about people with disabilities. She created Karmzah-the world's first comic book superheroine with cerebral palsy- to give children with disabilities a character they can identify with and to show the world that people with disabilities are capable and strong`,
-      career: `Despite having cerebral palsya neurological condition that limits a person's ability to move, balance themseives, and adjust their posture-Farida was determined to prove to herself and the world that she could be a successful software engineer. She did that and more.
-      In interviews ano speaking engagements, Farida talks about her upbringing as a child who was always taught to try and never to say "I can't." She encourages aspiring tech professionals to do the same and follow this guide: make your education plan, fight for your dream job. and go where there are gaps in the market.`,
+      summary: `tech entrepreneur, disability rights advocate, and author with cerebral palsy. She is the co-founder and former Chief Technical Officer of banking software company Logiciel and one of Africa’s most powerful women in the fintech industry.\n Bedwei’s interest in tech began with her home computer, which made written communication easier for her. Fast-forward about 10 years into her tech career: while managing a microfinance company’s IT infrastructure, Bedwei built a banking system that simplified the company’s processes and facilitated rapid expansion. Competitors’ growing interest in Bedwei’s system inspired her and her employer to co-found Logiciel.`,
+      impact: `Bedwei’s commitment to financial inclusion for people without bank accounts has worldwide influence. More than 100 microfinance companies globally use her cloud software platform to make small loans available to their customers immediately. As a member of The Girls in ICT Committee, she also supports women and girls in pursuing tech careers. \n Bedwei’s disability advocacy inspired her to change the narrative about people with disabilities. She created Karmzah—the world’s first comic book superheroine with cerebral palsy—to give children with disabilities a character they can identify with and to show the world that people with disabilities are capable and strong.`,
+      career: `Despite having cerebral palsy—a neurological condition that limits a person’s ability to move, balance themselves, and adjust their posture—Bedwei was determined to prove to herself and the world that she could be a successful software engineer. She did that and more.\n In interviews and speaking engagements, Bedwei talks about her upbringing as a child who was always taught to try and never to say “I can’t.” She encourages aspiring tech professionals to do the same and follow this guide: make your education plan, fight for your dream job, and go where there are gaps in the market.`,
     },
     resources: [
       {
@@ -106,19 +112,26 @@ export const bioData = [
         image: faridaResource1,
         link: 'https://youtu.be/R0PoixS9fYk?si=4C2DmXTzY7Cor5vv',
       },
+      {
+        title: 'Blog post: Learning to code with my disability | Farida Bedwei',
+        image: faridaResource2 ,
+        link: 'https://www.codecademy.com/resources/blog/learning-to-code-with-my-disability/',
+      },
     ],
     image: Farida,
     tags:['BLACK', 'WOMEN', 'DISABILITY']
   },
   {
     id: 4,
-    name: 'Jedidah',
-    fullName: 'Jedidah Isler',
+    name: ' Dr. Isler',
+    fullName: 'Dr. Jedidah Isler',
     occupation: 'Astrophysicist and Professor',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Dr. Jedidah Isler is an astrophysicist, professor, TED fellow, and advocate for inclusive STEM education. She is the first Black woman to receive a PhD in Astrophysics from Yale University. Dr. Isler is also the founder of VanguardSTEM, an online community and platform for girls, women, and non-binary people of color in STEM.\n
+      Dr. Isler’s love of astronomy and astrophysics began at an early age, and her research focuses on understanding galaxies’ supermassive black holes. Her advocacy focuses on ensuring that all people can access, contribute to, and benefit from STEM. Dr. Isler founded the non-profit The STEM en Route to Change (SeRCH) Foundation, Inc. to help close the equity, inclusion, and diversity gap in STEM.`,
+      impact: `Dr. Isler has received national recognition, awards, and support for her research and advocacy in the U.S. \n  She has reached more than 2.5 million viewers and listeners through her TED talks and broadcast speaking engagements about STEM inclusion. As the host of her web series VanguardSTEM, Dr. Isler gathers women and non-binary people of color in STEM to share their experiences and advice and affirm their identities. \n Dr. Isler’s work as the White House Office of Science and Technology Policy’s (OSTP) principal assistant director for science focuses on equity in Federal science & technology strategy and policy.`,
+      career: `In her 2015 TED Talk, Dr. Isler shared about her life as a Black woman astrophysicist who had to overcome the challenges that women of color in STEM face. She highlighted accomplished women of color in STEM and encouraged underrepresented listeners to do what she and those women did: pursue their dreams in spite of the obstacles. 
+      Dr. Isler emphasized the importance of diversity in STEM because each person’s unique perspective and experiences add value and lead to better global solutions.`,
     },
     resources: [
       {
@@ -128,7 +141,7 @@ export const bioData = [
       },
       {
         title:
-          'Video: TED Talk | The untapped genius that could change science for the better',
+          'Video: TED Talk | Dr. Jedidah Isler - The untapped genius that could change science for the better',
         image: jediahResource2,
         link: 'https://youtu.be/3NdSVi38RM8?si=LhJc7eAXCU55N0su',
       },
@@ -138,13 +151,15 @@ export const bioData = [
   },
   {
     id: 5,
-    name: 'Maya',
+    name: 'Ajmera',
     fullName: 'Maya Ajmera',
     occupation: 'CEO of Society for Science',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Maya Ajmera is a distinguished professional in the field of science, education, and nonprofit leadership. She currently serves as the CEO of the Society for Science, a renowned organization dedicated to promoting science education and research. Ajmera is also an accomplished author and a passionate advocate for science literacy. \n Ajmera’s journey in the realm of science and education has been marked by her commitment to fostering a love for science among young minds. As the founder of the Global Fund for Children, she has championed initiatives that support innovative and impactful programs for children and youth around the world.`,
+      career: `Ajmera's journey to success has not been without its challenges, and she has faced moments of self-doubt. In her interviews and public engagements, Ajmera emphasizes the importance of embracing one's uniqueness and overcoming imposter syndrome.\n Ajmera encourages aspiring scientists and educators to recognize their own value and contributions. She highlights the significance of perseverance, curiosity, and a willingness to learn from failures. 
+      `,
+      impact: `Ajmera's impact in the realm of science and education is significant. Under her leadership, the Society for Science has played a pivotal role in advancing science education globally. The organization is widely recognized for its world-renowned science competitions, such as the Intel International Science and Engineering Fair (ISEF), which provides a platform for young scientists to showcase their talents. \n Ajmera’s commitment to promoting diversity and inclusion in science education is evident through the Society for Science's initiatives. She has worked tirelessly to ensure that students from all backgrounds have access to opportunities that nurture their passion for science. 
+      `,
     },
     resources: [
       {
@@ -164,24 +179,24 @@ export const bioData = [
   },
   {
     id: 6,
-    name: 'Rana',
-    fullName: 'Rana Dajani',
+    name: 'Dr. Dajani',
+    fullName: 'Dr. Rana Dajani',
     occupation: 'Molecular Biologist and Professor',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Dr. Rana Dajani is a distinguished molecular biologist and professor recognized for her contributions to scientific research, education, and community development. With a background in molecular biology, she has played a pivotal role in advancing the understanding of genetic factors in health and disease. \n Dr. Dajani’s academic journey led her to pursue a PhD in molecular biology from the University of Iowa. Her research focuses on genetics, particularly the genetics of circadian rhythms and their impact on health. Throughout her career, she has published numerous research papers, contributing significantly to the scientific community's understanding of molecular biology.`,
+      career: `In various interviews and speaking engagements, Dr. Dajani has shared insights into overcoming imposter syndrome. She emphasizes the importance of resilience and perseverance, recounting moments in her career when she faced challenges and doubted her abilities. Dr. Dajani advocates for building a supportive network that can provide guidance and encouragement during moments of self-doubt. \n Her message to aspiring scientists is grounded in the belief that embracing challenges, staying curious, and seeking support are crucial elements in conquering imposter syndrome.`,
+      impact: `Dr. Dajani’s impact extends beyond her research endeavors. She is a strong advocate for science education, particularly for women in STEM. As the founder of nonprofit We Love Reading, Dr. Dajani promotes literacy and the love of reading among children in underserved communities. Her commitment to education and community development has earned her recognition as a leader in both scientific and humanitarian efforts. \n Dr. Dajani’s dedication to empowering women in the scientific community is evident through her initiatives and mentorship programs. By actively encouraging the participation of women in STEM fields, she has contributed to breaking down gender barriers and fostering a more inclusive scientific landscape.`,
     },
     resources: [
       {
         title:
-          'Video: This hero is the Middle East winner of the UNHCR Nansen Refugee Award. Meet Rana Dajani',
+          'Video: UNHCR Nansen Refugee Award winner Dr. Rana Dajani',
         image: ranaResource1,
         link: 'https://youtu.be/LaYLqxq2kFo?si=8f3KDJH-NdhjLIIO',
       },
       {
         title:
-          'Video: TED Talk | If we can reverse cell fate, why can’t we redefine success?',
+          'Video: Ted Talk | Dr. Rana Dajani - If we can reverse cell fate, why can’t we redefine success?',
         image: ranaResource2,
         link: 'https://youtu.be/duqw1Kj3wyM?si=M5S8_QQkHD_KdZu9',
       },
@@ -191,24 +206,27 @@ export const bioData = [
   },
   {
     id: 7,
-    name: 'Nicole',
+    name: 'Mann',
     fullName: 'Nicole Aunapu Mann',
     occupation: 'NASA Astronaut',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University.\n In 2013, Mann was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Mann spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
+      career: `Mann has reflected on her childhood role models, noting the lack of representation compared to the Artemis team today, and she is proud to see the culture shifting for the younger generation.
+       In an interview with The Stanford Daily, Mann shared this advice: follow your dreams, make a plan to reach your goals, know that it’s okay to stumble and adapt on the way to your dreams, but never give up.
+      When asked by USA Today about her definition of courage, Mann spoke about pursuing things that feel somewhat risky. She said there’s a chance you’ll fail, but try to succeed anyway and don’t let fear stop you.`,
+      impact: `Mann’s impact on the field of space exploration is marked by her trailblazing role as one of the few women chosen to be a NASA astronaut. As a skilled pilot and astronaut, Mann contributes to the scientific and technological advancements of space missions and also serves as an inspiration for women aspiring to enter STEM fields. 
+      By pushing boundaries and challenging stereotypes, Mann’s impact extends beyond her individual achievements, fostering a more diverse and equitable future for space exploration.`,
     },
     resources: [
       {
         title:
-          'Video: Nicole Mann takes Laughter Permitted on an out-of-this-world journey to space',
+          'Video: Laughter Permitted podcast talks with Nicole Mann while at the International Space Station',
         image: nicoleResource1,
         link: 'https://youtu.be/-4FuAtYWDYg?si=S8PL3YKiAmKW3g0g',
       },
       {
         title:
-          'News Article: Indian Country Today | First Native woman in space',
+          'News article: Indian Country Today | Nicole Mann',
         image: nicoleResource2,
         link: 'https://ictnews.org/news/first-native-woman-in-space',
       },
@@ -218,74 +236,104 @@ export const bioData = [
   },
   {
     id: 8,
-    name: 'Melissa',
+    name: 'Márquez',
     fullName: 'Melissa Cristina Márquez',
     occupation: ' Marine Biologist',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Melissa Cristina Marquez is a Latina marine biologist, wildlife educator, diversity advocate, TV host, speaker, and freelance environmental writer committed to marine conservation and empowering young Latinas in science. She holds a Master of Science in Marine Biology from Victoria University of Wellington. \n Marquez is known as the “Mother of Sharks” and has loved the ocean and sharks since childhood. She studies Chondrichthyans (sharks, sting rays, skates, and chimeras), how the media portrays them, and how that affects conservation efforts.`,
+      career: `In her Superwomen in Science interview, Marquez talked about her personal experiences with racism, sexism, and rejection and how she used these experiences and her network’s support as motivation to excel in science. She believes science is something anyone can do, regardless of their background.\n Marquez emphasized the need for support for women in STEM and their representation in leadership roles; it’s vital to retaining them and providing role models that aspiring STEM professionals can identify with.`,
+      impact: `Marquez has expressed her advocacy for STEM inclusion, marine conservation, and science education through interviews, TEDx, contributions to Forbes Science, and Shark Week and other TV programming. \n Her podcast ConCiencia Azul highlights Spanish-speaking marine scientists and enthusiasts from around the world as well as some of the major barriers Latin American countries face. Marquez’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists. \n Marquez founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
     },
-    resources: [],
+    resources: [{title:'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks | Melissa Marquez',image:melissaResource,link:'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o'},
+    {title:'Video: Paseo Podcast | Shark talk with marine biologist Melissa Cristina Marquez', image:melRes , link:'https://www.youtube.com/watch?v=ScQ916PP_04'}],
     image: Melissa,
     tags: ['LATINX', 'WOMEN'],
   },
   {
     id: 9,
-    name: 'Maggie',
-    fullName: 'Maggie Aderin-Pocock',
-    occupation: 'Space Scientist and Author',
+    name: 'Dr. Aderin-Pocock',
+    fullName: 'Dr. Maggie Aderin-Pocock',
+    occupation: 'Space Scientist, Science Educator, and Author',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Dr. Maggie Aderin-Pocock, best known as the host of BBC's The Sky at Night, is a British space scientist and science educator. She has brought complex astronomical concepts to a broad audience through her boundless enthusiasm, which has been lighting up the TV screens for years. Dr. Aderin-Pocock is also an accomplished author, having written several books that make space science accessible and engaging. \n In addition to these roles, Dr. Aderin-Pocock serves as the Chancellor of the University of Leicester, showcasing her commitment to educational leadership and her expertise in the field of space science. From her engagement in groundbreaking projects like the James Webb Space Telescope to her role as a science communicator, she challenges conventional perceptions of scientists.
+      `,
+      career: `Dr. Aderin-Pocock's journey into science was not without challenges. Attending 13 different schools, she was often underestimated and placed in remedial classes due to a lack of understanding of her dyslexia. She was made to feel unintelligent and even began to internalize this feeling. \n Luckily, Dr. Aderin-Pocock discovered her knack for science and technology. She slowly built her confidence with the help of her father, who fostered her newfound learning interest. Dr. Aderin-Pocock’s distinctive way of thinking led her to extraordinary achievements, including working on the James Webb Space Telescope. Her advice to young people of color looking to get into STEM is to be bold, outspoken, and passionate. `,
+      impact: `Dr. Aderin-Pocock is not just a space scientist; she is a vocal advocate for diversity in her field. Her work goes beyond the confines of traditional science to include exploring the history of astronomy from non-Western perspectives. \n Dr. Aderin-Pocock’s approach to science blends her passion with a commitment to making it accessible and inclusive for all. By championing diversity, she brings fresh viewpoints to science, illustrating the importance of including diverse voices in understanding our universe.`,
     },
-    resources: [],
+    resources: [
+      {
+        title:
+          'Video: Dr. Maggie Aderin-Pocock on How to think outside the planet',
+        image: maggieResource1,
+        link: 'https://www.youtube.com/watch?v=Tx4oCxtX2YE',
+      },
+      {
+        title:
+          'Interview: The Guardian | The Art of Stargazing',
+        image: maggieResource2,
+        link: 'https://www.theguardian.com/science/2023/oct/29/dr-maggie-aderin-pocock-interview-the-art-of-stargazing',
+      },
+    ],
     image: Maggie,
     tags: ['BLACK', 'WOMEN', 'DISABILITY'],
   },
   {
     id: 10,
-    name: 'James',
-    fullName: 'James Makokis',
-    occupation: 'Two-Spirit Family Physician',
+    name: 'Dr. Makokis',
+    fullName: 'Dr. James Makokis',
+    occupation: 'Family Physician & Clinical Professor',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Dr. James Makokis is a Two-Spirit family physician from the Saddle Lake Cree Nation. He also serves as an Associate Clinical Professor in the Faculty of Medicine at the University of Alberta.\n Dr. Makokis is dedicated to caring for Indigiqueer patients and is a prominent voice in advocating for health issues specific to Indigenous Two-Spirit and transgender communities. His contributions to medicine extend beyond clinical care to education and advocacy, striving to improve the healthcare system's responsiveness to the unique needs of these communities.`,
+      career: `Despite facing significant challenges, including the lack of Indigenous representation in medicine, Dr. Makokis was inspired by his family and community from an early age. He navigated his path to medicine while embracing his Two-Spirit identity and overcoming the environments that were not conducive to his academic goals. His journey to medicine was also intertwined with his personal journey of accepting and expressing his Two-Spirit identity. `,
+      impact: `Dr. Makokis is renowned for his work in Indigenous LGBTQ2S+ healthcare. As an advocate for Indigenous Two-Spirit and transgender health both nationally and internationally, he has made a significant impact. His approach to healthcare combines Indigenous and Western teachings, focusing on providing a safe and affirming space for Indigiqueer patients. \n Dr. Makokis emphasizes the importance of representation in medicine, particularly for Indigiqueer individuals, and he actively works to provide gender-affirming care, which he considers life-saving.`,
     },
-    resources: [],
+    resources: [
+      {
+        title:
+          'Video: AJ+ | Trans And Native: Meet The Indigenous Doctor Giving Them Hope',
+        image: jamesResource1,
+        link: 'https://www.youtube.com/watch?v=MSnvtj0G3cA',
+      },
+      {
+        title:
+          'Interview: Forbes | A Nehiyô Two-Spirit Physician’s Reflections On Providing Indigenous Interventions In Modern Medicine',
+        image: jamesResource2,
+        link: 'https://www.forbes.com/sites/victorlopez-carmen/2023/04/27/a-nehiy-two-spirit-physicians-reflections-on-providing-indigenous-interventions-in-modern-medicine/?sh=eb5916a37da1',
+      },
+    ],
     image: James,
     tags: ['LGBTQ+','INDIGENOUS'],
   },
   {
     id: 11,
-    name: 'Tazin',
+    name: 'Khan',
     fullName: 'Tazin Khan',
     occupation: 'Founder of Cyber Collective',
     bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
+      summary: `Tazin Khan is a Bangladeshi-American cyber security specialist, public speaker, and advisor who sheds light on the intersection of technology, ethics, and democracy through her style, humor, and authenticity. \n Khan specializes in compliance, product architecture mapping, and risk analysis. In addition to advising major corporate clients, Khan focuses on educating the public about data security and privacy.`,
+      career: `While advancing in her career, Khan saw inequality and a lack of representation for minorities and women. This raised red flags because, in her mind, this was an industry tasked with protecting all consumers online. She voiced her ethical privacy concerns to the companies she worked for. Those concerns, she says, went unanswered. She took matters into her own hands, virtually launching events to educate the public about cybersecurity concerns, help them think critically about their relationship with technology, and promote responsible tech practices.`,
+      impact: `Khan is known for her commitment to social impact and creativity. Her work in the field of cybersecurity is combined with activism and creativity. Khan advocates for a more inclusive and ethical approach to technology development and use. Through her empathetic approach, Khan tackles conversations with brevity and compassion, making people feel seen and overcome any feeling of self-doubt. \n Khan founded Cyber Collective, through which she hopes to correct the misinformation and racial bias that is currently embedded in technology. Today, Cyber Collective is recognized by Forbes as “the only women of color owned and operated community-centered research organization that focuses on data ethics, privacy, and cybersecurity research".`,
     },
-    resources: [],
+    resources: [{title:'Video: Ted Talk | Tazin Khan - Language as the key to unlocking digital security',image:tazinResource ,link:'https://www.youtube.com/watch?v=IHGl8VL-xhQ&t=136s'},
+    {title:'Video: Cyber Collective | Algorithmic Bias with Tazin Khan',image:tazin,link:'https://youtu.be/5O4njbIb-kA?si=qEXCK_BWYfl6LybK'}],
     image: Tazin,
     tags: ['ASIAN', 'WOMEN'],
   },
-  {
-    id: 12,
-    name: 'Huda',
-    fullName: 'Huda Zoghbi',
-    occupation: 'Lebanese-American geneticist',
-    bio: {
-      summary: ``,
-      career: ``,
-      impact: ``,
-    },
-    resources: [],
-    image: huda,
-    tags: ['WOMEN', 'IMMIGRANT'],
-   
-  },
+  // {
+  //   id: 12,
+  //   name: 'Dr. Zoghbi',
+  //   fullName: 'Dr. Huda Zoghbi',
+  //   occupation: 'Lebanese-American geneticist',
+  //   bio: {
+  //     summary: `Dr. Zoghbi is a professor of pediatrics, molecular and human genetics, neuroscience, and neurology at Baylor College of Medicine and is director of the Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital.
+  //     and an investigator with Howard Hughes Medical Institute. She was honored at the 2023 Indiana Clinical and Translational Sciences Institute (CTSI) Annual Meeting on Friday, September 22, 2023. Dr. Zoghbi has received many honors and awards, including election to the National Academy of Sciences (2004), Bristol Myers-Squibb Neuroscience Distinguished Achievement Award (2006), election to the Lebanese Academy of Sciences (2013), Breakthrough Prize in Life Sciences (2017), election to the American Academy of Arts and Sciences (2018), election to the National Academy of Inventors (2019), the Brain Prize (2020) and Kavli Prize in Neuroscience (2022).`,
+  //     career: ``,
+  //     impact: ``,
+  //   },
+  //   resources: [],
+  //   image: huda,
+  //   tags: ['WOMEN', 'IMMIGRANT'],
+
+  // },
   
 ];
