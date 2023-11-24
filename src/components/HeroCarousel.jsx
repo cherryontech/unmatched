@@ -1,6 +1,7 @@
 // LIBRARY IMPORTS
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { Carousel } from 'flowbite-react';
 
 // LOCAL IMPORTS
 import carousel1 from '../assets/images/home/carousel1.png';
@@ -12,6 +13,7 @@ export default function HeroCarousel({scroll}) {
   return (
     <div className="carousel w-[100%] scroll-smooth">
       {/* Slide 1 */}
+      <Carousel>
       <div id="slide1" className="carousel-item relative  w-[100%] scroll-smooth">
         <div className="hero  h-[30rem] lg:h-[35rem] max-h-[100%]  bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
@@ -27,10 +29,7 @@ export default function HeroCarousel({scroll}) {
           </div>
           
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn btn-circle">❮</a>
-          <a href="#slide2" className="btn btn-circle">❯</a>
-        </div>
+        
       </div>
       {/* Slide 2 */}
       <div id="slide2" className="carousel-item relative w-full scroll-smooth">
@@ -48,10 +47,7 @@ export default function HeroCarousel({scroll}) {
           </div>
           
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">❮</a>
-          <a href="#slide3" className="btn btn-circle">❯</a>
-        </div>
+        
       </div>
       {/* Slide 3 */}
       <div id="slide3" className="carousel-item relative w-full scroll-smooth">
@@ -69,11 +65,9 @@ export default function HeroCarousel({scroll}) {
           </div>
           
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">❮</a>
-          <a href="#slide1" className="btn btn-circle">❯</a>
-        </div>
+        
       </div>
+      </Carousel>
     </div>
   )
 }
