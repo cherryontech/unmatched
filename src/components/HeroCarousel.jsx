@@ -13,7 +13,7 @@ export default function HeroCarousel() {
     <div className="carousel w-[100%] scroll-smooth">
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative  w-[100%] scroll-smooth">
-        <div className="hero  h-[30rem] lg:h-[33rem] max-h-[100%]  bg-primary">
+        <div className="hero  h-[30rem] lg:h-[35rem] max-h-[100%]  bg-primary">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={carousel1} className="max-w-sm rounded-full mx-auto w-[33%] lg:w-[27%] h-[11rem] lg:h-[20rem] shadow-2xl" />
             <div className='h-[305px] w-[100%] lg:w-[50rem] md:justify-start justify-center lg:text-start text-center sm:h-fit'>
