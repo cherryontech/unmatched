@@ -1,14 +1,23 @@
 // LIBRARY IMPORTS
+import { useRef } from 'react';
 import React from 'react';
 
 // LOCAL IMPORTS
 import story from '../assets/images/home/story.jpeg';
 import mission from '../assets/images/home/mission.jpeg';
+import HeroCarousel from './HeroCarousel';
+
 
 export default function StoryMission() {
+  const firstItem = useRef(null);
+  const scroll = () =>{
+    firstItem.current.scrollIntoView();
+  }
   return (
+    <>
+    <HeroCarousel scroll = {scroll}/>
     <div className="py-16 lg:py-24 px-16 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
-      <div className="container mx-auto px-6 lg:px-8">
+      <div className="container mx-auto px-6 lg:px-8" ref={firstItem}>
         <div className="flex flex-wrap justify-between items-start gap-14 mb-[10rem]">
           <div >
             <img className="rounded-2xl border lg:w-[400px] max-w-md mx-auto w-[350px] lg:max-w-lg" src={story} alt="Our Story" />
@@ -36,5 +45,6 @@ export default function StoryMission() {
         </div>
       </div>
     </div>
+    </>
   )
 }

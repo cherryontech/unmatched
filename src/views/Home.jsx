@@ -26,7 +26,7 @@ export function Home({ fullDataSet, changeVoicesColor}) {
 
   return (
     <div className="bg-base-100">
-      <HeroCarousel />
+   
       <StoryMission />
       <div className="max-w-[1200px] xl:mx-auto md:mx-8 sm:mx-8">
         <div className="lg:text-3xl text-2xl font-bold text-center text-primary px-4">
