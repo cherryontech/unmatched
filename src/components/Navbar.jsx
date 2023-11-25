@@ -4,16 +4,18 @@ import { NavLink } from 'react-router-dom';
 
 // LOCAL IMPORTS
 
-export default function NavBar({changeVoicesColor, ChangeAboutIcon, iconClick}) {
+export default function NavBar({changeVoicesColor, ChangeAboutIcon, iconClick, resetData}) {
+
   const clicked = {clickedVoiceIcon:false, clickedAboutIcon:false}
   
-  
-
   const voiceIconColor = iconClick.clickedVoiceIcon? 'md:bg-gradient-to-r from-red-500 to-purple-500 ' : 'md:bg-red-500';
   const aboutIconColor = iconClick.clickedAboutIcon? 'md:border-b-4 border-b-[#0A2E50] ' : '';
   const voiceIcon = iconClick.clickedVoiceIcon? 'bg-gradient-to-r from-red-500 to-purple-500 text-transparent bg-clip-text' : 'text-primary';
   const aboutIcon = iconClick.clickedAboutIcon? 'bg-gradient-to-r from-red-500 to-purple-500 bg-clip-text text-transparent' : 'text-primary';
-
+  const handleVoiceIconClick = () => {
+    resetData()
+    changeVoicesColor();
+  };
   
   return (
     <div className="space-x-4">
@@ -30,7 +32,7 @@ export default function NavBar({changeVoicesColor, ChangeAboutIcon, iconClick}) 
       </NavLink>
       <NavLink
        to="/professionals"
-       onClick={changeVoicesColor}
+       onClick={handleVoiceIconClick}
         className="text-primary font-bold flex-col justify-start items-center inline-flex relative text-[2.0vh]"
       >
         <span className={`md:px-4 md:py-1 ${voiceIconColor} ${voiceIcon} lg:text-[23px] bg-white  md:bg-clip-border rounded-full md:bg-red-500 md:text-white md:hover:bg-gradient-to-r from-red-500 to-purple-500 text-center font-bold`}>

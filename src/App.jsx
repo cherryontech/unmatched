@@ -51,15 +51,17 @@ function App() {
     
   // SET REFERENCES
   const fullDataSetRef = useRef(bioData);
-
+  const resetData = () =>{
+    setData(bioData);
+  }
   return (
 
     <Router>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout changeVoicesColor = {changeVoicesColor } ChangeAboutIcon={ChangeAboutIcon} 
-        iconClick={iconClick}/>}>
-          <Route index element={<Home fullDataSet={fullDataSetRef.current} changeVoicesColor = {changeVoicesColor } />} />
+        iconClick={iconClick} resetData={resetData}/>}>
+          <Route index element={<Home fullDataSet={fullDataSetRef.current} changeVoicesColor = {changeVoicesColor } resetData={resetData}/>} />
           <Route
             path="/professionals"
             element={
