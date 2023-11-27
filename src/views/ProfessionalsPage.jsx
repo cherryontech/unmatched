@@ -21,7 +21,7 @@ export function ProfessionalsPage({
   return (
     <div>
       <div className="flex flex-col gap-5 text-center text-primary my-14 mx-auto ">
-        <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold mt-14">
+        <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold mt-14">
           You're in good company.
         </h1>
         <div className="md:w-[70%] lg:w-[56%] xl:w-[40%] w-[80%] mx-auto lg:text-xl md:text-lg">
