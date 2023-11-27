@@ -8,8 +8,8 @@ import logo from '../assets/logo.png';
 
 export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick,resetData }) {
   return (
-    <div className="flex flex-col w-full h-full min-h-screen">
-      <div className="py-8 px-2 md:px-5 w-full">
+    <div className="flex flex-col w-full h-full min-h-screen ">
+      <div className="py-4 mb-12 px-2 md:px-5 w-full fixed bg-white z-40"> 
         <div className="flex justify-between items-center mx-auto">
           <div className="flex-shrink-0">
             <Link to="/">

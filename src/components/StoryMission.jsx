@@ -16,8 +16,8 @@ export default function StoryMission() {
   return (
     <>
     <HeroCarousel scroll = {scroll}/>
-    <div className="py-16 lg:py-24 px-16 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
-      <div className="container mx-auto px-6 lg:px-8" ref={firstItem}>
+    <div className="py-16 lg:py-24  px-16 lg:px-24 w-[90%] object-center m-auto mt-[8rem]" ref={firstItem}>
+      <div className="container mx-auto px-6 lg:px-8" >
         <div className="flex flex-wrap justify-between items-start gap-14 mb-[10rem]">
           <div >
             <img className="rounded-2xl border lg:w-[400px] max-w-md mx-auto w-[350px] lg:max-w-lg" src={story} alt="Our Story" />
