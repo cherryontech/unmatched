@@ -5,6 +5,7 @@ import { Outlet, Link } from 'react-router-dom';
 // LOCAL IMPORTS
 import NavBar from '../components/Navbar';
 import logo from '../assets/logo.png';
+import Footer from '../components/Footer';
 
 export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick,resetData,resetTags }) {
   return (
@@ -27,6 +28,7 @@ export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick,resetData,r
       <main className="flex-1 flex flex-col w-full">
         <Outlet />
       </main>
+      <Footer/>
     </div>
   );
 }
