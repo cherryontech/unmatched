@@ -60,7 +60,7 @@ export default function HeroCarousel({ scroll }) {
         </div>
         {/* Slide 2 */}
         <div className="carousel-item relative w-full scroll-smooth">
-          <div className="hero  h-[30rem] lg:h-[35rem] max-h-[100%] bg-primary">
+          <div className="hero  h-[30rem] lg:h-[38rem] max-h-[100%] bg-primary">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src={carousel2}
@@ -90,7 +90,7 @@ export default function HeroCarousel({ scroll }) {
         </div>
         {/* Slide 3 */}
         <div className="carousel-item relative w-full scroll-smooth">
-          <div className="hero  h-[30rem] lg:h-[35rem] max-h-[100%] bg-primary">
+          <div className="hero  h-[30rem] lg:h-[38rem] max-h-[100%] bg-primary">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src={carousel3}

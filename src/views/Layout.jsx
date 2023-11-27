@@ -6,10 +6,10 @@ import { Outlet, Link } from 'react-router-dom';
 import NavBar from '../components/Navbar';
 import logo from '../assets/logo.png';
 
-export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick,resetData }) {
+export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick,resetData,resetTags }) {
   return (
     <div className="flex flex-col w-full h-full min-h-screen ">
-      <div className="py-4 mb-12 px-2 md:px-5 w-full fixed bg-white z-40"> 
+      <div className="py-6 mb-12 px-2 md:px-5 w-full fixed bg-white z-40 top-0"> 
         <div className="flex justify-between items-center mx-auto">
           <div className="flex-shrink-0">
             <Link to="/">
@@ -21,7 +21,7 @@ export function Layout({ChangeAboutIcon, changeVoicesColor,iconClick,resetData }
             </Link>
           </div>
           <NavBar ChangeAboutIcon= {ChangeAboutIcon} changeVoicesColor= {changeVoicesColor} iconClick={iconClick}
-          resetData={resetData}/>
+          resetData={resetData} resetTags={resetTags}/>
         </div>
       </div>
       <main className="flex-1 flex flex-col w-full">
