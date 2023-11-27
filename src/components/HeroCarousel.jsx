@@ -13,7 +13,7 @@ export default function HeroCarousel({ scroll }) {
   return (
     <div className="carousel w-full scroll-smooth">
       <Carousel
-        slide={false}
+        slideInterval={8000}
         leftControl={
           <ChevronLeftIcon
             className="w-10 text-white"
