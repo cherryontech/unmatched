@@ -7,7 +7,7 @@ import HeroCarousel from '../components/HeroCarousel.jsx';
 import StoryMission from '../components/StoryMission.jsx';
 import SingleCard from '../components/SingleCard.jsx';
 
-export function Home({ fullDataSet, changeVoicesColor,resetData}) {
+export function Home({ fullDataSet, changeVoicesColor,resetData,resetTags}) {
   const limitData = []
   for(let i = 0; i<3; i++){
     limitData.push(fullDataSet[i])
@@ -24,11 +24,12 @@ export function Home({ fullDataSet, changeVoicesColor,resetData}) {
     );
   });
   const handleVoiceIconClick = () => {
-    resetData()
+    resetData();
     changeVoicesColor();
+    resetTags();
   };
   return (
-    <div className="bg-base-100">
+    <div className="bg-base-100 relative">
    
       <StoryMission />
       <div className="max-w-[1200px] xl:mx-auto md:mx-8 sm:mx-8">

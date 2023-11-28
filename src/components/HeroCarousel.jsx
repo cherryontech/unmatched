@@ -11,7 +11,7 @@ import carousel3 from '../assets/images/home/carousel3.png';
 
 export default function HeroCarousel({ scroll }) {
   return (
-    <div className="carousel w-full scroll-smooth">
+    <div className="carousel w-full mt-[4rem] scroll-smooth ">
       <Carousel
         slideInterval={8000}
         leftControl={
@@ -60,7 +60,7 @@ export default function HeroCarousel({ scroll }) {
         </div>
         {/* Slide 2 */}
         <div className="carousel-item relative w-full scroll-smooth">
-          <div className="hero  h-[30rem] lg:h-[35rem] max-h-[100%] bg-primary">
+          <div className="hero  h-[30rem] lg:h-[38rem] max-h-[100%] bg-primary">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src={carousel2}
@@ -90,7 +90,7 @@ export default function HeroCarousel({ scroll }) {
         </div>
         {/* Slide 3 */}
         <div className="carousel-item relative w-full scroll-smooth">
-          <div className="hero  h-[30rem] lg:h-[35rem] max-h-[100%] bg-primary">
+          <div className="hero  h-[30rem] lg:h-[38rem] max-h-[100%] bg-primary">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src={carousel3}

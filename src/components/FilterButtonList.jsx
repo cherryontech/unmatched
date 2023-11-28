@@ -1,30 +1,8 @@
 import FilterButton from './FilterButton';
 import React, { useState } from 'react';
 
-const FilterButtonList = ({ getFilteredCards }) => {
-  const buttons = [
-    { id: 1, name: 'LGBTQ+', clicked: false },
-    { id: 2, name: 'Women', clicked: false },
-    { id: 3, name: 'Black', clicked: false },
-    { id: 4, name: 'South Asian', clicked: false },
-    { id: 5, name: 'Disability', clicked: false },
-    { id: 6, name: 'Latinx', clicked: false },
-    { id: 8, name: 'Middle Eastern', clicked: false },
-    { id: 9, name: 'Indigenous', clicked: false },
-  ];
-  const [tags, setTags] = useState(buttons);
-
-  const changeButtonColor = id => {
-    const isClicked = tags.map(button => {
-      if (button.id === id) {
-        return { ...button, clicked: !button.clicked };
-      } else {
-        return { ...button, clicked: false };
-      }
-    });
-
-    setTags(isClicked);
-  };
+const FilterButtonList = ({ getFilteredCards, changeButtonColor, tags }) => {
+  
 
   const buttonTags = tags.map(button => {
     return (
