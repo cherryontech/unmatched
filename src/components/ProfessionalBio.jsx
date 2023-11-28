@@ -2,11 +2,19 @@ import React from 'react';
 
 const ProfessionalBio = ({ bio, name, fullName }) => {
   const formatParagraphs = text => {
-    return text.split('\n').map((paragraph, index) => (
-      <p key={index} className="pb-4 text-lg">
-        {paragraph}
-      </p>
-    ));
+    return text.split('\n').map((paragraph, index) => {
+      const updatedParagraph = paragraph.replace(
+        /<i>(.*?)<\/i>/g,
+        (match, p1) => `<i key=${index + p1} className="italic">${p1}</i>`,
+      );
+      return (
+        <p
+          key={index}
+          className="pb-4 text-lg"
+          dangerouslySetInnerHTML={{ __html: updatedParagraph }}
+        />
+      );
+    });
   };
 
   return (

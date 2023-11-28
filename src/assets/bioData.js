@@ -12,7 +12,6 @@ import Maggie from './images/professionals/Maggie.jpg';
 import James from './images/professionals/James.jpg';
 import Tazin from './images/professionals/Tazin.jpg';
 
-
 // resources cover images
 import reshmaResource1 from './images/resources/reshma1.jpg';
 import reshmaResource2 from './images/resources/reshma2.jpg';
@@ -46,7 +45,7 @@ export const bioData = [
     bio: {
       summary: `Reshma Saujani is a renowned activist and author committed to empowering women and girls, bridging the tech gender gap, and advocating for moms. She is best known as the founder of Girls Who Code, a non-profit organization closing the tech gender gap by offering girls, women, and nonbinary people access to programming education.
       Saujani began her career as an attorney and made history as the first Indian American woman to run for U.S. Congress in 2010. Witnessing the gender gap in computer science classrooms during her campaign inspired her to create Girls Who Code in 2012.`,
-      impact: `Saujani's impact extends from her bestseller Brave, Not Perfect to her influential TED talk, “Teach girls bravery, not perfection”. Girls Who Code has reached over 500 million people worldwide and has taught more than 300,000 girls how to code. Saujani’s passion for moms established Moms First in 2020, a non-profit supporting working moms through policy change.`,
+      impact: `Saujani's impact extends from her bestseller <i>Brave, Not Perfect</i> to her influential TED talk, “Teach girls bravery, not perfection”. Girls Who Code has reached over 500 million people worldwide and has taught more than 300,000 girls how to code. Saujani’s passion for moms established Moms First in 2020, a non-profit supporting working moms through policy change.`,
       career: `In her 2023 Smith College commencement speech, Saujani shared about her upbringing as the child of Indian refugees living in the U.S. She recalled feeling isolated because no one else looked like her; she had no one to identify with. This feeling remained with her even in her successful career as an attorney.
       Saujani said imposter syndrome makes us look like the problem, but we’re not. She is committed to female empowerment because she said we have a broken system that makes us feel we’re not enough when we are. So it’s up to us to fix the system.`,
     },
@@ -65,7 +64,7 @@ export const bioData = [
       },
     ],
     image: Reshma,
-    tags:['SOUTH ASIAN','WOMEN']
+    tags: ['SOUTH ASIAN', 'WOMEN'],
   },
   {
     id: 2,
@@ -94,7 +93,7 @@ export const bioData = [
       },
     ],
     image: Anna,
-    tags:['LGBTQ+'],
+    tags: ['LGBTQ+'],
   },
   {
     id: 3,
@@ -114,12 +113,12 @@ export const bioData = [
       },
       {
         title: 'Blog post: Learning to code with my disability | Farida Bedwei',
-        image: faridaResource2 ,
+        image: faridaResource2,
         link: 'https://www.codecademy.com/resources/blog/learning-to-code-with-my-disability/',
       },
     ],
     image: Farida,
-    tags:['BLACK', 'WOMEN', 'DISABILITY']
+    tags: ['BLACK', 'WOMEN', 'DISABILITY'],
   },
   {
     id: 4,
@@ -129,7 +128,7 @@ export const bioData = [
     bio: {
       summary: `Dr. Jedidah Isler is an astrophysicist, professor, TED fellow, and advocate for inclusive STEM education. She is the first Black woman to receive a PhD in Astrophysics from Yale University. Dr. Isler is also the founder of VanguardSTEM, an online community and platform for girls, women, and non-binary people of color in STEM.\n
       Dr. Isler’s love of astronomy and astrophysics began at an early age, and her research focuses on understanding galaxies’ supermassive black holes. Her advocacy focuses on ensuring that all people can access, contribute to, and benefit from STEM. Dr. Isler founded the non-profit The STEM en Route to Change (SeRCH) Foundation, Inc. to help close the equity, inclusion, and diversity gap in STEM.`,
-      impact: `Dr. Isler has received national recognition, awards, and support for her research and advocacy in the U.S. \n  She has reached more than 2.5 million viewers and listeners through her TED talks and broadcast speaking engagements about STEM inclusion. As the host of her web series VanguardSTEM, Dr. Isler gathers women and non-binary people of color in STEM to share their experiences and advice and affirm their identities. \n Dr. Isler’s work as the White House Office of Science and Technology Policy’s (OSTP) principal assistant director for science focuses on equity in Federal science & technology strategy and policy.`,
+      impact: `Dr. Isler has received national recognition, awards, and support for her research and advocacy in the U.S. \n  She has reached more than 2.5 million viewers and listeners through her TED talks and broadcast speaking engagements about STEM inclusion. As the host of her web series <i>VanguardSTEM</i>, Dr. Isler gathers women and non-binary people of color in STEM to share their experiences and advice and affirm their identities. \n Dr. Isler’s work as the White House Office of Science and Technology Policy’s (OSTP) principal assistant director for science focuses on equity in Federal science & technology strategy and policy.`,
       career: `In her 2015 TED Talk, Dr. Isler shared about her life as a Black woman astrophysicist who had to overcome the challenges that women of color in STEM face. She highlighted accomplished women of color in STEM and encouraged underrepresented listeners to do what she and those women did: pursue their dreams in spite of the obstacles. 
       Dr. Isler emphasized the importance of diversity in STEM because each person’s unique perspective and experiences add value and lead to better global solutions.`,
     },
@@ -147,7 +146,7 @@ export const bioData = [
       },
     ],
     image: Jedidah,
-    tags:['BLACK', 'WOMEN']
+    tags: ['BLACK', 'WOMEN'],
   },
   {
     id: 5,
@@ -175,7 +174,7 @@ export const bioData = [
       },
     ],
     image: Maya,
-    tags:['SOUTH ASIAN', 'WOMEN']
+    tags: ['SOUTH ASIAN', 'WOMEN'],
   },
   {
     id: 6,
@@ -189,8 +188,7 @@ export const bioData = [
     },
     resources: [
       {
-        title:
-          'Video: UNHCR Nansen Refugee Award winner Dr. Rana Dajani',
+        title: 'Video: UNHCR Nansen Refugee Award winner Dr. Rana Dajani',
         image: ranaResource1,
         link: 'https://youtu.be/LaYLqxq2kFo?si=8f3KDJH-NdhjLIIO',
       },
@@ -202,7 +200,7 @@ export const bioData = [
       },
     ],
     image: Rana,
-    tags:['MIDDLE EASTERN', 'WOMEN']
+    tags: ['MIDDLE EASTERN', 'WOMEN'],
   },
   {
     id: 7,
@@ -212,8 +210,8 @@ export const bioData = [
     bio: {
       summary: `Nicole Aunapu Mann is a NASA Astronaut, U.S. Marine Corps Colonel, and the first Indigenous woman to go to space. Mann received her Bachelor of Science from the United States Naval Academy and her Master of Science from Stanford University.\n In 2013, Mann was selected by NASA as one of eight members for the 21st class and completed the astronaut candidate course in 2015. In 2022, Mann spent 157 days in orbit at the International Space Station, researching life on Earth and the effects on human bodies in space.`,
       career: `Mann has reflected on her childhood role models, noting the lack of representation compared to the Artemis team today, and she is proud to see the culture shifting for the younger generation.
-       In an interview with The Stanford Daily, Mann shared this advice: follow your dreams, make a plan to reach your goals, know that it’s okay to stumble and adapt on the way to your dreams, but never give up.
-      When asked by USA Today about her definition of courage, Mann spoke about pursuing things that feel somewhat risky. She said there’s a chance you’ll fail, but try to succeed anyway and don’t let fear stop you.`,
+      In an interview with <i>The Stanford Daily</i>, Mann shared this advice: follow your dreams, make a plan to reach your goals, know that it’s okay to stumble and adapt on the way to your dreams, but never give up.
+      When asked by <i>USA Today</i> about her definition of courage, Mann spoke about pursuing things that feel somewhat risky. She said there’s a chance you’ll fail, but try to succeed anyway and don’t let fear stop you.`,
       impact: `Mann’s impact on the field of space exploration is marked by her trailblazing role as one of the few women chosen to be a NASA astronaut. As a skilled pilot and astronaut, Mann contributes to the scientific and technological advancements of space missions and also serves as an inspiration for women aspiring to enter STEM fields. 
       By pushing boundaries and challenging stereotypes, Mann’s impact extends beyond her individual achievements, fostering a more diverse and equitable future for space exploration.`,
     },
@@ -225,14 +223,13 @@ export const bioData = [
         link: 'https://youtu.be/-4FuAtYWDYg?si=S8PL3YKiAmKW3g0g',
       },
       {
-        title:
-          'News article: Indian Country Today | Nicole Mann',
+        title: 'News article: Indian Country Today | Nicole Mann',
         image: nicoleResource2,
         link: 'https://ictnews.org/news/first-native-woman-in-space',
       },
     ],
     image: Nicole,
-    tags: ['WOMEN','INDIGENOUS'],
+    tags: ['WOMEN', 'INDIGENOUS'],
   },
   {
     id: 8,
@@ -242,10 +239,22 @@ export const bioData = [
     bio: {
       summary: `Melissa Cristina Marquez is a Latina marine biologist, wildlife educator, diversity advocate, TV host, speaker, and freelance environmental writer committed to marine conservation and empowering young Latinas in science. She holds a Master of Science in Marine Biology from Victoria University of Wellington. \n Marquez is known as the “Mother of Sharks” and has loved the ocean and sharks since childhood. She studies Chondrichthyans (sharks, sting rays, skates, and chimeras), how the media portrays them, and how that affects conservation efforts.`,
       career: `In her Superwomen in Science interview, Marquez talked about her personal experiences with racism, sexism, and rejection and how she used these experiences and her network’s support as motivation to excel in science. She believes science is something anyone can do, regardless of their background.\n Marquez emphasized the need for support for women in STEM and their representation in leadership roles; it’s vital to retaining them and providing role models that aspiring STEM professionals can identify with.`,
-      impact: `Marquez has expressed her advocacy for STEM inclusion, marine conservation, and science education through interviews, TEDx, contributions to Forbes Science, and Shark Week and other TV programming. \n Her podcast ConCiencia Azul highlights Spanish-speaking marine scientists and enthusiasts from around the world as well as some of the major barriers Latin American countries face. Marquez’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists. \n Marquez founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
+      impact: `Marquez has expressed her advocacy for STEM inclusion, marine conservation, and science education through interviews, TEDx, contributions to <i>Forbes Science</i>, and Shark Week and other TV programming. \n Her podcast <i>ConCiencia Azul</i> highlights Spanish-speaking marine scientists and enthusiasts from around the world as well as some of the major barriers Latin American countries face. Marquez’s live #STEMSaturdays on X and her work with femSTEM offer career advice to women scientists. \n Marquez founded the nonprofit The Fins United Initiative (TFUI) to provide accessible information on Chondrichthyans, dispel stigmas about them, and promote their conservation and awareness. TFUI’s Chondrichthyan education and conservation program has reached schools across 12 countries and the U.S.`,
     },
-    resources: [{title:'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks | Melissa Marquez',image:melissaResource,link:'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o'},
-    {title:'Video: Paseo Podcast | Shark talk with marine biologist Melissa Cristina Marquez', image:melRes , link:'https://www.youtube.com/watch?v=ScQ916PP_04'}],
+    resources: [
+      {
+        title:
+          'Video: 17 Minutes of Science | Spreading diversity and inclusion in science through sharks | Melissa Marquez',
+        image: melissaResource,
+        link: 'https://youtu.be/Y7DsjYhWBy4?si=54FLBnr3qDS_X78o',
+      },
+      {
+        title:
+          'Video: Paseo Podcast | Shark talk with marine biologist Melissa Cristina Marquez',
+        image: melRes,
+        link: 'https://www.youtube.com/watch?v=ScQ916PP_04',
+      },
+    ],
     image: Melissa,
     tags: ['LATINX', 'WOMEN'],
   },
@@ -268,8 +277,7 @@ export const bioData = [
         link: 'https://www.youtube.com/watch?v=Tx4oCxtX2YE',
       },
       {
-        title:
-          'Interview: The Guardian | The Art of Stargazing',
+        title: 'Interview: The Guardian | The Art of Stargazing',
         image: maggieResource2,
         link: 'https://www.theguardian.com/science/2023/oct/29/dr-maggie-aderin-pocock-interview-the-art-of-stargazing',
       },
@@ -302,7 +310,7 @@ export const bioData = [
       },
     ],
     image: James,
-    tags: ['LGBTQ+','INDIGENOUS'],
+    tags: ['LGBTQ+', 'INDIGENOUS'],
   },
   {
     id: 11,
@@ -314,8 +322,19 @@ export const bioData = [
       career: `While advancing in her career, Khan saw inequality and a lack of representation for minorities and women. This raised red flags because, in her mind, this was an industry tasked with protecting all consumers online. She voiced her ethical privacy concerns to the companies she worked for. Those concerns, she says, went unanswered. She took matters into her own hands, virtually launching events to educate the public about cybersecurity concerns, help them think critically about their relationship with technology, and promote responsible tech practices.`,
       impact: `Khan is known for her commitment to social impact and creativity. Her work in the field of cybersecurity is combined with activism and creativity. Khan advocates for a more inclusive and ethical approach to technology development and use. Through her empathetic approach, Khan tackles conversations with brevity and compassion, making people feel seen and overcome any feeling of self-doubt. \n Khan founded Cyber Collective, through which she hopes to correct the misinformation and racial bias that is currently embedded in technology. Today, Cyber Collective is recognized by Forbes as “the only women of color owned and operated community-centered research organization that focuses on data ethics, privacy, and cybersecurity research".`,
     },
-    resources: [{title:'Video: Ted Talk | Tazin Khan - Language as the key to unlocking digital security',image:tazinResource ,link:'https://www.youtube.com/watch?v=IHGl8VL-xhQ&t=136s'},
-    {title:'Video: Cyber Collective | Algorithmic Bias with Tazin Khan',image:tazin,link:'https://youtu.be/5O4njbIb-kA?si=qEXCK_BWYfl6LybK'}],
+    resources: [
+      {
+        title:
+          'Video: Ted Talk | Tazin Khan - Language as the key to unlocking digital security',
+        image: tazinResource,
+        link: 'https://www.youtube.com/watch?v=IHGl8VL-xhQ&t=136s',
+      },
+      {
+        title: 'Video: Cyber Collective | Algorithmic Bias with Tazin Khan',
+        image: tazin,
+        link: 'https://youtu.be/5O4njbIb-kA?si=qEXCK_BWYfl6LybK',
+      },
+    ],
     image: Tazin,
     tags: ['ASIAN', 'WOMEN'],
   },
@@ -335,5 +354,4 @@ export const bioData = [
   //   tags: ['WOMEN', 'IMMIGRANT'],
 
   // },
-  
 ];
