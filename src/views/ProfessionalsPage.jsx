@@ -18,11 +18,11 @@ export function ProfessionalsPage({
 
   return (
     <div>
-      <div className="flex flex-col gap-5 text-center text-primary my-14 mx-auto ">
+      <div className="flex flex-col gap-5 text-center text-primary my-10 mx-auto ">
         <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold mt-14">
           You're in good company.
         </h1>
-        <div className="md:w-[50%] lg:w-[50%] xl:w-[35%] w-[80%] mx-auto lg:text-xl md:text-lg">
+        <div className="md:w-[50%] lg:w-[50%] xl:w-[35%] w-[80%] mx-auto lg:text-xl md:text-lg mb-10">
           You don’t have to feel like a fraud anymore. <br />
           Learn from STEM leaders who overcame imposter syndrome and emerged as
           trailblazers. Get empowered to do the same.
