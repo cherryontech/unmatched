@@ -20,7 +20,7 @@ export default function StoryMission() {
       <div className="container mx-auto px-6 lg:px-8" >
         <div className="flex flex-wrap justify-between lg:items-start items-center gap-14 mb-[10rem]">
           <div >
-            <img className="rounded-2xl  border lg:w-[400px] max-w-md mx-auto w-[280px] lg:max-w-lg" src={story} alt="Our Story" />
+            <img className="rounded-2xl  border lg:w-[400px] md:w-[300px] max-w-md mx-auto w-[280px] lg:max-w-lg" src={story} alt="Our Story" />
           </div>
           <div className="flex-1">
             <h2 className="lg:text-3xl text-2xl font-bold text-primary">Our Story</h2>

@@ -17,13 +17,16 @@ export default function NavBar({changeVoicesColor, ChangeAboutIcon, iconClick, r
     changeVoicesColor();
     resetTags()
   };
-  
+  const handleAbout = ()=>{
+    window.scrollTo(0, 0)
+    ChangeAboutIcon()
+  }
   return (
     <div className="space-x-4">
       <NavLink
         exact
         to="/"
-        onClick={ChangeAboutIcon }
+        onClick={handleAbout}
         className={` font-bold ${aboutIcon}  ${aboutIconColor}  flex-col justify-start text-[2.0vh] items-center inline-flex relative group`}
       >
         <span className="text-center font-bold md:group-hover:opacity-100 md:text-primary  lg:text-[23px]">
