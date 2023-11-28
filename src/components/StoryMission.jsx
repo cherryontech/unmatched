@@ -16,11 +16,11 @@ export default function StoryMission() {
   return (
     <>
     <HeroCarousel scroll = {scroll}/>
-    <div className="py-16 lg:py-24 px-16 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
+    <div className="py-16 lg:py-24 px-6 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
       <div className="container mx-auto px-6 lg:px-8" ref={firstItem}>
         <div className="flex flex-wrap justify-between lg:items-start items-center gap-14 mb-[10rem]">
           <div >
-            <img className="rounded-2xl border lg:w-[400px] max-w-md mx-auto w-[300px] lg:max-w-lg" src={story} alt="Our Story" />
+            <img className="rounded-2xl  border lg:w-[400px] max-w-md mx-auto w-[280px] lg:max-w-lg" src={story} alt="Our Story" />
           </div>
           <div className="flex-1">
             <h2 className="lg:text-3xl text-2xl font-bold text-primary">Our Story</h2>
@@ -29,7 +29,7 @@ export default function StoryMission() {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between items-start gap-14 mt-14 lg:mt-28 mb-[4rem]">
+        <div className="flex flex-wrap justify-between  lg:items-start items-center  gap-14 mt-14 lg:mt-28 mb-[4rem]">
           <div className="flex-1">
             <h2 className="lg:text-3xl text-2xl font-bold text-primary">Our Mission</h2>
             <p className="mt-5  text:21px md:text-[22px] lg:text-[23px] text-primary">
@@ -40,7 +40,7 @@ export default function StoryMission() {
             </p>
           </div>
           <div className="flex-1">
-            <img className="rounded-2xl border max-w-md mx-auto w-[350px] lg:w-[400px] lg:max-w-lg" src={mission} alt="Our Mission" />
+            <img className="rounded-2xl border max-w-md mx-auto w-[280px] lg:w-[400px] lg:max-w-lg" src={mission} alt="Our Mission" />
           </div>
         </div>
       </div>
