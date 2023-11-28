@@ -29,7 +29,7 @@ export default function HeroCarousel({ scroll }) {
       >
         {/* Slide 1 */}
         <div className="carousel-item relative">
-          <div className="hero h-[30rem] lg:h-[35rem] max-h-[100%] w-full  bg-primary">
+          <div className="hero h-[30rem] lg:h-[38rem] max-h-[100%] w-full  bg-primary">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src={carousel1}
