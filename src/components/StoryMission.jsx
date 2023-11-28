@@ -1,21 +1,12 @@
 // LIBRARY IMPORTS
-import { useRef } from 'react';
 import React from 'react';
 
 // LOCAL IMPORTS
 import story from '../assets/images/home/story.jpeg';
 import mission from '../assets/images/home/mission.jpeg';
-import HeroCarousel from './HeroCarousel';
 
-
-export default function StoryMission() {
-  const firstItem = useRef(null);
-  const scroll = () =>{
-    firstItem.current.scrollIntoView();
-  }
+export default function StoryMission({ firstItem }) {
   return (
-    <>
-    <HeroCarousel scroll = {scroll}/>
     <div className="py-16 lg:py-24 px-6 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
       <div className="container mx-auto px-6 lg:px-8" ref={firstItem}>
         <div className="flex flex-wrap justify-between lg:items-start items-center gap-14 mb-[10rem]">
@@ -33,7 +24,7 @@ export default function StoryMission() {
           <div className="flex-1">
             <h2 className="lg:text-3xl text-2xl font-bold text-primary">Our Mission</h2>
             <p className="mt-5  text:21px md:text-[22px] lg:text-[23px] text-primary">
-              We’re dedicated to fostering confidence, motivation, and success in the next generation of STEM leaders. 
+              We’re dedicated to fostering confidence, motivation, and success in the next generation of STEM leaders.
             </p>
             <p className="mt-5  text:21px md:text-[22px] lg:text-[23px] text-primary">
             Access relatable and inspiring narratives about STEM professionals who’ve triumphed over imposter syndrome and discover how you can too.
@@ -45,6 +36,5 @@ export default function StoryMission() {
         </div>
       </div>
     </div>
-    </>
   )
 }
