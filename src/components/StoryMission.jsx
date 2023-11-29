@@ -7,8 +7,8 @@ import mission from '../assets/images/home/mission.jpeg';
 
 export default function StoryMission({ firstItem }) {
   return (
-    <div className="py-16 lg:py-24 px-6 lg:px-24 w-[90%] object-center m-auto mt-[4rem]">
-      <div className="container mx-auto px-6 lg:px-8" ref={firstItem}>
+    <div className="py-16 lg:py-24 px-6 lg:px-24 w-[90%] object-center m-auto mt-[4rem]" ref={firstItem}>
+      <div className="container mx-auto px-6 lg:px-8" >
         <div className="flex flex-wrap justify-between lg:items-start items-center gap-14 mb-[10rem]">
           <div>
             <img
