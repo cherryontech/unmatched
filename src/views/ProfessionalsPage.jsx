@@ -13,7 +13,7 @@ export function ProfessionalsPage({
   fullDataSet,
   getFilteredCards,
   changeButtonColor,
-  tags
+  tags,
 }) {
   // SET STATES
   const [clearedSearch, setClearedSearch] = useState(true);
@@ -21,7 +21,7 @@ export function ProfessionalsPage({
   return (
     <div>
       <div className="flex flex-col gap-5 text-center text-primary my-10 mx-auto ">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold mt-14">
+        <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold">
           You're in good company.
         </h1>
         <div className="md:w-[50%] lg:w-[50%] xl:w-[35%] w-[80%] mx-auto lg:text-xl md:text-lg mb-10">
@@ -36,8 +36,11 @@ export function ProfessionalsPage({
         fullDataSet={fullDataSet}
         setClearedSearch={setClearedSearch}
       />
-      <FilterButtonList getFilteredCards={getFilteredCards} tags={tags}
-                changeButtonColor={changeButtonColor}/>
+      <FilterButtonList
+        getFilteredCards={getFilteredCards}
+        tags={tags}
+        changeButtonColor={changeButtonColor}
+      />
       {clearedSearch ? (
         <Card
           data={data}

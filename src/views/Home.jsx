@@ -38,7 +38,7 @@ export function Home({ fullDataSet, changeVoicesColor, resetData }) {
   };
 
   return (
-    <div className="bg-base-100">
+    <div>
       <HeroCarousel scroll={scroll} />
       <StoryMission firstItem={firstItem} />
       <div className="max-w-[1200px] xl:mx-auto md:mx-8 sm:mx-8">

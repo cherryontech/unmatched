@@ -10,7 +10,7 @@ import Slide3 from './Slide3.jsx';
 
 const customTheme = {
   scrollContainer: {
-    base: 'relative flex h-full scroll-smooth',
+    base: 'flex h-full scroll-smooth',
     snap: 'snap-x',
   },
   control: {
@@ -34,7 +34,7 @@ export default function HeroCarousel({ scroll }) {
   };
 
   return (
-    <div className="xl:h-[33rem] lg:h-[30rem] md:h-[28rem] h-[25rem] max-h-screen w-full bg-primary">
+    <div className="xl:h-[33rem] lg:h-[30rem] md:h-[28rem] h-[25rem] w-full bg-primary">
       <Carousel
         theme={customTheme}
         slideInterval={8000}
