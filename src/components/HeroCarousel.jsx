@@ -19,7 +19,7 @@ const customTheme = {
   },
   indicators: {
     active: {
-      off: 'hover:bg-primary bg-stone-300',
+      off: 'hover:bg-primary bg-stone-300 ease-in-out duration-300',
       on: 'bg-primary',
     },
     base: 'h-3 w-3 rounded-full',
@@ -34,7 +34,7 @@ export default function HeroCarousel({ scroll }) {
   };
 
   return (
-    <>
+    <div className="xl:h-[33rem] lg:h-[30rem] md:h-[28rem] h-[25rem] max-h-screen w-full bg-primary">
       <Carousel
         theme={customTheme}
         slideInterval={8000}
@@ -42,7 +42,7 @@ export default function HeroCarousel({ scroll }) {
         leftControl={
           activeControl !== 0 && (
             <ChevronLeftIcon
-              className="w-10 text-white"
+              className="w-10 text-white hidden lg:block"
               style={{ strokeWidth: 3 }}
             />
           )
@@ -50,7 +50,7 @@ export default function HeroCarousel({ scroll }) {
         rightControl={
           activeControl !== 2 && (
             <ChevronRightIcon
-              className="w-10 text-white"
+              className="w-10 text-white hidden lg:block"
               style={{ strokeWidth: 3 }}
             />
           )
@@ -60,6 +60,6 @@ export default function HeroCarousel({ scroll }) {
         <Slide2 scroll={scroll} />
         <Slide3 scroll={scroll} />
       </Carousel>
-    </>
+    </div>
   );
 }
