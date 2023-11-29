@@ -12,6 +12,8 @@ export function ProfessionalsPage({
   setData,
   fullDataSet,
   getFilteredCards,
+  changeButtonColor,
+  tags
 }) {
   // SET STATES
   const [clearedSearch, setClearedSearch] = useState(true);
@@ -34,7 +36,8 @@ export function ProfessionalsPage({
         fullDataSet={fullDataSet}
         setClearedSearch={setClearedSearch}
       />
-      <FilterButtonList getFilteredCards={getFilteredCards} />
+      <FilterButtonList getFilteredCards={getFilteredCards} tags={tags}
+                changeButtonColor={changeButtonColor}/>
       {clearedSearch ? (
         <Card
           data={data}
