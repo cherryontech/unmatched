@@ -34,7 +34,7 @@ export default function HeroCarousel({ scroll }) {
   };
 
   return (
-    <div className="xl:h-[33rem] lg:h-[30rem] md:h-[28rem] h-[25rem] w-full bg-primary">
+    <div className="xl:h-[33rem] lg:h-[30rem] md:h-[28rem] h-[30rem] w-full bg-primary">
       <Carousel
         theme={customTheme}
         slideInterval={8000}
