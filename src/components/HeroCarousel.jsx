@@ -14,8 +14,8 @@ const customTheme = {
     snap: 'snap-x',
   },
   control: {
-    base: '',
-    icon: '',
+    base: 'hidden',
+    icon: 'hidden',
   },
   indicators: {
     active: {
