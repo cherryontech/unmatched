@@ -19,7 +19,7 @@ const FilterButton = ({
 
   return (
     <button
-      onClick={handleButtonClick}
+      onClick={handleButtonClick} 
       className={`${buttonColor} ${textColor} text-[14px] font-medium mr-2 mb-3 px-2.5 py-0.5 rounded-[20px]
    border border-primary p-3 flex items-center justify-between gap-1`}
     >

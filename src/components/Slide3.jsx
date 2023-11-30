@@ -44,7 +44,7 @@ export default function Slide3({ scroll }) {
         {/* Button for small and medium screens */}
         <div className="lg:hidden w-full text-center">
           <Link
-            onClick={scroll}
+         onTouchStart={scroll}
             className="text-sm md:text-base bg-secondary rounded-full px-3 py-1 md:px-4 md:py-2 font-bold hover:bg-gradient-to-r from-red-500 to-purple-500"
           >
             Learn More

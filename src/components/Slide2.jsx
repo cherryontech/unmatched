@@ -40,7 +40,7 @@ export default function Slide2({ scroll }) {
         {/* Button for small and medium screens */}
         <div className="lg:hidden w-full text-center">
           <Link
-            onClick={scroll}
+           onTouchStart={scroll}
             className="bg-secondary rounded-full px-4 py-2 text-sm md:text-base font-bold hover:bg-gradient-to-r from-red-500 to-purple-500"
           >
             Learn More
