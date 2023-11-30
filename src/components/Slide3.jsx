@@ -26,7 +26,7 @@ export default function Slide3({ scroll }) {
           {/* Button for large screens */}
           <div className="hidden lg:block">
             <Link
-              onClick={() => scroll()}
+              onClick={scroll}
               className="bg-secondary rounded-full px-4 lg:py-2 p-1 overflow-hidden lg:text-lg text-base font-bold hover:bg-gradient-to-r from-red-500 to-purple-500"
             >
               Learn More
@@ -44,7 +44,7 @@ export default function Slide3({ scroll }) {
         {/* Button for small and medium screens */}
         <div className="lg:hidden w-full text-center">
           <Link
-            onClick={() => scroll()}
+            onClick={scroll}
             className="text-sm md:text-base bg-secondary rounded-full px-3 py-1 md:px-4 md:py-2 font-bold hover:bg-gradient-to-r from-red-500 to-purple-500"
           >
             Learn More
