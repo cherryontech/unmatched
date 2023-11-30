@@ -45,7 +45,7 @@ export function Home({ fullDataSet, changeVoicesColor, resetData,resetTags }) {
           <StoryMission firstItem={firstItem} />
           <section>
             <div className="text-center lg:text-left">
-              <h2 className="lg:text-3xl text-2xl font-bold pb-5">
+              <h2 className="lg:text-3xl text-2xl font-bold pb-5 mt-[8rem]">
                 Explore Unmatched's Empowering Voices
               </h2>
               <div className="mt-7 flex flex-col flex-wrap md:flex-row lg:justify-between md:justify-between justify-center items-center mb-20 gap-y-10 md:mx-16 lg:mx-auto">
