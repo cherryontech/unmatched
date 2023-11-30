@@ -40,7 +40,7 @@ export function Home({ fullDataSet, changeVoicesColor, resetData }) {
   return (
     <div>
       <HeroCarousel scroll={scroll} />
-      <div className="py-16 xl:p-24 w-[90%] object-center m-auto mt-[4rem]">
+      <div className=" xl:p-24 w-[90%] object-center m-auto mt-[1rem]">
         <div className="container mx-auto px-6 lg:px-8 ">
           <StoryMission firstItem={firstItem} />
           <section>
@@ -52,10 +52,10 @@ export function Home({ fullDataSet, changeVoicesColor, resetData }) {
                 {limitDataCard}
               </div>
             </div>
-            <div className="flex justify-center lg:justify-end">
+            <div className="flex justify-center  lg:justify-end">
               <Link
                 to="/professionals"
-                className="px-4 py-2 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white"
+                className="px-4 py-2 my-3 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white"
               >
                 Unmatched Voices
               </Link>

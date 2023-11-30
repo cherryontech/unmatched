@@ -7,8 +7,8 @@ import mission from '../assets/images/home/mission.jpeg';
 
 export default function StoryMission({ firstItem }) {
   return (
-    <div className="flex flex-col gap-10 mb-20" ref={firstItem}>
-      <div className="flex flex-col-reverse lg:flex-row justify-between lg:items-start items-center gap-14">
+    <div className="flex flex-col gap-10 mb-20 " ref={firstItem}>
+      <div className="flex flex-col-reverse lg:flex-row justify-between mt-[9rem] lg:items-start items-center gap-14">
         <div className="flex-1">
           <img
             className="rounded-2xl md:h-80 md:w-screen object-cover"
