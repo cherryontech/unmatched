@@ -40,24 +40,27 @@ export function Home({ fullDataSet, changeVoicesColor, resetData }) {
   return (
     <div>
       <HeroCarousel scroll={scroll} />
-      <StoryMission firstItem={firstItem} />
-      <div className="max-w-[1200px] xl:mx-auto md:mx-8 sm:mx-8">
-        <div className="lg:text-3xl text-2xl font-bold text-center text-primary px-4">
-          Explore Unmatched's Empowering Voices
-        </div>
-        <div className="max-w-[1200px] xl:mx-auto md:mx-28 sm:mx-8">
-          <div className="w-full py-[2rem] md:py-[4rem] px-4">
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 md:m-auto sm:grid-cols-1 gap-12 place-items-center m-auto">
-              {limitDataCard}
+      <div className="py-16 xl:p-24 w-[90%] object-center m-auto mt-[4rem]">
+        <div className="container mx-auto px-6 lg:px-8 ">
+          <StoryMission firstItem={firstItem} />
+          <section>
+            <div className="text-center lg:text-left">
+              <h2 className="lg:text-3xl text-2xl font-bold pb-5">
+                Explore Unmatched's Empowering Voices
+              </h2>
+              <div className="mt-7 flex flex-col flex-wrap md:flex-row lg:justify-between md:justify-between justify-center items-center mb-20 gap-y-10 md:mx-16 lg:mx-auto">
+                {limitDataCard}
+              </div>
             </div>
-          </div>
-          <Link
-            to="/professionals"
-            className="px-4 md:float-right py-2 justify-center mr-5 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white mb-12"
-            onClick={handleVoiceIconClick}
-          >
-            Unmatched Voices
-          </Link>
+            <div className="flex justify-center lg:justify-end">
+              <Link
+                to="/professionals"
+                className="px-4 py-2 rounded-full font-bold bg-red-500 hover:bg-gradient-to-r from-red-500 to-purple-500  text-white"
+              >
+                Unmatched Voices
+              </Link>
+            </div>
+          </section>
         </div>
       </div>
     </div>
