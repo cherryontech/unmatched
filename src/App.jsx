@@ -18,7 +18,7 @@ const buttons = [
   { id: 9, name: 'Indigenous', clicked: false },
 ];
 function App() {
-//  SET FILTER TAGS STATE
+  //  SET FILTER TAGS STATE
   const [tags, setTags] = useState(buttons);
 
   const changeButtonColor = id => {
@@ -33,66 +33,78 @@ function App() {
     setTags(isClicked);
   };
 
-  const resetTags = ()=>{
-    setTags(buttons)
-  }
+  const resetTags = () => {
+    setTags(buttons);
+  };
 
-     // SET   DATA STATES
-   const [data, setData] = useState(bioData);
+  // SET   DATA STATES
+  const [data, setData] = useState(bioData);
 
-   const getFilteredCards = (tag) =>{
-   const newData =bioData.filter((item)=> {
+  const getFilteredCards = tag => {
+    const newData = bioData.filter(item => {
+      return item.tags.includes(tag.toUpperCase());
+    });
 
-    return item.tags.includes(tag.toUpperCase());
-
-   });
-
-  let sameData = true;
-  for( let item of data){
-    if (!(newData.includes(item))){
-       sameData = false;
+    let sameData = true;
+    for (let item of data) {
+      if (!newData.includes(item)) {
+        sameData = false;
+      }
     }
-  }
-  if (!sameData){
-      setData(newData)
-    }
-    else{
-
-    setData(bioData)
-    }
-    }
-
-
-  const clicked = {clickedVoiceIcon:false, clickedAboutIcon:false}
-  
-  // SET NAV ICON STATE
-    const [iconClick, seticonClick] = useState(clicked )
-  
-    const changeVoicesColor = ()=>{
-      const isClicked = {...clicked, clickedVoiceIcon:true}
-      seticonClick(isClicked);
-      
-    }
-  
-    const ChangeAboutIcon = () =>{
-      const isClicked = {...clicked, clickedAboutIcon:true}
-      seticonClick(isClicked);
-    }
-  const resetData = () =>{
+    if (!sameData) {
+      setData(newData);
+    } else {
       setData(bioData);
     }
+  };
+
+  const clicked = { clickedVoiceIcon: false, clickedAboutIcon: false };
+
+  // SET NAV ICON STATE
+  const [iconClick, seticonClick] = useState(clicked);
+
+  const changeVoicesColor = () => {
+    const isClicked = { ...clicked, clickedVoiceIcon: true };
+    seticonClick(isClicked);
+  };
+
+  const ChangeAboutIcon = () => {
+    const isClicked = { ...clicked, clickedAboutIcon: true };
+    seticonClick(isClicked);
+  };
+  const resetData = () => {
+    setData(bioData);
+  };
   // SET REFERENCES
   const fullDataSetRef = useRef(bioData);
-  
-  return (
 
+  return (
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Layout changeVoicesColor = {changeVoicesColor } ChangeAboutIcon={ChangeAboutIcon} 
-        iconClick={iconClick} resetData={resetData} resetTags={resetTags}/>}>
-          <Route index element={<Home fullDataSet={fullDataSetRef.current} changeVoicesColor = {changeVoicesColor } resetData={resetData}
-          resetTags={resetTags}/>} />
+        <Route
+          path="/"
+          element={
+            <Layout
+              changeVoicesColor={changeVoicesColor}
+              ChangeAboutIcon={ChangeAboutIcon}
+              iconClick={iconClick}
+              resetData={resetData}
+              resetTags={resetTags}
+            />
+          }
+        >
+          <Route
+            index
+            element={
+              <Home
+                fullDataSet={fullDataSetRef.current}
+                changeVoicesColor={changeVoicesColor}
+                resetData={resetData}
+                resetTags={resetTags}
+              />
+            }
+          />
           <Route
             path="/professionals"
             element={
