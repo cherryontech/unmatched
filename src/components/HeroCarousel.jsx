@@ -42,7 +42,7 @@ export default function HeroCarousel({ scroll }) {
         leftControl={
           activeControl !== 0 && (
             <ChevronLeftIcon
-              className="w-10 text-white hidden lg:block"
+              className="lg:w-10 text-white w-5 "
               style={{ strokeWidth: 3 }}
             />
           )
@@ -50,7 +50,7 @@ export default function HeroCarousel({ scroll }) {
         rightControl={
           activeControl !== 2 && (
             <ChevronRightIcon
-              className="w-10 text-white hidden lg:block"
+              className="lg:w-10 text-white w-5 "
               style={{ strokeWidth: 3 }}
             />
           )
