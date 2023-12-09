@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function NoResults() {
   return (
-    <div className="w-full text-center mt-10">
+    <div className="w-full text-center mt-10 mb-[10rem]">
       <span className="text-primary text-2xl font-bold">
         Sorry, no profiles match this search.
         <br />
