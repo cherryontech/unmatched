@@ -42,7 +42,7 @@
 
 ### Product Manager:
 
-Miriam
+[Miriam](https://github.com/mimi-pro)
 
 ## Getting Started
 
